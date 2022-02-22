@@ -81,22 +81,22 @@ const IndexPage = () => (
     </section>
 
     <section className="border-top">
-      <div className="container col-xxl-8 px-4 py-5">
-        <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div className="col-10 col-sm-8 col-lg-6">
+      <div className="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 className="display-4 fw-bold">Med zemljo in nebom</h1>
+        <div className="col-lg-6 mx-auto">
+          <p className="lead mb-4">
+            Iščemo najlepše prostore izven uhojenih poti, kjer se za kratek čas
+            zasidramo in hkrati dotaknemo neba.
+          </p>
+        </div>
+        <div className="overflow-hidden" style="max-height: 30vh;">
+          <div className="container px-5">
             <StaticImage
               src="../images/slackalien.svg"
               width={400}
               alt="SlackAlien"
               className="img-fluid mb-4"
             />
-          </div>
-          <div className="col-lg-6">
-            <h1 className="display-5 fw-bold lh-1 mb-3">Med zemljo in nebom</h1>
-            <p className="lead">
-              Iščemo najlepše prostore izven uhojenih poti, kjer se za kratek
-              čas zasidramo in hkrati dotaknemo neba.
-            </p>
           </div>
         </div>
       </div>
