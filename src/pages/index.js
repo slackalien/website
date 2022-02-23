@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
@@ -15,9 +16,9 @@ const IndexPage = () => {
       <Seo title="Domača stran" />
 
       <section id="domov">
-        <div className="container col-xxl-8 px-4 py-5">
-          <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div className="display-6 col-12 col-lg-6">
+        <div className="container col-xxl-10 px-4">
+          <div className="min-vh-100 row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div className="col-12 col-lg-6">
               <StaticImage
                 src="../images/slackalien-abduction.png"
                 width={480}
@@ -33,51 +34,17 @@ const IndexPage = () => {
                 hodili tam kjer ni hodil še nihče.
               </p>
               <div className="d-grid gap-2 d-sm-flex">
-                <button
-                  type="button"
-                  className="btn btn-primary btn-lg px-4 gap-3"
-                >
+                <Link className="btn btn-light btn-lg px-4 gap-3" to="/o-nas">
                   O nas
-                </button>
+                </Link>
                 <button
-                  type="button"
-                  className="btn btn-outline-secondary btn-lg px-4"
-                  onClick={() => scrollTo("domov2")}
+                  className="btn btn-outline-light btn-lg px-4"
+                  onClick={() => scrollTo("alpe")}
                 >
-                  Visokica Wiki
+                  Več
                   <DownIcon />
                 </button>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="domov2" className="border-top">
-        <div className="px-4 py-5 text-center">
-          <StaticImage
-            src="../images/slackalien-abduction.png"
-            width={480}
-            alt="SlackAlien"
-            className="img-fluid mb-4"
-          />
-          <h1 className="display-5 fw-bold">SlackAlien</h1>
-          <div className="col-lg-6 mx-auto">
-            <p className="lead mb-4">Slovenska highline in slackline ekipa.</p>
-            <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <button
-                type="button"
-                className="btn btn-primary btn-lg px-4 gap-3"
-              >
-                O nas
-              </button>
-              <button
-                type="button"
-                className="btn btn-outline-secondary btn-lg px-4"
-                onClick={() => scrollTo("alpe")}
-              >
-                Visokica Wiki
-              </button>
             </div>
           </div>
         </div>
@@ -101,6 +68,14 @@ const IndexPage = () => {
                 vesoljcev. Iščemo brezna, luknje, prepade in pečine, da bi
                 hodili tam kjer ni hodil še nihče.
               </p>
+              <button
+                type="button"
+                className="btn btn-secondary btn-lg px-4"
+                onClick={() => scrollTo("strah")}
+              >
+                Naprej
+                <DownIcon />
+              </button>
             </div>
           </div>
         </div>
@@ -125,6 +100,14 @@ const IndexPage = () => {
                 strahovom pogledati naravnost v oči in jih pustiti nekje v
                 preteklosti.
               </p>
+              <button
+                type="button"
+                className="btn btn-secondary btn-lg px-4"
+                onClick={() => scrollTo("nebo")}
+              >
+                Naprej
+                <DownIcon />
+              </button>
             </div>
           </div>
         </div>
@@ -138,6 +121,14 @@ const IndexPage = () => {
               Iščemo najlepše prostore izven uhojenih poti, kjer se za kratek
               čas zasidramo in hkrati dotaknemo neba.
             </p>
+            <button
+              type="button"
+              className="btn btn-secondary btn-lg px-4 mb-5"
+              onClick={() => scrollTo("zivi")}
+            >
+              Naprej
+              <DownIcon />
+            </button>
           </div>
           <div className="overflow-hidden">
             <div className="container px-5">
