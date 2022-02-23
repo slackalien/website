@@ -7,7 +7,7 @@ import Seo from "../components/seo"
 const AboutPage = () => (
   <Layout>
     <Seo title="O nas" />
-    <div className="container my-5">
+    <div className="container py-5">
       <div className="container">
         <h1>O nas</h1>
         <p>
@@ -27,10 +27,10 @@ const AboutPage = () => (
           dragocena. Prav zato jih nameravamo živeti v polnosti.
         </p>
         <StaticImage
-          src="../images/slackalien.svg"
-          width={213}
+          src="../images/slackalien-abduction.png"
+          width={480}
           alt="SlackAlien"
-          className="img-fluid mb-4"
+          className="img-fluid"
         />
         <p>
           Se tudi ti ne znajdeš v mlačnosti doline? Pridi z nami visokovat!
@@ -40,7 +40,7 @@ const AboutPage = () => (
           Vprašanje je: si ti pripravljen/a pogledati strahu naravnost v oči?
         </p>
         <a
-          className="btn btn-primary btn-lg px-4 gap-3"
+          className="btn btn-primary btn-lg px-4 mt-3 gap-3"
           href="https://visokica.andrej.ad-vega.si/za_za%C4%8Detnike"
           target="_blank"
           rel="noreferrer"

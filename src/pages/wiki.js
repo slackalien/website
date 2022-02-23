@@ -7,7 +7,7 @@ import Seo from "../components/seo"
 const WikiPage = () => (
   <Layout>
     <Seo title="Visokica Wiki" />
-    <div className="container my-5">
+    <div className="container py-5">
       <div className="container">
         <h1>Visokica Wiki</h1>
         <p>
