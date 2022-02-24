@@ -1,122 +1,44 @@
-# SEO
+# SlackAlien
 
-[Subdomain vs. Subdirectory](https://www.semrush.com/blog/subdomain-vs-subdirectory/)
+## Cilji spletne strani?
 
-- **yourdomain.com/blog/** is treated as part of yourdomain.com by Google's algorithm
-- **blog.yourdomain.com** is not treated as part of yourdomain.com, but as a separate entity
+- Očem prijetna moderna spletna vizitka v slovenskem in angleškem jeziku.
+- Domača stran je tipa landing page: predstavitev SlackAlien ekipe.
+- Prva stran: predstavitev, dosežki, cilji, projekti in ideje.
+- Podstrani: o nas, kontakt, delavnice, visokica, utrinki, reportaže.
+- Visokica wiki: prenesemo na slackalien stran, dodamo fotke, nekoč app/priročnik?
+- Vsebina naj bo kratka in jedrnata, brez nepotrebnega bullshitanja.
+- Pridobiti sponzorje ali potencialne stranke za izvedbo highline dogodka
 
-This means that the content (and its valuable assets, such as backlinks) hosted on a subdomain isn't being taken into account by Google's algorithm when ranking the main domain.
+## Dosežki
 
-It's almost as though the content hosted on the subdomain is hosted on an entirely different domain for ranking purposes, and thinking about it in this way can help it become a little clearer.
+- Postavili smo preko N linij v Sloveniji in tujini. Ves čas iščemo, kjer bi se dalo hoditi po zraku.
+- Razvili smo več vrst banan oziroma weblock, sistem za pričvrstitev traku v sidrišče.
+- Spletli smo že N space-net-ov. Vsakič smo hitrejši in vsakič je lepši.
+- Pomagali smo pri organizaciji in tehnični izvedbi treh dogodkov Drill'n'Chill.
+- Izvedli smo prvo slovensko highline delavnico in pridobili nekaj novih aktivnih članov.
+- Obiskali smo festivale po vsem svetu, od THCja v Turčiji, do Pietre di Bizmantove v Italiji.
+- Postavili smo najdaljši slovenski waterline, 100m na jezeru Črnava pri Preddvoru. Letos napnemo 160m.
+- Postavili smo čudovito alpi linijo na Dovški škrbini nad Češko kočo. Škrbasta grinta
+- Sledimo vsem zadnjim ISA in ostalim slack trendom po svetu. Vse novosti tudi kupimo in stestiramo.
+- Vse visokice skrbno izmerimo z laserjem. Kakšna linija je precej daljša, kot se zdi na pogled. In obratno :)
+- Navdušeni smo nad vsakim novim članom in članico. Slednjih je na žalost malo. Zelo malo. Ajde punce ;)
+- Naš član Tim drži slovenski rekord v dolžini prehojene linije. Tam nekje 400m. In še šivat zna.
+- Naš član Matevž je eden boljših dron voznikov v Sloveniji. V exposure ti leti med nogama.
+- Praznovali bomo že N-to obletnico obstoja. SlackAlien, highline s tradicijo.
+- Naš član Andrej je investiral v dinamometer narejen posebej za highline. Tako lahko izmerimo obremenitev na štant.
+- Naši člani prihajajo iz vseh vetrov. Poleg tega, da nas vse druži visokovanje, smo med drugim še plezalci, alpinisti, gradbeniki, mizarji, programerji, znanstveniki, šivilje, vrtnarji, igralci, glasbeniki, trgovci, ... zato nam idej, problemov in rešitev nikoli ne zmanjka.
 
-[Is it better to use slash or hyphens for seo?](https://webmasters.stackexchange.com/questions/28402/is-it-better-to-use-slash-or-hyphens-for-seo)
+## Cilji, projekti, ideje
 
-- highline/delavnice
-- highline-delavnice
+- Širjenje slack in highline kulture doma in po svetu.
+- Izvajanje tečajev in delavnic za slack, water in highline.
+- Pridobiti čim več novih aktivnih članov preko delavnic.
+- Raziskovanje narave in odkrivanje novih linij doma in po svetu.
+- Postavljanje alpi-lajn - highline v alpskem svetu.
+- Pridobiti sponzorje za naše nore projekte.
+- Snemanje kratkih slack filmčkov, objavljanje po socialnih omrežjih.
+- Krajši film o nastanku in začetkih SlackAlien-a.
 
-General rule of thumb is, the closer you are to your root domain, the better. It is said, that Google weights subfolders in descending order. For example:
-
-```
-www.xxxxxx.com/card/wow/20-euros
-2  .1         /3   /4  /5  5
-```
-
-That basically means, that your domain gets the highest rankingpower for its word(s), followed by the subdomain (if any), then position 3, 4, 5, etc.
-
-And as Matt Cutts (from Google) stated (and recommends as a best practice): Google treats hyphens in URLs as a word separator, which basically says this:
-
-```
-www.xxxxxx.com/card-wow-20-euros
-2  .1         /3    3   3  3
-```
-
-This allows all four words in your URL to score the same rankpower for each keyword: card 3, wow 3, 20 3, euros 3 instead of card 3, wow 4, 20 5, euros 5.
-
-# Domene
-
-Slovenska stran
-
-```
-https://slackalien.si
-https://slackalien.si/o-nas
-https://slackalien.si/kontakt
-https://slackalien.si/delavnice
-```
-
-Angleška stran na .com domeni
-
-```
-https://slackalien.com
-https://slackalien.com/about-us
-https://slackalien.com/contact
-https://slackalien.com/courses
-```
-
-Angleška stran na .si domeni v poddirektoriju
-
-```
-https://slackalien.si
-https://slackalien.si/en/about-us
-https://slackalien.si/en/contact
-https://slackalien.si/en/courses
-```
-
-# Visokica
-
-Visokica Wiki je lahko na poddomeni
-
-```
-https://wiki.slackalien.si
-https://visokica.slackalien.si
-https://visokica-wiki.slackalien.si
-```
-
-Ali na poddirektoriju
-
-```
-https://slackalien.si/wiki
-https://slackalien.si/visokica/wiki
-https://slackalien.si/visokica-wiki
-```
-
-# Seznam URLjev
-
-Potencialni URLji
-
-```
-https://slackalien.si
-https://slackalien.si/o-nas
-https://slackalien.si/kontakt
-
-https://slackalien.si/highline
-https://slackalien.si/highline/delavnice
-https://slackalien.si/highline-delavnice
-https://slackalien.si/delavnice
-
-https://slackalien.si/visokica
-https://slackalien.si/visokica/wiki
-https://slackalien.si/visokica-wiki
-
-https://wiki.slackalien.si
-https://wiki.slackalien.si/kaj-je-visokovanje
-https://wiki.slackalien.si/slackline
-https://wiki.slackalien.si/vstajanje
-https://wiki.slackalien.si/za-zacetnike
-https://wiki.slackalien.si/avtor
-
-https://slackalien.si/ekipa
-https://slackalien.si/ekipa/tim-trtnik
-https://slackalien.si/bojan-hribernik
-https://slackalien.si/gasper
-
-https://slackalien.si/linije
-https://slackalien.si/linije/bvasceva
-https://slackalien.si/linije/ajdna
-
-https://slackalien.si/shop
-https://shop.slackalien.si
-https://shop.slackalien.si/webbing
-https://shop.slackalien.si/bananas
-https://shop.slackalien.si/cart
-https://shop.slackalien.si/checkout
-```
+Podpri projekt in **Postani naš sponzor**
+Najami ekipo za **Izvedbo highline dogodka**
