@@ -1,6 +1,12 @@
 # SEO
 
-[Subdomain vs. Subdirectory](https://www.semrush.com/blog/subdomain-vs-subdirectory/)
+## Multilanguage
+
+https://translatepress.com/seo-multiple-languages/
+
+## Subdomain vs. Subdirectory
+
+https://www.semrush.com/blog/subdomain-vs-subdirectory/
 
 - **yourdomain.com/blog/** is treated as part of yourdomain.com by Google's algorithm
 - **blog.yourdomain.com** is not treated as part of yourdomain.com, but as a separate entity
@@ -9,7 +15,9 @@ This means that the content (and its valuable assets, such as backlinks) hosted 
 
 It's almost as though the content hosted on the subdomain is hosted on an entirely different domain for ranking purposes, and thinking about it in this way can help it become a little clearer.
 
-[Is it better to use slash or hyphens for seo?](https://webmasters.stackexchange.com/questions/28402/is-it-better-to-use-slash-or-hyphens-for-seo)
+## Is it better to use slash or hyphens for seo?
+
+https://webmasters.stackexchange.com/questions/28402/is-it-better-to-use-slash-or-hyphens-for-seo
 
 - highline/delavnice
 - highline-delavnice

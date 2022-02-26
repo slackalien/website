@@ -86,3 +86,8 @@ Common screen sizes
 - High-res laptop or desktop: 1920 x 1080
 
 ![Responsive Design](https://kinsta.com/wp-content/uploads/2020/08/media-queries.png)
+
+## Animacije
+
+https://bashooka.com/coding/web-background-animation-effects/
+https://codepen.io/mimikos/pen/wKqyqY
