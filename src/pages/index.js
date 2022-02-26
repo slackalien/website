@@ -6,6 +6,15 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import DownIcon from "../icons/down-icon"
 
+/*
+<Link
+  className="btn btn-light btn-lg px-4 gap-3"
+  to="/vesoljska-mreza"
+>
+  Kaj je vesoljska mreža?
+</Link>
+*/
+
 const IndexPage = () => {
   const scrollTo = id => {
     const el = document.getElementById(id)
@@ -29,8 +38,9 @@ const IndexPage = () => {
             <div className="col-lg-6">
               <h1 className="display-5 fw-bold lh-1 mb-3">SlackAlien</h1>
               <p className="lead">
-                Se tudi ti ne znajdeš v mlačnosti doline? Pridi z nami
-                visokovat!
+                V deželi na sončni strani Alp se po gozdovih potika skupina
+                vesoljcev. Iščemo brezna, luknje, prepade in pečine, da bi
+                hodili tam kjer ni hodil še nihče.
               </p>
               <div className="d-grid gap-2 d-sm-flex">
                 <button
@@ -46,7 +56,7 @@ const IndexPage = () => {
         </div>
       </section>
 
-      <section id="o-nas" className="border-top">
+      <section id="o-nas" className="border-top border-black">
         <div className="container col-xxl-8 px-4 py-5">
           <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div className="display-6 col-12 col-lg-6">
@@ -58,14 +68,15 @@ const IndexPage = () => {
               />
             </div>
             <div className="col-lg-6">
-              <h1 className="fw-bold lh-1 mb-3">Na sončni strani Alp</h1>
+              <h1 className="fw-bold lh-1 mb-3">Visokovalci</h1>
               <p className="lead">
-                V deželi na sončni strani Alp se po gozdovih potika skupina
-                vesoljcev. Iščemo brezna, luknje, prepade in pečine, da bi
-                hodili tam kjer ni hodil še nihče.
+                Smo fantje in dekleta vseh starosti, ki se ločimo od mlačne
+                povprečnosti v dolini predvsem po tem, da želimo svojim
+                strahovom pogledati naravnost v oči in jih pustiti nekje v
+                preteklosti.
               </p>
               <div className="d-grid gap-2 d-sm-flex">
-                <Link className="btn btn-light btn-lg px-4 gap-3" to="/o-nas">
+                <Link to="/o-nas" className="btn btn-light btn-lg px-4 gap-3">
                   O nas
                 </Link>
                 <button
@@ -82,7 +93,7 @@ const IndexPage = () => {
         </div>
       </section>
 
-      <section id="visokica" className="border-top">
+      <section id="visokica" className="border-top border-black">
         <div className="container col-xxl-8 px-4 py-5">
           <div className="row flex-lg-row align-items-center g-5 py-5">
             <div className="col-12 col-lg-6">
@@ -96,10 +107,8 @@ const IndexPage = () => {
             <div className="col-lg-6">
               <h1 className="display-6 fw-bold lh-1 mb-3">Visokica</h1>
               <p className="lead">
-                Smo fantje in dekleta vseh starosti, ki se ločimo od mlačne
-                povprečnosti v dolini predvsem po tem, da želimo svojim
-                strahovom pogledati naravnost v oči in jih pustiti nekje v
-                preteklosti.
+                Iščemo najlepše prostore izven uhojenih poti, kjer se za kratek
+                čas zasidramo in hkrati dotaknemo neba.
               </p>
               <div className="d-grid gap-2 d-sm-flex">
                 <Link
@@ -111,7 +120,7 @@ const IndexPage = () => {
                 <button
                   type="button"
                   className="btn btn-outline-light btn-lg px-4"
-                  onClick={() => scrollTo("vesoljska-mreza")}
+                  onClick={() => scrollTo("tanka-je-linija")}
                 >
                   Naprej
                   <DownIcon />
@@ -122,7 +131,86 @@ const IndexPage = () => {
         </div>
       </section>
 
-      <section id="vesoljska-mreza" className="border-top">
+      <section id="tanka-je-linija" className="border-top border-black">
+        <div className="container col-xxl-8 px-4 py-5">
+          <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div className="display-6 col-12 col-lg-6">
+              <StaticImage
+                src="../images/slackalien.svg"
+                width={400}
+                alt="SlackAlien"
+                className="img-fluid mb-4"
+              />
+            </div>
+            <div className="col-lg-6">
+              <h1 className="fw-bold lh-1 mb-3">Tanka je linija</h1>
+              <p className="lead">
+                Mlačnost v dolini nas ima za nore in nepremišljene, pravijo nam,
+                da se igramo z življenjem. Mogoče je v tem zrno resnice. A naša
+                življenja bi nam bila težko bolj dragocena. Prav zato jih
+                nameravamo živeti v polnosti.
+              </p>
+              <div className="d-grid gap-2 d-sm-flex">
+                <button
+                  type="button"
+                  className="btn btn-outline-light btn-lg px-4"
+                  onClick={() => scrollTo("delavnice")}
+                >
+                  Naprej
+                  <DownIcon />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="delavnice" className="border-top border-black">
+        <div className="container col-xxl-8 px-4 py-5">
+          <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div className="display-6 col-12 col-lg-6">
+              <StaticImage
+                src="../images/slackalien.svg"
+                width={400}
+                alt="SlackAlien"
+                className="img-fluid mb-4"
+              />
+            </div>
+            <div className="col-lg-6">
+              <p className="lead">Se tudi ti ne znajdeš v mlačnosti doline?</p>
+              <h1 className="fw-bold lh-1 mb-3">Pridi z nami visokovat!</h1>
+              <ul>
+                <li>
+                  Pripravljeni smo razdati svoje znanje, ki smo ga nabrali širom
+                  vesolja.
+                </li>
+                <li>
+                  Pripravljeni smo ti posoditi najboljšo opremo v vesolju.
+                </li>
+                <li>
+                  Pripravljeni smo s tabo plesati in vriskati ob ognju pozno v
+                  noč.
+                </li>
+              </ul>
+              <p className="lead">
+                Vprašanje je: si ti pripravljen/a pogledati strahu naravnost v
+                oči?
+              </p>
+              <div className="d-grid gap-2 d-sm-flex">
+                <a
+                  className="btn btn-light btn-lg d-block px-4 mt-4 gap-3"
+                  href="/visokica-wiki"
+                >
+                  Pripravljen sem!
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/*
+      <section id="vesoljska-mreza" className="border-top border-black">
         <div className="container col-xxl-8 px-4 py-5">
           <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div className="display-6 col-12 col-lg-6">
@@ -159,8 +247,9 @@ const IndexPage = () => {
           </div>
         </div>
       </section>
+      
 
-      <section id="oprema-in-varnost" className="border-top">
+      <section id="oprema-in-varnost" className="border-top border-black">
         <div className="container col-xxl-8 px-4 py-5">
           <div className="row flex-lg-row align-items-center g-5 py-5">
             <div className="col-12 col-lg-6">
@@ -197,50 +286,7 @@ const IndexPage = () => {
           </div>
         </div>
       </section>
-
-      <section id="delavnice" className="border-top">
-        <div className="container col-xxl-8 px-4 py-5">
-          <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div className="display-6 col-12 col-lg-6">
-              <StaticImage
-                src="../images/slackalien.svg"
-                width={400}
-                alt="SlackAlien"
-                className="img-fluid mb-4"
-              />
-            </div>
-            <div className="col-lg-6">
-              <p className="lead">Se tudi ti ne znajdeš v mlačnosti doline?</p>
-              <h1 className="fw-bold lh-1 mb-3">Pridi z nami visokovat!</h1>
-              <ul>
-                <li>
-                  Pripravljeni smo razdati svoje znanje, ki smo ga nabrali širom
-                  vesolja.
-                </li>
-                <li>
-                  Pripravljeni smo ti posoditi najboljšo opremo v vesolju.
-                </li>
-                <li>
-                  Pripravljeni smo s tabo plesati in vriskati ob ognju pozno v
-                  noč.
-                </li>
-              </ul>
-              <p className="lead">
-                Vprašanje je: si ti pripravljen/a pogledati strahu naravnost v
-                oči?
-              </p>
-              <a
-                className="btn btn-primary btn-lg d-block px-4 mt-4 gap-3"
-                href="https://visokica.andrej.ad-vega.si/za_za%C4%8Detnike"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Pripravljen sem!
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      */}
     </Layout>
   )
 }

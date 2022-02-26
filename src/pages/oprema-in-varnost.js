@@ -14,7 +14,7 @@ const OpremaInVarnostPage = () => (
         je profesionalna in namenjena zgolj vesoljcem.
       </p>
       <StaticImage
-        src="../images/oprema-in-varnost-1.jpg"
+        src="../images/oprema-in-varnost/oprema-in-varnost-1.jpg"
         alt="Oprema in varnost pri visokovanju"
         title="Oprema in varnost pri visokovanju"
         className="img-fluid"

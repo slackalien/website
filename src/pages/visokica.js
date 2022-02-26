@@ -13,14 +13,14 @@ const VisokicaPage = () => (
         Visokica oziroma po angleško <i>highline</i>, je oblika hoje po vrvi na
         višini.
       </p>
+      <StaticImage
+        src="../images/visokica/visokica-1.jpg"
+        alt="Visokica ali highline"
+        title="Visokica ali highline"
+        className="img-fluid"
+        width={1280}
+      />
     </div>
-    <StaticImage
-      src="../images/visokica-1.jpg"
-      alt="Visokica ali highline"
-      title="Visokica ali highline"
-      className="img-fluid"
-      width={1280}
-    />
   </Layout>
 )
 

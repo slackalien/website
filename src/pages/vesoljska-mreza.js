@@ -15,7 +15,7 @@ const VesoljskaMrezaPage = () => (
         ali manj norim vragolijam na nebu.
       </p>
       <StaticImage
-        src="../images/space-net.jpg"
+        src="../images/space-net/space-net.jpg"
         alt="Vesoljska mreža ali space net"
         title="Vesoljska mreža ali space net"
         className="img-fluid"
