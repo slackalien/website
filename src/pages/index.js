@@ -25,18 +25,18 @@ const IndexPage = () => {
       <Seo title="Domača stran" />
 
       <section id="domov">
-        <div className="container col-xxl-10 px-4">
-          <div className="min-vh-100 row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div className="col-12 col-lg-6">
+        <div className="container col-xxl-10 px-4 py-5">
+          <div className="row flex-lg-row-reverse align-items-center min-vh-100 g-5">
+            <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
                 src="../images/slackalien-abduction.png"
-                width={480}
+                width={360}
                 alt="SlackAlien"
                 className="img-fluid"
               />
             </div>
-            <div className="col-lg-6">
-              <h1 className="display-5 fw-bold lh-1 mb-3">SlackAlien</h1>
+            <div className="col-lg-6 mt-4">
+              <h1 className="display-5 d-none fw-bold lh-1">SlackAlien</h1>
               <p className="lead">
                 V deželi na sončni strani Alp se po gozdovih potika skupina
                 vesoljcev. Iščemo brezna, luknje, prepade in pečine, da bi
@@ -45,7 +45,7 @@ const IndexPage = () => {
               <div className="d-grid gap-2 d-sm-flex">
                 <button
                   className="btn btn-outline-light btn-lg px-4"
-                  onClick={() => scrollTo("o-nas")}
+                  onClick={() => scrollTo("visokovalci")}
                 >
                   Preberi več
                   <DownIcon />
@@ -56,15 +56,24 @@ const IndexPage = () => {
         </div>
       </section>
 
-      <section id="o-nas" className="border-top border-black">
-        <div className="container col-xxl-8 px-4 py-5">
-          <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div className="display-6 col-12 col-lg-6">
+      {/*
+      <StaticImage
+        src="../images/prva/black.jpg"
+        width={1920}
+        alt=""
+        className="img-fluid d-none"
+      />
+      */}
+
+      <section id="visokovalci" className="border-top border-light">
+        <div className="container col-xxl-10 px-4 py-5">
+          <div className="row align-items-center g-5">
+            <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
-                src="../images/slackalien.svg"
+                src="../images/illustrations/vector1.svg"
                 width={400}
-                alt="SlackAlien"
-                className="img-fluid mb-4"
+                alt=""
+                className="img-fluid"
               />
             </div>
             <div className="col-lg-6">
@@ -93,15 +102,24 @@ const IndexPage = () => {
         </div>
       </section>
 
-      <section id="visokica" className="border-top border-black">
-        <div className="container col-xxl-8 px-4 py-5">
-          <div className="row flex-lg-row align-items-center g-5 py-5">
-            <div className="col-12 col-lg-6">
+      {/*
+      <StaticImage
+        src="../images/prva/trees.jpg"
+        width={1920}
+        alt=""
+        className="img-fluid d-none"
+      />
+      */}
+
+      <section id="visokica" className="border-top border-light">
+        <div className="container col-xxl-10 px-4 py-5">
+          <div className="row flex-lg-row-reverse align-items-center g-5">
+            <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
-                src="../images/slackalien.svg"
+                src="../images/illustrations/vector2.svg"
                 width={400}
-                alt="SlackAlien"
-                className="img-fluid mb-4"
+                alt=""
+                className="img-fluid"
               />
             </div>
             <div className="col-lg-6">
@@ -120,7 +138,7 @@ const IndexPage = () => {
                 <button
                   type="button"
                   className="btn btn-outline-light btn-lg px-4"
-                  onClick={() => scrollTo("tanka-je-linija")}
+                  onClick={() => scrollTo("visokovanje")}
                 >
                   Naprej
                   <DownIcon />
@@ -131,19 +149,28 @@ const IndexPage = () => {
         </div>
       </section>
 
-      <section id="tanka-je-linija" className="border-top border-black">
-        <div className="container col-xxl-8 px-4 py-5">
-          <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div className="display-6 col-12 col-lg-6">
+      {/*
+      <StaticImage
+        src="../images/prva/sky.jpg"
+        width={1920}
+        alt=""
+        className="img-fluid d-none"
+      />
+      */}
+
+      <section id="visokovanje" className="border-top border-light">
+        <div className="container col-xxl-10 px-4 py-5">
+          <div className="row align-items-center g-5">
+            <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
-                src="../images/slackalien.svg"
-                width={400}
-                alt="SlackAlien"
-                className="img-fluid mb-4"
+                src="../images/illustrations/vector3.svg"
+                width={500}
+                alt=""
+                className="img-fluid"
               />
             </div>
             <div className="col-lg-6">
-              <h1 className="fw-bold lh-1 mb-3">Tanka je linija</h1>
+              <h1 className="fw-bold lh-1 mb-3">Visokovanje</h1>
               <p className="lead">
                 Mlačnost v dolini nas ima za nore in nepremišljene, pravijo nam,
                 da se igramo z življenjem. Mogoče je v tem zrno resnice. A naša
@@ -165,10 +192,19 @@ const IndexPage = () => {
         </div>
       </section>
 
-      <section id="delavnice" className="border-top border-black">
-        <div className="container col-xxl-8 px-4 py-5">
-          <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div className="display-6 col-12 col-lg-6">
+      {/*
+      <StaticImage
+        src="../images/prva/orange.jpg"
+        width={1920}
+        alt=""
+        className="img-fluid d-none"
+      />
+      */}
+
+      <section id="delavnice" className="border-top border-light">
+        <div className="container col-xxl-10 px-4 py-5">
+          <div className="row flex-lg-row-reverse align-items-center g-5">
+            <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
                 src="../images/slackalien.svg"
                 width={400}
@@ -209,84 +245,12 @@ const IndexPage = () => {
         </div>
       </section>
 
-      {/*
-      <section id="vesoljska-mreza" className="border-top border-black">
-        <div className="container col-xxl-8 px-4 py-5">
-          <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div className="display-6 col-12 col-lg-6">
-              <StaticImage
-                src="../images/slackalien.svg"
-                width={400}
-                alt="SlackAlien"
-                className="img-fluid mb-4"
-              />
-            </div>
-            <div className="col-lg-6">
-              <h1 className="fw-bold lh-1 mb-3">Vesoljska mreža</h1>
-              <p className="lead">
-                Levitiramo, meditiramo, plešemo in izvajamo ostale vragolije na
-                vesoljskih mrežah spletena iz tankih vrvic.
-              </p>
-              <div className="d-grid gap-2 d-sm-flex">
-                <Link
-                  className="btn btn-light btn-lg px-4 gap-3"
-                  to="/vesoljska-mreza"
-                >
-                  Kaj je vesoljska mreža?
-                </Link>
-                <button
-                  type="button"
-                  className="btn btn-outline-light btn-lg px-4"
-                  onClick={() => scrollTo("oprema-in-varnost")}
-                >
-                  Naprej
-                  <DownIcon />
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-
-      <section id="oprema-in-varnost" className="border-top border-black">
-        <div className="container col-xxl-8 px-4 py-5">
-          <div className="row flex-lg-row align-items-center g-5 py-5">
-            <div className="col-12 col-lg-6">
-              <StaticImage
-                src="../images/slackalien.svg"
-                width={400}
-                alt="SlackAlien"
-                className="img-fluid mb-4"
-              />
-            </div>
-            <div className="col-lg-6">
-              <h1 className="display-6 fw-bold lh-1 mb-3">Oprema in varnost</h1>
-              <p className="lead">
-                Varnost je naša prva prioriteta. Na trak vedno stopamo navezani.
-                Oprema je profesionalna in namenjena zgolj vesoljcem.
-              </p>
-              <div className="d-grid gap-2 d-sm-flex">
-                <Link
-                  className="btn btn-light btn-lg px-4 gap-3"
-                  to="/oprema-in-varnost"
-                >
-                  Več o opremi in varnosti
-                </Link>
-                <button
-                  type="button"
-                  className="btn btn-outline-light btn-lg px-4"
-                  onClick={() => scrollTo("delavnice")}
-                >
-                  Naprej
-                  <DownIcon />
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      */}
+      <StaticImage
+        src="../images/prva/purple.jpg"
+        width={1280}
+        alt="Space Net"
+        className="img-fluid w-100"
+      />
     </Layout>
   )
 }

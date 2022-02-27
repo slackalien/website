@@ -1,5 +1,6 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import Masonry from "react-masonry-css"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -72,6 +73,111 @@ const AboutPage = () => (
           </div>
         </div>
       </div>
+
+      <Masonry
+        breakpointCols={3}
+        className="masonry mt-5"
+        columnClassName="masonry-column"
+      >
+        <StaticImage
+          src="../images/ekipa/ivana.jpg"
+          layout="fullWidth"
+          alt="Ivana"
+          width={360}
+          className="img-fluid"
+        />
+        <StaticImage
+          src="../images/ekipa/lara-na-liniji.jpg"
+          layout="fullWidth"
+          alt="Lara"
+          width={360}
+          className="img-fluid"
+        />
+        <StaticImage
+          src="../images/ekipa/timi-na-liniji.jpg"
+          layout="fullWidth"
+          alt="Tim"
+          width={360}
+          className="img-fluid"
+        />
+        <StaticImage
+          src="../images/ekipa/nace-na-liniji.jpg"
+          layout="fullWidth"
+          alt="Nace"
+          width={360}
+          className="img-fluid"
+        />
+        <StaticImage
+          src="../images/ekipa/gasper-mize.jpg"
+          layout="fullWidth"
+          alt="Gašper"
+          width={360}
+          className="img-fluid"
+        />
+        <StaticImage
+          src="../images/ekipa/matevz-na-liniji.jpg"
+          layout="fullWidth"
+          alt="Matevž"
+          width={360}
+          className="img-fluid"
+        />
+        <StaticImage
+          src="../images/ekipa/jaka-na-liniji.jpg"
+          layout="fullWidth"
+          alt="Jaka"
+          width={360}
+          className="img-fluid"
+        />
+        <StaticImage
+          src="../images/ekipa/andrej-na-liniji.jpg"
+          layout="fullWidth"
+          alt="Andrej"
+          width={360}
+          className="img-fluid"
+        />
+        <StaticImage
+          src="../images/ekipa/bojc-na-glavo.jpg"
+          layout="fullWidth"
+          alt="Bojč"
+          width={360}
+          className="img-fluid"
+        />
+        <StaticImage
+          src="../images/ekipa/tilen-na-liniji.jpg"
+          layout="fullWidth"
+          alt="Tilen"
+          width={360}
+          className="img-fluid"
+        />
+        <StaticImage
+          src="../images/ekipa/maticek-na-liniji.jpg"
+          layout="fullWidth"
+          alt="Matiček"
+          width={360}
+          className="img-fluid"
+        />
+        <StaticImage
+          src="../images/ekipa/matic-na-liniji.jpg"
+          layout="fullWidth"
+          alt="Matic"
+          width={360}
+          className="img-fluid"
+        />
+        <StaticImage
+          src="../images/ekipa/anze-plank.jpg"
+          layout="fullWidth"
+          alt="Anže"
+          width={360}
+          className="img-fluid"
+        />
+        <StaticImage
+          src="../images/ekipa/slackalien-misice.jpg"
+          layout="fullWidth"
+          alt="SlackAlien mišice"
+          width={360}
+          className="img-fluid"
+        />
+      </Masonry>
     </div>
   </Layout>
 )

@@ -1,10 +1,15 @@
 # SlackAlien website
 
+## Illustration attributions
+
+https://www.vecteezy.com/vector-art/158638-tightrope-on-the-mountain-vector
+
 ## Cilji
 
-- Izdelati lepo in moderno spletno stran v slovenskem in angleškem jeziku.
+- Izdelati preprosto, pregledno, lepo in moderno spletno stran v slovenskem in angleškem jeziku.
+- Cilj je imeti skupno točko, kjer pridobijo vse informacije o hajlajnu v Sloveniji.
 - S spletno stranjo razvijati prepoznavnosti ekipe SlackAlien doma in po svetu.
-- Pridobiti sponzorje ali potencialne stranke za highline dogodke.
+- Pridobiti potencialne sponzorje ali stranke za highline dogodke.
 
 ## Izvedba
 
@@ -69,7 +74,7 @@ FOTKA
 
 ## Vesoljska mreža
 
-Space net je vesoljska ladja spletena iz tankih vrvic. Namenjena je levitaciji, meditaciji in ostalim, bolj ali manj norim vragolijam na nebu.
+Levitiramo, meditiramo, plešemo in izvajamo ostale vragolije na vesoljskih mrežah spletena iz tankih vrvic.
 
 KAJ JE SPACE-NET? - povezava na /vesoljska-mreza
 NAPREJ - odscrolla na naslednjo sekcijo
