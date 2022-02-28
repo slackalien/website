@@ -25,18 +25,18 @@ const IndexPage = () => {
       <Seo title="Domača stran" />
 
       <section id="domov">
-        <div className="container col-xxl-10 px-4 py-5">
-          <div className="row flex-lg-row-reverse align-items-center min-vh-100 g-5">
+        <div className="container col-xxl-10 px-4">
+          <div className="row flex-lg-row-reverse align-items-center g-5 py-5 min-vh-100">
             <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
                 src="../images/slackalien-abduction.png"
-                width={360}
+                width={400}
                 alt="SlackAlien"
                 className="img-fluid"
               />
             </div>
-            <div className="col-lg-6 mt-4">
-              <h1 className="display-5 d-none fw-bold lh-1">SlackAlien</h1>
+            <div className="col-lg-6">
+              <h1 className="display-5 fw-bold lh-1">SlackAlien</h1>
               <p className="lead">
                 V deželi na sončni strani Alp se po gozdovih potika skupina
                 vesoljcev. Iščemo brezna, luknje, prepade in pečine, da bi
@@ -66,8 +66,8 @@ const IndexPage = () => {
       */}
 
       <section id="visokovalci" className="border-top border-light">
-        <div className="container col-xxl-10 px-4 py-5">
-          <div className="row align-items-center g-5">
+        <div className="container col-xxl-10 px-4">
+          <div className="row align-items-center g-5 py-5 min-vh-100">
             <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
                 src="../images/illustrations/vector1.svg"
@@ -112,8 +112,8 @@ const IndexPage = () => {
       */}
 
       <section id="visokica" className="border-top border-light">
-        <div className="container col-xxl-10 px-4 py-5">
-          <div className="row flex-lg-row-reverse align-items-center g-5">
+        <div className="container col-xxl-10 px-4">
+          <div className="row flex-lg-row-reverse align-items-center g-5 py-5 min-vh-100">
             <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
                 src="../images/illustrations/vector2.svg"
@@ -159,8 +159,8 @@ const IndexPage = () => {
       */}
 
       <section id="visokovanje" className="border-top border-light">
-        <div className="container col-xxl-10 px-4 py-5">
-          <div className="row align-items-center g-5">
+        <div className="container col-xxl-10 px-4">
+          <div className="row align-items-center g-5 py-5 min-vh-100">
             <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
                 src="../images/illustrations/vector3.svg"
@@ -202,8 +202,8 @@ const IndexPage = () => {
       */}
 
       <section id="delavnice" className="border-top border-light">
-        <div className="container col-xxl-10 px-4 py-5">
-          <div className="row flex-lg-row-reverse align-items-center g-5">
+        <div className="container col-xxl-10 px-4">
+          <div className="row flex-lg-row-reverse align-items-center g-5 py-5 min-vh-100">
             <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
                 src="../images/slackalien.svg"
@@ -233,24 +233,26 @@ const IndexPage = () => {
                 oči?
               </p>
               <div className="d-grid gap-2 d-sm-flex">
-                <a
-                  className="btn btn-light btn-lg d-block px-4 mt-4 gap-3"
-                  href="/visokica-wiki"
+                <Link
+                  className="btn btn-light btn-lg px-4 gap-3"
+                  to="/visokica-wiki"
                 >
                   Pripravljen sem!
-                </a>
+                </Link>
               </div>
             </div>
           </div>
         </div>
       </section>
 
+      {/*
       <StaticImage
         src="../images/prva/purple.jpg"
         width={1280}
         alt="Space Net"
         className="img-fluid w-100"
       />
+      */}
     </Layout>
   )
 }

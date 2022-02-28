@@ -33,7 +33,7 @@ const VisokicaWikiPage = () => (
       <p>Vsebino urejajo člani slovenske visokovalske skupnosti.</p>
       <p>
         <a
-          className="btn btn-primary btn-lg px-4 d-block d-md-inline-block"
+          className="btn btn-outline-light btn-lg px-4 d-block d-md-inline-block"
           href="https://visokica.andrej.ad-vega.si/start"
           target="_blank"
           rel="noreferrer"

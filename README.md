@@ -1,5 +1,9 @@
 # SlackAlien website
 
+## Instagram source
+
+https://www.gatsbyjs.com/plugins/gatsby-source-instagram/
+
 ## Illustration attributions
 
 https://www.vecteezy.com/vector-art/158638-tightrope-on-the-mountain-vector
