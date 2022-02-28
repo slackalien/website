@@ -21,6 +21,13 @@ const OpremaInVarnostPage = () => (
         columnClassName="masonry-column"
       >
         <StaticImage
+          src="../images/oprema-in-varnost/laser-walkie-talkie.jpg"
+          alt=""
+          className="img-fluid"
+          width={360}
+          layout="fullWidth"
+        />
+        <StaticImage
           src="../images/oprema-in-varnost/oprema.jpg"
           alt=""
           className="img-fluid"
@@ -50,13 +57,6 @@ const OpremaInVarnostPage = () => (
         />
         <StaticImage
           src="../images/oprema-in-varnost/izdelava-sidrisca.jpg"
-          alt=""
-          className="img-fluid"
-          width={360}
-          layout="fullWidth"
-        />
-        <StaticImage
-          src="../images/oprema-in-varnost/laser-walkie-talkie.jpg"
           alt=""
           className="img-fluid"
           width={360}

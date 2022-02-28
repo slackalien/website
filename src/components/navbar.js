@@ -34,6 +34,9 @@ const Navbar = ({ siteTitle }) => {
               <ExactNavLink to="/o-nas">O nas</ExactNavLink>
             </li>
             <li className="nav-item">
+              <ExactNavLink to="/delavnice">Delavnice</ExactNavLink>
+            </li>
+            <li className="nav-item">
               <ExactNavLink to="/visokica-wiki">Visokica Wiki</ExactNavLink>
             </li>
             <li className="nav-item">

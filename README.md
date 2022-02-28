@@ -1,8 +1,29 @@
 # SlackAlien website
 
+## Facebook source
+
+https://www.gatsbyjs.com/plugins/gatsby-source-facebook/
+
 ## Instagram source
 
 https://www.gatsbyjs.com/plugins/gatsby-source-instagram/
+
+```graphql
+query MyQuery {
+  allInstaNode(sort: { fields: timestamp, order: DESC }) {
+    edges {
+      node {
+        id
+        username
+        type
+        timestamp
+        mediaType
+        caption
+      }
+    }
+  }
+}
+```
 
 ## Illustration attributions
 

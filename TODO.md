@@ -2,28 +2,39 @@
 
 Tim & Bojč
 
-- [ ] arhitektura
+- [x] arhitektura
 
 Bojč
 
 - [x] dizajn navodila za timija
-- [ ] domača stran in osnovne podstrani brez dizajna
-- [ ] osnovni dizajn brez vseh animacij in malenkosti
+- [x] domača stran in osnovne podstrani brez dizajna
+- [x] osnovni dizajn brez vseh animacij in malenkosti
+- [x] preveri kaj je s seo, če imamo slovensko na .si in angleško na .com
+- [ ] preveri kako je najbolš tri domene in ena stran
+- [ ] footer, nekaj čisto preprostega in lepega
 - [ ] integracija visokica wiki
-- [ ] preveri kako je najbolš tri domene ena stran
-- [ ] preveri kaj je s seo, če imamo dve "ločeni" strani, slovensko na .si in angleško na .com
-- [ ] kreiraj slackalien [free gatsby cloud account](https://www.gatsbyjs.com/products/cloud/)
-- [ ] kreiraj slackalien [free netlify account](https://www.netlify.com/)
-- [ ] publishaj začasno stran na https://slackalien.netlify.app/
+- [ ] zadnje instagram slike
+- [ ] zadnji facebook posti instagram slike
+- [ ] zamenjaj vektorske grafike za nekaj manjšega
+- [ ] zamenjaj default bootstrap menu ikono
+- [ ] kreiraj slackalien gatsby account
+- [ ] kreiraj slackalien netlify account
+- [ ] publishaj začasno stran na slackalien.netlify.app
 
 Tim
 
 - [x] registriraj domene slackalien.si, slackalien.com in slackline.si
-- [ ] barvna shema
-- [ ] png ikona
+- [x] ~~barvna shema~~
 - [ ] svg logotip
-- [ ] dizajn mobile
-- [ ] dizajn desktop
+- [ ] svg ikona
+- [x] ~~dizajn mobile~~
+- [x] ~~dizajn desktop~~
+
+Gašper
+
+- [ ] tekst za oprema in varnost
+- [ ] tekst za vesoljska mreža
+- [ ] tekst za delavnice
 
 Andrej
 

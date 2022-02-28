@@ -20,7 +20,7 @@ const VisokicaWikiPage = () => (
         je slovenski visokovalski priročnik.
       </p>
       <StaticImage
-        src="../images/visokica-wiki.jpg"
+        src="../images/razno/visokica-wiki.jpg"
         width={500}
         alt="SlackAlien"
         className="img-fluid mb-4"

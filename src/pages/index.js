@@ -27,7 +27,7 @@ const IndexPage = () => {
       <section id="domov">
         <div className="container col-xxl-10 px-4">
           <div className="row flex-lg-row-reverse align-items-center g-5 py-5 min-vh-100">
-            <div className="col-lg-6 d-flex justify-content-center">
+            <div className="col-lg-6 d-flex justify-content-center mt-4 mt-md-0">
               <StaticImage
                 src="../images/slackalien-abduction.png"
                 width={400}
@@ -70,7 +70,7 @@ const IndexPage = () => {
           <div className="row align-items-center g-5 py-5 min-vh-100">
             <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
-                src="../images/illustrations/vector1.svg"
+                src="../images/prva/vector1.svg"
                 width={400}
                 alt=""
                 className="img-fluid"
@@ -116,7 +116,7 @@ const IndexPage = () => {
           <div className="row flex-lg-row-reverse align-items-center g-5 py-5 min-vh-100">
             <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
-                src="../images/illustrations/vector2.svg"
+                src="../images/prva/vector2.svg"
                 width={400}
                 alt=""
                 className="img-fluid"
@@ -163,7 +163,7 @@ const IndexPage = () => {
           <div className="row align-items-center g-5 py-5 min-vh-100">
             <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
-                src="../images/illustrations/vector3.svg"
+                src="../images/prva/vector3.svg"
                 width={500}
                 alt=""
                 className="img-fluid"

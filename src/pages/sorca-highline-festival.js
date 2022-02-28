@@ -4,14 +4,17 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const SlacklinePage = () => (
+const SorcaHighlineFestivalPage = () => (
   <Layout>
-    <Seo title="Slackline" />
+    <Seo title="Sorca highline festival" />
     <div className="container py-5">
-      <h1>Slackline</h1>
-      <p>Slackline je hoja po napetem traku.</p>
+      <h1>Sorca highline festival</h1>
+      <p>
+        SlackAlien vsako leto po Drill'n'Chill-u organizira festival Hodil'n'Pil
+        na Sorški planini.
+      </p>
       <StaticImage
-        src="../images/razno/slackline.jpg"
+        src="../images/razno/sorca-highline-festival.jpg"
         layout="fullWidth"
         alt="Sorca Highline Festival"
         width={360}
@@ -21,4 +24,4 @@ const SlacklinePage = () => (
   </Layout>
 )
 
-export default SlacklinePage
+export default SorcaHighlineFestivalPage

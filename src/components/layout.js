@@ -17,9 +17,12 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="container-fluid p-0">
+    <div className="container-fluid p-0 d-flex flex-column min-vh-100">
       <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <main>{children}</main>
+      <main className="">{children}</main>
+      <footer className="bg-alien p-4 text-center mt-auto">
+        <div className="py-4">&copy; 2022 SlackAlien</div>
+      </footer>
     </div>
   )
 }
