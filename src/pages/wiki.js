@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const VisokicaWikiPage = () => (
+const WikiPage = () => (
   <Layout>
     <Seo title="Visokica Wiki" />
     <div className="container py-5">
@@ -20,7 +20,7 @@ const VisokicaWikiPage = () => (
         je slovenski visokovalski priročnik.
       </p>
       <StaticImage
-        src="../images/razno/visokica-wiki.jpg"
+        src="../images/razno/wiki.jpg"
         width={500}
         alt="SlackAlien"
         className="img-fluid mb-4"
@@ -45,4 +45,4 @@ const VisokicaWikiPage = () => (
   </Layout>
 )
 
-export default VisokicaWikiPage
+export default WikiPage

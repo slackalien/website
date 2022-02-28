@@ -8,6 +8,7 @@ import Seo from "../components/seo"
 const VesoljskaMrezaPage = () => (
   <Layout>
     <Seo title="Vesoljska mreža" />
+    {/*
     <div className="container-fluid px-0 position-relative">
       <StaticImage
         src="../images/prva/purple.jpg"
@@ -21,7 +22,9 @@ const VesoljskaMrezaPage = () => (
         </div>
       </div>
     </div>
+    */}
     <div className="container py-5">
+      <h1>Vesoljska mreža</h1>
       <p>
         Vesoljska mreža ali po angleško "space net", je vesoljska ladja spletena
         iz tankih vrvic. Namenjena je levitaciji, meditaciji in ostalim, bolj

@@ -37,15 +37,16 @@ const Navbar = ({ siteTitle }) => {
               <ExactNavLink to="/delavnice">Delavnice</ExactNavLink>
             </li>
             <li className="nav-item">
-              <ExactNavLink to="/visokica-wiki">Visokica Wiki</ExactNavLink>
+              <ExactNavLink to="/visokica">Visokica</ExactNavLink>
+            </li>
+            <li className="nav-item">
+              <ExactNavLink to="/wiki">Wiki</ExactNavLink>
             </li>
             <li className="nav-item">
               <ExactNavLink to="/vesoljska-mreza">Vesoljska mreža</ExactNavLink>
             </li>
             <li className="nav-item">
-              <ExactNavLink to="/oprema-in-varnost">
-                Oprema in varnost
-              </ExactNavLink>
+              <ExactNavLink to="/oprema-in-varnost">Varnost</ExactNavLink>
             </li>
             <li className="nav-item">
               <ExactNavLink to="/kontakt">Kontakt</ExactNavLink>

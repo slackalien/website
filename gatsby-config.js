@@ -7,12 +7,14 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    /*
     {
       resolve: `gatsby-source-instagram`,
       options: {
         username: `11811990842`,
       },
     },
+    */
     {
       resolve: `gatsby-source-filesystem`,
       options: {

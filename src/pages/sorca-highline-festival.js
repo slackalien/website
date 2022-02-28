@@ -17,7 +17,7 @@ const SorcaHighlineFestivalPage = () => (
         src="../images/razno/sorca-highline-festival.jpg"
         layout="fullWidth"
         alt="Sorca Highline Festival"
-        width={360}
+        width={1024}
         className="img-fluid"
       />
     </div>

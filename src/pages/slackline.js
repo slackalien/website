@@ -13,8 +13,8 @@ const SlacklinePage = () => (
       <StaticImage
         src="../images/razno/slackline.jpg"
         layout="fullWidth"
-        alt="Sorca Highline Festival"
-        width={360}
+        alt="Slackline"
+        width={1024}
         className="img-fluid"
       />
     </div>

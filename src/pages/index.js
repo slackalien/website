@@ -233,10 +233,7 @@ const IndexPage = () => {
                 oči?
               </p>
               <div className="d-grid gap-2 d-sm-flex">
-                <Link
-                  className="btn btn-light btn-lg px-4 gap-3"
-                  to="/visokica-wiki"
-                >
+                <Link className="btn btn-light btn-lg px-4 gap-3" to="/wiki">
                   Pripravljen sem!
                 </Link>
               </div>
