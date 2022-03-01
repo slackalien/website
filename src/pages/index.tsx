@@ -16,9 +16,9 @@ import DownIcon from "../icons/down-icon"
 */
 
 const IndexPage = () => {
-  const scrollTo = id => {
+  const scrollTo = (id: string) => {
     const el = document.getElementById(id)
-    window.scrollTo(el.offsetLeft, el.offsetTop)
+    el && window.scrollTo(el.offsetLeft, el.offsetTop)
   }
   return (
     <Layout>
@@ -29,7 +29,7 @@ const IndexPage = () => {
           <div className="row flex-lg-row-reverse align-items-center g-5 py-5 min-vh-100">
             <div className="col-lg-6 d-flex justify-content-center mt-4 mt-md-0">
               <StaticImage
-                src="../images/slackalien-abduction.png"
+                src="../images/logo/slackalien-abduction.png"
                 width={400}
                 alt="SlackAlien"
                 className="img-fluid"
@@ -70,7 +70,7 @@ const IndexPage = () => {
           <div className="row align-items-center g-5 py-5 min-vh-100">
             <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
-                src="../images/prva/vector1.svg"
+                src="../images/prva/visokica.svg"
                 width={400}
                 alt=""
                 className="img-fluid"
@@ -206,7 +206,7 @@ const IndexPage = () => {
           <div className="row flex-lg-row-reverse align-items-center g-5 py-5 min-vh-100">
             <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
-                src="../images/slackalien.svg"
+                src="../images/logo/slackalien.svg"
                 width={400}
                 alt="SlackAlien"
                 className="img-fluid mb-4"

@@ -1,9 +1,5 @@
 # SlackAlien Website TODO
 
-Tim & Bojč
-
-- [x] arhitektura
-
 Bojč
 
 - [x] dizajn navodila za timija

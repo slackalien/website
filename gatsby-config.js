@@ -41,7 +41,7 @@ module.exports = {
         background_color: `#339933`,
         theme_color: `#339933`,
         display: `standalone`,
-        icon: `src/images/slackalien.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo/slackalien-icon.png`,
       },
     },
     `gatsby-plugin-gatsby-cloud`,

@@ -14,7 +14,7 @@ const AboutPage = () => (
       <div className="row flex-row-reverse">
         <div className="col-12 col-md-4">
           <StaticImage
-            src="../images/slackalien-abduction.png"
+            src="../images/logo/slackalien-abduction.png"
             width={400}
             alt="SlackAlien"
             className="img-fluid mb-4"

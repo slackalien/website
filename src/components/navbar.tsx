@@ -1,20 +1,19 @@
 import * as React from "react"
-import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
-const isActive = ({ isCurrent }) => {
+const isActive = ({ isCurrent }: any) => {
   return isCurrent
     ? { className: "nav-link active" }
     : { className: "nav-link" }
 }
 
-const ExactNavLink = props => <Link getProps={isActive} {...props} />
+const ExactNavLink = (props: any) => <Link getProps={isActive} {...props} />
 
-const Navbar = ({ siteTitle }) => {
+const Navbar = ({ siteTitle }: any) => {
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-primary">
       <div className="container-fluid">
-        <Link to="/" className="navbar-brand" href="#">
+        <Link to="/" className="navbar-brand">
           {siteTitle}
         </Link>
         <button
@@ -56,14 +55,6 @@ const Navbar = ({ siteTitle }) => {
       </div>
     </nav>
   )
-}
-
-Navbar.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Navbar.defaultProps = {
-  siteTitle: ``,
 }
 
 export default Navbar
