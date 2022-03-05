@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `SlackAlien`,
-    description: `SlackAlien highline team from Slovenia`,
+    description: `Športno društvo SlackAlien`,
     author: `Bojan Hribernik`,
   },
   plugins: [
