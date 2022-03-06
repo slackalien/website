@@ -1,5 +1,11 @@
 # SlackAlien website
 
+## GitHub profile
+
+Mail: slackalien.info@gmail.com
+User: SlackAlien8
+Pass: vecrobevecrok8
+
 ## Facebook source
 
 https://www.gatsbyjs.com/plugins/gatsby-source-facebook/

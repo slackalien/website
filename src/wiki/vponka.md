@@ -1,0 +1,20 @@
+# Vponka
+
+*Vponka* je kovinski vezni člen ovalne ali hruškaste oblike, ki se na
+eni stranici zapira z vratci. Vratca so lahko prosto gibljiva ali pa
+imajo varnostno zaporo z matico. Od vseh kovinskih veznih členov je
+vpenjanje v vponko najhitrejše in najpreprostejše. V visokovanju vponke
+uporabljamo predvsem kot delovno opremo pri
+[postavljanju](/postavljanju) ter za pripenjanje varnostne
+popkovine med privezovanjem na [vis](/vis). Na
+[sidriščih](/sidrišče) jih srečamo le redko, in sicer zaradi
+njihove glavne slabosti: zasnovane so namreč le za obremenitev v eni
+smeri -- vzdolž daljše stranice -- in zato ne prenašajo dobro ne prečnih
+ne [trosmernih](/trosmerna-obremenitev) (oziroma večsmernih)
+obremenitev. Če vponko že uporabimo kot nosilni element, mora biti nujno
+izdelana iz jekla, saj aluminij dolgoročno ni odporen na ciklične
+obremenitve, ki jim je oprema izpostavljena pri visokovanju.
+
+```{=mediawiki}
+{{tag>wip:rabi_slike}}
+```

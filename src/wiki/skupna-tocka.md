@@ -1,0 +1,20 @@
+# Skupna točka {#skupna-tocka}
+
+*Skupna točka* je mesto v [sidrišču](/sidrišče), iz katerega
+se obremenitev porazdeli po posamičnih sidriščnih točkah. Na eni strani
+so v skupno točko speljani vsi povezovalni elementi (vrvi, zanke) s
+sidriščnih točk, na drugi pa sta pripeta trakova visokice. Osrednji
+vezni člen skupne točke je običajno [škopec](/škopec) ali
+jeklena [vponka](/vponka). Povezave s sidriščnih točk se lahko
+bodisi samo speljane skozi vezni člen bodisi so pred njim zavozlane v
+[jebeno velik vozel](/jebeno-velik-vozel). Oba pristopa imata
+svoje prednosti in slabosti. Pristop z gibljivimi vpetjem omogoča, da
+zanke in/ali vrvi drsijo skozi vezni člen in s tem omogočajo določeno
+mero samodejnega porazdeljevanja sile. Veliki vozel takšnega
+prerazporejanja ne omogoča, prepreči pa možnost hipnih obremenitev v
+primeru odpovedi ene od sidriščnih točk in s tem [verižno
+odpoved](/verizna-odpoved) sidrišča.
+
+```{=mediawiki}
+{{tag>wip:rabi_slike}}
+```

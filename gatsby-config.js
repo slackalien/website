@@ -1,20 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: `SlackAlien`,
-    description: `SlackAlien highline team from Slovenia`,
+    description: `Športno društvo SlackAlien`,
     author: `Bojan Hribernik`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
-    /*
-    {
-      resolve: `gatsby-source-instagram`,
-      options: {
-        username: `11811990842`,
-      },
-    },
-    */
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -22,8 +14,31 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `wiki`,
+        path: `${__dirname}/src/wiki`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 630,
+            },
+          },
+          `gatsby-remark-responsive-iframe`,
+          `gatsby-remark-copy-linked-files`,
+        ],
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-catch-links`,
     {
       resolve: `gatsby-plugin-sass`,
       options: {

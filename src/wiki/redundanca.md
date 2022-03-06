@@ -1,0 +1,35 @@
+# Redundanca
+
+*Redundanca* je stanje, ko isto vlogo opravlja več neodvisnih
+podsistemov, s čimer dosežemo odpornost na odpoved enega od njih. V
+visokovanju je najočitnejši primer redundance uporaba dveh trakov:
+[glavnega](/glavni-trak) in
+[pomožnega](/pomozni-trak). Če iz kakršnegakoli razloga glavni
+trak odpove, nosilno vlogo prevzame rezervni trak in s tem obvaruje
+visokovalca pred padcem v globino.
+
+Pri [postavljanju](/postavljanje) visokice je treba poskrbeti,
+da so redundantne vse komponente, katerih odpoved je v razumni meri
+mogoča. Edini neredundantni deli sistema so [vis](/vis), pri
+katerem je redundanco v praksi težko doseči brez povzročanja drugih
+težav, ter v določenih primerih objekti, na katere je visokica sidrana.
+Pri postavljanju [sidrišča](/sidrišče) na drevesu ali skali
+lahko, na primer, ocenimo, da je dotičen objekt dovolj velik, močan in
+stabilen, da odpovedi *celega* objekta (prevrnitev drevesa, premik
+skale) ni pričakovati. V primeru sidranja na vijake v sicer stabilni
+skali je treba obremenitev vseeno razporediti po več točkah, saj se
+lahko kateri od vijakov zaradi krajevnih variacij v kakovosti skale
+izpuli.
+
+Glavni način doseganja redundance je podvajanje komponent: za izdelavo
+sidrišča uporabimo dve zanki, glavni trak ter rezervo vpnemo v ločene
+vezne člene, obremenitev razporedimo po več sidriščnih točkah. Za
+doseganje dodatne redundance lahko neobremenjen preostanek trakov
+visokice privežemo še na ločen objekt (na primer okoli drugega drevesa).
+
+Redundantnost sistema prevprašamo tako, da za vsako od komponent
+razmislimo, kaj se zgodi, če ta odpove. Sistem je dovolj redundanten v
+primeru, da odpoved katerekoli komponente povzroči le prenos sile na
+drugo. Pri oceni redundantnosti je treba posebno pozornost posvetiti
+možnosti [verižne odpovedi](/verizna-odpoved), ki lahko usodno
+prizadane tudi na videz polno redundanten sistem.

@@ -1,0 +1,3 @@
+====== Napetost ======
+
+//Napetost// je lastnost dane postavitve [[trak|traku]] in je odvisna od njegovih mehanskih lastnosti ter od [[raztezek|raztega]], ki ga dosežemo z [[napenjanje|napenjanjem]]. Opredelimo jo s silo v traku, običajno izraženo v kilonewtonih (kN). Visokice so običajno napete na 2 do 3 kN.

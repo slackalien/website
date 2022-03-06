@@ -1,0 +1,7 @@
+====== Množilnik ======
+
+//Množilnik// je komponenta, s katero dosežemo pomnožitev sile na del [[napenjalni sistem|napenjalnega sistema]], na katerem je nameščena. Uporabimo ga, kadar s samim napenjalnim sistemom ne uspemo doseči dovoljšnje [[napetost|napetosti]] [[trak|traku]]. Ime komponente izhaja iz dejstva, da se [[mehanska prednost]] z dodatkom vsakega množilnika pomnoži. Če je, na primer, osnovni napenjalni sistem škripčevje z mehansko prednostjo 5:1, z dodatkom množilnika 3:1 povečamo skupno mehansko prednost na 15:1, z zaporednim dodatkom še enega enakega množilnika pa že na 45:1. Čeprav se to sliši zelo praktično, saj z veliko pomnožitvijo lahko en sam človek doseže precejšnje sile, imajo množilniki slabo lastnost, da jih je treba po vsakem potegu razbremeniti in resetirati – pomakniti naprej po vrvi, na katero delujejo. Napenjanje lahko tako postane zelo zamudno. Zato se v praksi pogosto najprej poslužimo rešitve, da vrv (ali trak) potegne več ljudi, in šele če to ne zadostuje, nameščamo množilnike.
+
+Preprost množilnik lahko izdelamo iz [[vponka|vponke]] ali drugega kovinskega veznega člena. Zaradi trenja na vponki tak množilnik ni pretirano učinkovit, je pa boljši kot nič. Boljše izkoristke dosežemo z uporabo [[škripec|škripca]] ali [[maček|mačka]].
+
+{{tag>wip:rabi_slike}}

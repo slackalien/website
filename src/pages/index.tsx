@@ -24,33 +24,31 @@ const IndexPage = () => {
     <Layout>
       <Seo title="Domača stran" />
 
-      <section id="domov">
-        <div className="container col-xxl-10 px-4">
-          <div className="row flex-lg-row-reverse align-items-center g-5 py-5 min-vh-100">
-            <div className="col-lg-6 d-flex justify-content-center mt-4 mt-md-0">
-              <StaticImage
-                src="../images/logo/slackalien-abduction.png"
-                width={400}
-                alt="SlackAlien"
-                className="img-fluid"
-              />
-            </div>
-            <div className="col-lg-6">
-              <h1 className="display-5 fw-bold lh-1">SlackAlien</h1>
-              <p className="lead">
-                V deželi na sončni strani Alp se po gozdovih potika skupina
-                vesoljcev. Iščemo brezna, luknje, prepade in pečine, da bi
-                hodili tam kjer ni hodil še nihče.
-              </p>
-              <div className="d-grid gap-2 d-sm-flex">
-                <button
-                  className="btn btn-outline-light btn-lg px-4"
-                  onClick={() => scrollTo("visokovalci")}
-                >
-                  Preberi več
-                  <DownIcon />
-                </button>
-              </div>
+      <section id="domov" className="container col-xxl-10 px-4 min-vh-100">
+        <div className="row flex-lg-row-reverse align-items-center g-5 py-5 min-vh-100">
+          <div className="col-lg-6 d-flex justify-content-center mt-4 mt-md-0">
+            <StaticImage
+              src="../images/logo/slackalien-abduction.png"
+              width={400}
+              alt="SlackAlien"
+              className="img-fluid"
+            />
+          </div>
+          <div className="col-lg-6">
+            <h1 className="display-5 fw-bold lh-1">SlackAlien</h1>
+            <p className="lead">
+              V deželi na sončni strani Alp se po gozdovih potika skupina
+              vesoljcev. Iščemo brezna, luknje, prepade in pečine, da bi hodili
+              tam kjer ni hodil še nihče.
+            </p>
+            <div className="d-grid gap-2 d-sm-flex">
+              <button
+                className="btn btn-outline-light btn-lg px-4"
+                onClick={() => scrollTo("visokovalci")}
+              >
+                Preberi več
+                <DownIcon />
+              </button>
             </div>
           </div>
         </div>
@@ -65,13 +63,89 @@ const IndexPage = () => {
       />
       */}
 
+      <section className="border-top border-light pt-5">
+        <div className="container col-xxl-10 px-4">
+          <div className="row align-items-center g-5 py-5 min-vh-100">
+            <div className="col-lg-4 offset-lg-2">
+              <StaticImage
+                src="../images/prva/visokovalci.svg"
+                layout="fullWidth"
+                width={400}
+                alt=""
+                className="img-fluid"
+              />
+            </div>
+            <div className="col-lg-4 offset-lg-1">
+              <h1 className="fw-bold lh-1 mb-3">Visokovalci</h1>
+              <p className="lead">
+                Smo fantje in dekleta vseh starosti, ki se ločimo od mlačne
+                povprečnosti v dolini predvsem po tem, da želimo svojim
+                strahovom pogledati naravnost v oči in jih pustiti nekje v
+                preteklosti.
+              </p>
+            </div>
+            <div className="col-lg-8">
+              <StaticImage
+                src="../images/prva/visokovalci-svetla.svg"
+                width={800}
+                alt=""
+                className="img-fluid"
+              />
+            </div>
+            <div className="col-lg-4">
+              <h1 className="fw-bold lh-1 mb-3">Visokovalci</h1>
+              <p className="lead">
+                Smo fantje in dekleta vseh starosti, ki se ločimo od mlačne
+                povprečnosti v dolini predvsem po tem, da želimo svojim
+                strahovom pogledati naravnost v oči in jih pustiti nekje v
+                preteklosti.
+              </p>
+            </div>
+            <div className="col-lg-8">
+              <StaticImage
+                src="../images/prva/visokovalci-temna.svg"
+                width={800}
+                alt=""
+                className="img-fluid"
+              />
+            </div>
+            <div className="col-lg-4">
+              <h1 className="fw-bold lh-1 mb-3">Visokovalci</h1>
+              <p className="lead">
+                Smo fantje in dekleta vseh starosti, ki se ločimo od mlačne
+                povprečnosti v dolini predvsem po tem, da želimo svojim
+                strahovom pogledati naravnost v oči in jih pustiti nekje v
+                preteklosti.
+              </p>
+            </div>
+            <div className="col-lg-8">
+              <StaticImage
+                src="../images/prva/visokovalci-alt.svg"
+                width={800}
+                alt=""
+                className="img-fluid"
+              />
+            </div>
+            <div className="col-lg-4">
+              <h1 className="fw-bold lh-1 mb-3">Visokovalci</h1>
+              <p className="lead">
+                Smo fantje in dekleta vseh starosti, ki se ločimo od mlačne
+                povprečnosti v dolini predvsem po tem, da želimo svojim
+                strahovom pogledati naravnost v oči in jih pustiti nekje v
+                preteklosti.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="visokovalci" className="border-top border-light">
         <div className="container col-xxl-10 px-4">
           <div className="row align-items-center g-5 py-5 min-vh-100">
             <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
-                src="../images/prva/visokica.svg"
-                width={400}
+                src="../images/prva/visokovalci.svg"
+                width={800}
                 alt=""
                 className="img-fluid"
               />
@@ -116,7 +190,7 @@ const IndexPage = () => {
           <div className="row flex-lg-row-reverse align-items-center g-5 py-5 min-vh-100">
             <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
-                src="../images/prva/vector2.svg"
+                src="../images/prva/visokica.svg"
                 width={400}
                 alt=""
                 className="img-fluid"
@@ -163,7 +237,7 @@ const IndexPage = () => {
           <div className="row align-items-center g-5 py-5 min-vh-100">
             <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
-                src="../images/prva/vector3.svg"
+                src="../images/prva/visokovanje.svg"
                 width={500}
                 alt=""
                 className="img-fluid"

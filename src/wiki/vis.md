@@ -1,0 +1,48 @@
+# Vis
+
+*Vis* je varnostna vez, s katero je visokovalec povezan z
+[visokico](/visokica) in ki ga zadrži v primeru padca. Na enem
+koncu je vis privezan na kovinska obroča, ki drsita preko
+[glavnega](/glavni-trak) in
+[pomožnega](/pomozni-trak) traku, na drugem pa na plezalni pas
+visokovalca. Vis je običajno izdelan iz vrvi, vdete skozi cevasti
+[trak](/trak). Vloga slednjega je predvsem preprečevanje
+[abrazije](/abrazija) ter izboljšanje ergonomičnosti, ne služi
+pa kot varnostni element. Vis je zato, poleg plezalnega pasu, edini
+[neredundantni](/redundanca) del visokice.
+
+Za privezovanje na vis veljajo podobna pravila kot za privezovanje na
+plezalno vrvi. Za vozel se skoraj izključno uporablja vpletena
+[osmica](/osmica). Pomembno je, da je vis vedno speljan skozi
+obe glavni zanki na plezalnem pasu in *ne* skozi manevrsko zanko.
+Primerno dolžino visa lahko približno določimo tako, da ga prevlečemo
+skozi zanki na pasu, ga napnemo in iztegnemo nogo proti kovinskim
+obročem na drugem koncu. Pri tem mora med stopalom in obroči ostati med
+10 in 20 cm prostora. Prekratek vis prepreči, da bi se pri hoji lahko
+dovolj vzravnali, predolg vis pa poveča nevarnost ovitja okoli okončin
+med padcem ter povzroči, da se je po padcu težje
+[dvigniti](/dvig-na-trak) nazaj na trak.
+
+Pri hoji se vis praviloma vodi med nogami. Ker se je treba pri padcu čim
+bolj izogniti stiku z njim, je tehnika padanja na visokicah precej
+drugačna kot pri padanju na nizkih trakovih brez varovanja. Čeprav sprva
+neintuitivna, je najbolj zanesljiva in varna tehnika skoka -- oziroma
+bolje rečeno *prevrnjenja* -- na glavo. Pri tem je treba noge čim dlje
+držati iztegnjene in v stiku s trakom, da ga med padcem odrinemo od
+sebe.
+
+Zaradi bližine visokovalcu je vis element, ki povzroči največ
+visokovalskih poškodb. Najpogosteje se pripetijo tako, da se vis ob
+padanju oblikuje v ohlapno zanko, ki se ovije okoli visokovalčeve
+okončine ali prsta. Ko vis prevzame težo, se zanka zadrgne in povzroči
+odrgnino, izpah, zlom ali celo amputacijo. Za preprečevanje poškodb je
+zato pomembno, da kljubujemo naravnemu refleksu in se v začetni fazi
+padca *ne* prijemamo za vis. Možnost oblikovanja nevarnih zank se
+močno poveča, če je vis zasukan okoli svoje osi, zato je izredno
+pomembno, da ga po padcih preverimo in po potrebi odsukamo. Pri tem je
+na večini visov v pomoč barvni vzorec ali tanka reliefna črta, ki poteka
+vzdolž visa.
+
+```{=mediawiki}
+{{tag>wip:rabi_slike}}
+```
