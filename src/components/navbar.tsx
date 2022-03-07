@@ -47,6 +47,9 @@ const Navbar = ({ siteTitle }: any) => {
               </ExactNavLink>
             </li>
             <li className="nav-item">
+              <ExactNavLink to="/slovar">Slovar</ExactNavLink>
+            </li>
+            <li className="nav-item">
               <ExactNavLink to="/kontakt">Kontakt</ExactNavLink>
             </li>
           </ul>

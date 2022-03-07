@@ -1,6 +1,6 @@
 # Osmica
 
-*Osmica* je vozel s široko uporabo. V visokovanju ga uporabljamo pri
+_Osmica_ je vozel s široko uporabo. V visokovanju ga uporabljamo pri
 izdelavi sidrišč ter za privezovanje na [vis](/vis). Prednost
 vozla je, da ga je razmeroma enostavno zavezati ter pregledati, ne more
 se prevreči in tudi ne sam od sebe razvezati.
@@ -13,11 +13,6 @@ parov vzporednih pramenov vrvi. Osmica ne potrebuje varovalnega vozla,
 ga pa včasih vseeno zavežemo, da porabimo preostanek visa, ki bi sicer
 pri padcih opletal naokoli.
 
-[Osmica v
-alpiročniku](/https:*alpirocnik.rasica.org/wiki/Vrvi,_vozli_in_njihova_uporaba#Osmica.C2.A0)
+[Alpiročnik](https://alpirocnik.rasica.org/wiki/Vrvi,_vozli_in_njihova_uporaba#Osmica.C2.A0)
 
-\[{{ osmicayosemite.jpg?400 \|Osmica z Yosemitskim zaključkom}}\]
-
-```{=mediawiki}
-{{tag>wip:rabi_slike}}
-```
+![Osmica z Yosemitskim zaključkom](osmicayosemite.jpg)
