@@ -52,6 +52,6 @@ sčasoma odvije zunanji ovoj traku. S tem vpetje nenadoma popolnoma popusti.
 Drsenje repa lahko povsem preprečimo tako, da neobremenjeni konec traku speljemo
 nazaj po spodnji strani banani in ga trdno zavežemo okoli nje, običajno s
 kombinacijo več ovojev in bičevega vozla. Pri tem je lahko v pomoč tudi sama
-oblika banane, na primer votla osrednja os, skozi kateremo potegnemo zanko repa,
+oblika banane, na primer votla osrednja os, skozi katero potegnemo zanko repa,
 preden jo privežemo. Blokada repa je izredno pomembna in je na visokicah
 _nikoli_ ne smemo opustiti.
