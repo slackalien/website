@@ -21,7 +21,7 @@ odvečen trak iz sistema.
 Na [visokicah](/visokica) banano namestimo na
 [napenjalni strani](/napenjalna-stran), na statični pa zaradi prihranka pri masi
 opreme običajno raje uporabimo [šivano zanko](/sivana-zanka). V kombinaciji z
-[mačkom](/macek) in [primezem](/primez) banana služi tudi kot preprost
+[mačkom](/macek) in [primežem](/primez) banana služi tudi kot preprost
 [napenjalni sistem](/napenjalni-sistem), s katerim lahko z relativno malo truda
 dosežemo [napetosti](/napetost) do približno 3 kN, kar je za večino visokic
 povsem dovolj. Za večje sile ali napenjanje z manj truda lahko z dodatnimi mački

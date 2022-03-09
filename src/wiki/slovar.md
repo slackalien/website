@@ -83,7 +83,7 @@ splošen izraz.
 | thimble                         | [podložka](/podlozka)                                         |
 | triloading                      | [trosmerna obremenitev](/trosmerna-obremenitev)               |
 | webbing                         | [trak](/trak)                                                 |
-| webgrip                         | [primez](/primez)                                             |
+| webgrip                         | [primež](/primez)                                             |
 | weblock                         | [banana](/banana)                                             |
 | working load limit (WLL)        | [največja delovna obremenitev](/najvecja-delovna-obremenitev) |
 
