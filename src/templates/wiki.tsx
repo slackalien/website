@@ -6,8 +6,6 @@ import Seo from "../components/seo"
 
 const WikiTemplate = ({ data }: any) => {
   const content = data.markdownRemark
-  console.log(data)
-
   return (
     <Layout>
       <Seo title="Visokica Wiki" />
