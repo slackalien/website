@@ -6,7 +6,7 @@ je ponavadi dovolj že, da redno vadiš v parku, in prava poznanstva se bodo
 vzpostavila sama od sebe. Spodaj je zbranih še nekaj spletnih povezav na
 skupine, katerih člani se ukvarjajo z visokovanjem.
 
-- [Highline Slovenia](https://www.facebook.com/groups/425847847594412/) (skupina na Facebooku)
-- [SlackAlien](https://www.facebook.com/SlackAlien/) (skupina na Facebooku)
-- [Slackline Slovenj Gradec](https://www.facebook.com/slacklineSG/) (skupina na Facebooku)
+- [Highline Slovenia](https://www.facebook.com/groups/425847847594412/) (skupina na Facebooku)
+- [SlackAlien](https://www.facebook.com/SlackAlien/) (skupina na Facebooku)
+- [Slackline Slovenj Gradec](https://www.facebook.com/slacklineSG/) (skupina na Facebooku)
 - [Društvo Balansa](https://balansa.si/)

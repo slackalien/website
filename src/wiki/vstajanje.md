@@ -65,7 +65,7 @@ preobremeni koleno in sčasoma privede do bolečin ter poškodb. Priporočamo
 previdnost.
 
 V izhodiščni položaj za vstajanje na Chongo pridemo tako, da se nagnemo močno
-naprej in eno od stopal položimo na trak za seboj. Nato se vzravnavamo in hkrati
+naprej in eno od stopal položimo na trak za seboj. Nato se vzravnamo in hkrati
 pomikamo po traku nazaj, dokler ne obsedimo na svoji peti. Stopalo pod nami je
 pri tem usmerjeno navzdol ter zasukano skoraj pravokotno glede na smer
 vstajanja, trak pa poteka počez po stopalu, tik pred peto. Roko, ki je na isti

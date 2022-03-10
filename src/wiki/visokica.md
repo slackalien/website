@@ -34,7 +34,7 @@ in omogoči sestavljanja opreme različnih lastnikov.
 ## Varnost
 
 Za zagotovitev varnosti morajo biti vsi podsistemi visokice
-[redundantni](/redundanca). To botruje tudi značilnemu izgledu visokice, saj je
+[redundantni](/redundanca). To botruje tudi značilnemu videzu visokice, saj je
 pod [glavnim trakom](/glavni-trak) v zankah obešen še
 [pomožni trak](/pomozni-trak). Primerno zavarovan mora biti tudi dostop do
 visokice: dostopna točka je namreč v večini primerov nad prepadom, zato se je

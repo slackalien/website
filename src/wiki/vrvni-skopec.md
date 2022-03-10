@@ -9,7 +9,7 @@ oblikuje kratko zanko, na drugi strani pa sta konca vrvi spletena v debel vozel.
 Škopec zapremo tako, da zavozlani konec vstavimo skozi zanko, ki se že ob
 najmanjši obremenitvi zadrgne in prepreči, da bi vozel zdrsel nazaj skoznjo.
 
-![Softshackle](images/softshackle.jpg)
+![Vrvni škopec](images/softshackle.jpg)
 
 Glavna prednost vrvnega škopca pred kovinskim je, da je mnogo lažji in ga je
 zato lažje prenašati. Poleg tega predstavlja manjšo nevarnost v primeru, da ob

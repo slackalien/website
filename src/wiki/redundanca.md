@@ -28,5 +28,5 @@ Redundantnost sistema prevprašamo tako, da za vsako od komponent razmislimo, ka
 se zgodi, če ta odpove. Sistem je dovolj redundanten v primeru, da odpoved
 katerekoli komponente povzroči le prenos sile na drugo. Pri oceni redundantnosti
 je treba posebno pozornost posvetiti možnosti
-[verižne odpovedi](/verizna-odpoved), ki lahko usodno prizadane tudi na videz
+[verižne odpovedi](/verizna-odpoved), ki lahko usodno prizadene tudi na videz
 polno redundanten sistem.

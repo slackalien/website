@@ -1,13 +1,15 @@
 # Banana
 
-_Banana_((Izraz izvira iz časov zgodnjih različic tega pripomočka, ki so po
-obliki spominjale na banano. Sodobne izvedbe so lahko precej drugačnih oblik,
-zato asociacija dostikrat ni več očitna, izraz pa se je vseeno ohranil.)) je
-pripomoček, v katerega vpnemo [trak](/trak), da ga lahko pritrdimo na
-[sidrišče](/sidrisce). Sestavljena je iz kovinskega ogrodja, v katerega sta
-vpeti dve osi, ena na prednji strani banane in druga v sredini. Prednja os je
-tanjša in odstranljiva, osrednja pa debelejša in nepremična. Zadnja stran banane
-je oblikovana v uho ali prečko in služi za pritrditev v sidrišče.
+_Banana_[^1] je pripomoček, v katerega vpnemo [trak](/trak), da ga lahko
+pritrdimo na [sidrišče](/sidrisce). Sestavljena je iz kovinskega ogrodja, v
+katerega sta vpeti dve osi, ena na prednji strani banane in druga v sredini.
+Prednja os je tanjša in odstranljiva, osrednja pa debelejša in nepremična.
+Zadnja stran banane je oblikovana v uho ali prečko in služi za pritrditev v
+sidrišče.
+
+[^1]: Izraz izvira iz časov zgodnjih različic tega pripomočka, ki so po obliki
+    spominjale na banano. Sodobne izvedbe so lahko precej drugačnih oblik, zato
+    asociacija dostikrat ni več očitna, izraz pa se je vseeno ohranil.
 
 Trak v banano vpnemo tako, da ga najprej na želenem mestu preganemo v zanko;
 pramen traku, ki ga kanimo obremeniti, leži zgoraj. Zanko ovijemo za skoraj poln
@@ -21,7 +23,7 @@ odvečen trak iz sistema.
 Na [visokicah](/visokica) banano namestimo na
 [napenjalni strani](/napenjalna-stran), na statični pa zaradi prihranka pri masi
 opreme običajno raje uporabimo [šivano zanko](/sivana-zanka). V kombinaciji z
-[mačkom](/macek) in [primezem](/primez) banana služi tudi kot preprost
+[mačkom](/macek) in [primežem](/primez) banana služi tudi kot preprost
 [napenjalni sistem](/napenjalni-sistem), s katerim lahko z relativno malo truda
 dosežemo [napetosti](/napetost) do približno 3 kN, kar je za večino visokic
 povsem dovolj. Za večje sile ali napenjanje z manj truda lahko z dodatnimi mački
@@ -52,6 +54,6 @@ sčasoma odvije zunanji ovoj traku. S tem vpetje nenadoma popolnoma popusti.
 Drsenje repa lahko povsem preprečimo tako, da neobremenjeni konec traku speljemo
 nazaj po spodnji strani banani in ga trdno zavežemo okoli nje, običajno s
 kombinacijo več ovojev in bičevega vozla. Pri tem je lahko v pomoč tudi sama
-oblika banane, na primer votla osrednja os, skozi kateremo potegnemo zanko repa,
+oblika banane, na primer votla osrednja os, skozi katero potegnemo zanko repa,
 preden jo privežemo. Blokada repa je izredno pomembna in je na visokicah
 _nikoli_ ne smemo opustiti.

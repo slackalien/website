@@ -11,7 +11,7 @@ povzroči popolno odpoved opreme, zato jo je treba na vsak način preprečiti, k
 dosežemo s [podlaganjem](/podloga) in [odmikanjem](/A-okvir).
 
 Pri [visokicah](/visokica) so nevarnosti abrazije izpostavljene predvsem
-komponente v [sidriščih](/sidrisce); najpogoteje gre za drgnjenje
+komponente v [sidriščih](/sidrisce); najpogosteje gre za drgnjenje
 [tovornih zank](/tovorna-zanka) ali vrvi ob skale. Abrazivni poškodbi sta lahko
 izpostavljena tudi trakova visokice, če se ob obremenitvi prevesita preko
 ostrega skalnega roba.

@@ -3,14 +3,14 @@
 _Popuščalka_ je pripomoček, s katerim nadzorovano popustimo
 [napetost](/napetost) na [slacklinu](/slackline), da ga lahko podremo. Uporablja
 se v primerih, ko [napenjalni sistem](/napenjalni-sistem) ni del slacklina. To
-je na [visokicah](/visokica) zelo pogost pristop, saj z manšim številom
+je na [visokicah](/visokica) zelo pogost pristop, saj z manjšim številom
 komponent sistema zmanjšamo tudi stopnjo tveganja. Popuščalka je praviloma
 nameščena na [statični strani](/staticna-stran) visokice.
 
 Popuščalka je sestavljena iz dveh kovinskih osi, preko katerih je ovitih več
 ovojev [traku](/trak). Na eno od osi je trak vpet s
 [šivano zanko](/sivana-zanka). Priporočljivo je napraviti vsaj šest ovojev,
-pogosto pa uporabimo še kakega več. Peostanek traku trdno privežemo okoli
+pogosto pa uporabimo še kakega več. Preostanek traku trdno privežemo okoli
 ovojev, na primer z bičevim vozlom. Za dobro mero konec traku še zavozlamo, s
 čimer preprečimo, da bi zaradi tresljajev ob uporabi zdrsel skozi bičev vozel.
 

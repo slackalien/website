@@ -57,18 +57,20 @@ visokice.
 
 Tako pripravljene pare trakov povežemo med seboj z navzkrižnimi spoji, ki
 zmorejo silo s kateregakoli traku na eni strani spoja prenesti na katerikoli
-trak na drugi strani. Obremenitev tako lahko poteka v smeri glavni--glavni
-(običajen režim delovanja), glavni--pomožni (v primeru odpovedi glavnega traku v
-enem segmentu) ali celo v smeri pomožni--pomožni (v sicer zelo malo verjetnem, a
+trak na drugi strani. Obremenitev tako lahko poteka v smeri glavni–glavni
+(običajen režim delovanja), glavni–pomožni (v primeru odpovedi glavnega traku v
+enem segmentu) ali celo v smeri pomožni–pomožni (v sicer zelo malo verjetnem, a
 teoretično mogočem primeru odpovedi glavnih trakov v obeh segmentih). Navzkrižni
-spoji so izdelani z [vrvnimi škopci](/vrvni-skopec).((Včasih se uporablja tudi
-kombinacija vrvnega škopca in [ovalnega člena](/ovalni-clen), vendar slednji
-zaradi svoje mase lahko predstavlja nevarnost. V primeru odpovedi segmenta ga
-namreč lahko hipen sunek traku ob prerazporeditvi sile zažene v visokovalca in
-ga poškoduje. Uporaba ovalnih členov zato ni najbolj priporočljiva.)) Obstaja
+spoji so izdelani z [vrvnimi škopci](/vrvni-skopec).[^1] Obstaja
 več tipov vezave, od katerih bomo tu omenili le eno. Pri tej vezavi šivano zanko
 pomožnega traku vstavimo v šivano zanko glavnega traku, nato pa obe tako
 pripravljeni strani povežemo z dvema vrvnima škopcema (s tem zagotovimo
 [redundantnost](/redundanca) povezave). Izdelane spoje navadno na koncu povijemo
 z lepilnim trakom, ki komponente spoja drži na mestu, hkrati pa zmanjša možnost
 zatikanja kovinskih obročev [visa](/vis) pri prehodu preko spoja.
+
+[^1]: Včasih se uporablja tudi kombinacija vrvnega škopca in [ovalnega
+    člena](/ovalni-clen), vendar slednji zaradi svoje mase lahko predstavlja
+    nevarnost. V primeru odpovedi segmenta ga namreč lahko hipen sunek traku
+    ob prerazporeditvi sile zažene v visokovalca in ga poškoduje. Uporaba
+    ovalnih členov zato ni najbolj priporočljiva.
