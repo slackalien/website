@@ -7,15 +7,15 @@ Bojč
 - [x] osnovni dizajn brez vseh animacij in malenkosti
 - [x] preveri kaj je s seo, če imamo slovensko na .si in angleško na .com
 - [ ] preveri kako je najbolš tri domene in ena stran
-- [ ] footer, nekaj čisto preprostega in lepega
-- [ ] integracija visokica wiki
+- [x] footer, nekaj čisto preprostega in lepega
+- [x] integracija visokica wiki
 - [ ] zadnje instagram slike
 - [ ] zadnji facebook posti instagram slike
-- [ ] zamenjaj vektorske grafike za nekaj manjšega
+- [x] zamenjaj vektorske grafike za nekaj manjšega
 - [ ] zamenjaj default bootstrap menu ikono
-- [ ] kreiraj slackalien gatsby account
-- [ ] kreiraj slackalien netlify account
-- [ ] publishaj začasno stran na slackalien.netlify.app
+- [x] kreiraj slackalien gatsby account
+- [x] kreiraj slackalien netlify account
+- [x] publishaj začasno stran na slackalien.netlify.app
 
 Tim
 
@@ -34,12 +34,12 @@ Gašper
 
 Andrej
 
-- [ ] export visokica wiki v excel ali csv
+- [x] export visokica wiki v excel ali csv
 
 Ekipa
 
 - [ ] Ivana fotke
 - [ ] Jaka fotke
 - [ ] Nace fotke
-- [ ] Tilen fotke
-- [ ] Tim fotke
+- [x] Tilen fotke
+- [x] Tim fotke
