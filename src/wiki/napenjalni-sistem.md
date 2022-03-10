@@ -8,7 +8,7 @@ _Napenjalni sistem_ je skupek komponent, s katerim [napenjamo](/napenjanje)
 
 Je največkrat uporabljen pri napenjanju visokic. Zanj potrebujemo le malo
 komponent: za osnoven sistem z mehansko prednostjo 3:1 sta potrebna le
-[primez](/primez) in [maček](/macek), kot del napenjalnega sistema pa deluje
+[primež](/primez) in [maček](/macek), kot del napenjalnega sistema pa deluje
 tudi [banana](/banana), ki po koncu napenjanja ostane na svojem mestu. Pri
 večini visokic že samo s takim sistemom dosežemo dovoljšnjo
 [napetost](/napetost) za hojo. Višje sile je moč doseči tako, da trak povleče

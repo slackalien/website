@@ -13,6 +13,6 @@ parov vzporednih pramenov vrvi. Osmica ne potrebuje varovalnega vozla,
 ga pa včasih vseeno zavežemo, da porabimo preostanek visa, ki bi sicer
 pri padcih opletal naokoli.
 
-[Alpiročnik](https://alpirocnik.rasica.org/wiki/Vrvi,_vozli_in_njihova_uporaba#Osmica.C2.A0)
+[Osmica v alpiročniku](https://alpirocnik.rasica.org/wiki/Vrvi,_vozli_in_njihova_uporaba#Osmica.C2.A0)
 
-![Osmica z Yosemitskim zaključkom](osmicayosemite.jpg)
+![Osmica z Yosemitskim zaključkom](images/osmica-yosemite.jpg)

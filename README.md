@@ -4,7 +4,7 @@
 
 Mail: slackalien.info@gmail.com
 User: SlackAlien8
-Pass: vecrobevecrok8
+Pass: ***
 
 ## Facebook source
 

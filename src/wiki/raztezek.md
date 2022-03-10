@@ -7,7 +7,7 @@ sili. Primer: če ima trak raztezek 8 % pri 10 kN, to pomeni, da se bo pri
 obremenitvi z 10 kN raztegnil za 8 % prvotne dolžine.
 
 Razteznostne karakteristike trakov v splošnem niso linearne, kar še zlasti velja
-za poliamidne (najlonske) trakove. To pomeni, da za trak iz zgoraj omenjenga
+za poliamidne (najlonske) trakove. To pomeni, da za trak iz zgoraj omenjenega
 primera ne moremo nujno sklepati, da se bo pri polovici nazivne sile (5 kN)
 raztegnil za 4 %. Če potrebujemo točno vrednost raztezka pri dani sili, je edina
 rešitev, da pogledamo na diagram raztezka v odvisnosti od sile. Na žalost tak
@@ -21,4 +21,4 @@ Krajši trakovi z velikimi raztezki se uporabljajo za dinamične
 [slackline](/slackline) v parkih, uporaba daljših zelo raztegljivih trakov pa je
 skoraj izključno omejena na [visokice](/visokica), kjer velik poves ni ovira.
 Trakovi srednjih raztegljivosti (poliester) so uporabni vsestransko, trakovi z
-nizkimi raztegljivostvmi pa so priljubljeni predvsem za zelo dolge relacije.
+nizkimi raztegljivostmi pa so priljubljeni predvsem za zelo dolge relacije.

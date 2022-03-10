@@ -39,12 +39,12 @@ Tudi pri vrsti pletenja lahko trakove v grobem razdelimo v nekaj kategorij:
   jih dela prijetne za hojo.
 - **Ploski trakovi.** Tehnologija izdelava takšnih trakov je preprosta, zato so
   precej pogosti in imajo ugodno ceno. Njihova slaba stran je, da so robovi
-  ostrejši, zlasti pri visokih[napetostih](/napetost).
+  ostrejši, zlasti pri visokih [napetostih](/napetost).
 - **Večplastni trakovi.** Takšni trakovi so sestavljeni iz več medsebojno
   prepletenih plasti, s čimer dosežemo kombinacijo več ugodnih karakteristik.
   Eden najpogostejših ciljev je, da sredinska plast prevzame večino sile v
   traku, medtem ko je zunanja plast pletena bolj ohlapno in zato tudi pri
-  višjih[napetostih](/napetost) ostane mehka, robovi pa zaobljeni. S tem dobimo
+  višjih [napetostih](/napetost) ostane mehka, robovi pa zaobljeni. S tem dobimo
   trak z zmerno elastičnostjo, ki pa je še vedno prijeten za hojo. Slabost
   večplastnih trakov je njihova višja cena, saj je tehnologija njihove izdelave
   zahtevnejša.

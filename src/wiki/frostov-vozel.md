@@ -9,16 +9,19 @@ nadomestilo za [šivano zanko](/sivana-zanka), a le v okoliščinah, kjer vozel 
 trajno obremenjen, na primer na krajiščih [pomožnega traku](/pomozni-trak).
 
 Frostov vozel v traku zavežemo tako, da konec traku prepognemo, nato pa
-prepognjeni konec prepognemo ponovno, da dobimo štiri vzporedne pramene.((Mnenja
-o tem, ali mora pramen, ki ga bomo obremenili, potekati po sredini ali po strani
-snopa, so deljena. Smiselno se zdi, da bi bila nosilnost različice, kjer
-obremenjeni pramen poteka po strani, večja, saj s tem dosežemo večji krivinski
-radij pramena, a izročilo priporoča ravno nasprotno. Zaenkrat kaže, da rezultati
-[nadzorovanih preizkusov](https://www.slacktivity.com/slackline-infos/slackline-webbing-knots)
-podpirajo vezavo z obremenjenim pramenom na strani, a za razrešitev dileme bo
-treba počakati na še kako potrditev.)) Cel snop zavežemo v vozel in s tem dobimo
-zanko. Pred uporabo moramo vozel lepo poravnati in ga zategniti s tem, da dobro
-povlečemo vsak pramen posebej.
+prepognjeni konec prepognemo ponovno, da dobimo štiri vzporedne pramene.[^1]
+Cel snop zavežemo v vozel in s tem dobimo zanko. Pred uporabo moramo vozel
+lepo poravnati in ga zategniti s tem, da dobro povlečemo vsak pramen
+posebej.
+
+[^1]: Mnenja o tem, ali mora pramen, ki ga bomo obremenili, potekati po
+    sredini ali po strani snopa, so deljena. Smiselno se zdi, da bi bila
+    nosilnost različice, kjer obremenjeni pramen poteka po strani, večja,
+    saj s tem dosežemo večji krivinski radij pramena, a izročilo priporoča
+    ravno nasprotno. Zaenkrat kaže, da rezultati [nadzorovanih
+    preizkusov](https://www.slacktivity.com/slackline-infos/slackline-webbing-knots)
+    podpirajo vezavo z obremenjenim pramenom na strani, a za razrešitev
+    dileme bo treba počakati na še kako potrditev.
 
 Zmanjšanje [minimalne porušne sile](/minimalna-porusna-sila) traku zaradi
 Frostovega vozla je odvisno od vrste traku in uporabljenega vozla. Iz
