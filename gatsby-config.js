@@ -1,8 +1,20 @@
+/**
+ * Implement Gatsby's Config APIs in this file.
+ *
+ * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
+ */
+
+const URL =
+  process.env.NODE_ENV === `production`
+    ? `https://slackalien.netlify.app`
+    : `http://localhost:8000`
+
 module.exports = {
   siteMetadata: {
     title: `SlackAlien`,
     description: `Športno društvo SlackAlien`,
     author: `Bojan Hribernik`,
+    siteUrl: URL,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -17,8 +29,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `wiki`,
-        path: `${__dirname}/src/wiki`,
+        name: `prirocnik`,
+        path: `${__dirname}/src/prirocnik`,
       },
     },
     {
@@ -39,6 +51,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-catch-links`,
+    `gatsby-plugin-gatsby-cloud`,
     {
       resolve: `gatsby-plugin-sass`,
       options: {
@@ -59,6 +72,53 @@ module.exports = {
         icon: `src/images/logo/slackalien-icon.png`,
       },
     },
-    `gatsby-plugin-gatsby-cloud`,
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: URL,
+      },
+    },
+    {
+      // https://github.com/ifiokjr/gatsby-plugin-next-seo/blob/master/docs/api/index.md
+      resolve: `gatsby-plugin-next-seo`,
+      options: {
+        title: `SlackAlien`,
+        titleTemplate: `%s - SlackAlien`,
+        description: `Športno društvo SlackAlien`,
+        language: `sl`,
+        defaultOpenGraphImageWidth: 1200,
+        defaultOpenGraphImageHeight: 1200,
+        metaTags: [
+          {
+            property: `keywords`,
+            content: `slackline,highline,visokica,ravnotežje`,
+          },
+        ],
+        openGraph: {
+          type: `website`,
+          locale: `sl_SI`,
+          url: URL,
+          title: `SlackAlien`,
+          site_name: `SlackAlien`,
+          description: `Športno društvo SlackAlien`,
+          images: [
+            {
+              url: `${URL}/slackalien.png`,
+              width: 1920,
+              height: 1280,
+              alt: `SlackAlien`,
+            },
+          ],
+        },
+        //twitter: {
+        //  handle: `@handlea`,
+        //  site: `@sitea`,
+        //  cardType: `summary_large_image`,
+        //},
+        //facebook: {
+        //  appId: `1234567890`,
+        //},
+      },
+    },
   ],
 }

@@ -1,6 +1,5 @@
 {
   "arrowParens": "avoid",
   "semi": false,
-  "printWidth": 80,
-  "proseWrap": "always"
+  "printWidth": 80
 }

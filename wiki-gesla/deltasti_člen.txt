@@ -1,7 +1,0 @@
-====== Deltasti člen ======
-
-//Deltasti člen// je kovinski vezni člen trikotne oblike, ki se na eni od stranic zapira z matico. Uporabljamo ga pri izdelavi skalnih [[sidrišče|sidrišč]], na katerih so sidriščne točke v [[skupna točka|skupno točko]] povezane s [[tovorna zanka|tovornimi zankami]]. V takem primeru je v uho vsakega skalnega vijaka vstavljen po en deltasti člen, skozi tega pa je nato vstavljena zanka.
-
-Pred obremenitvijo je treba na členu vedno priviti matico. Odprt člen ima mnogo manjšo nosilnost od zaprtega, zato ob obremenitvi odprtega lahko pride do deformacije ali celo popolne odpovedi. Prav tako pomembno je, da matico zategnemo s ključem, saj privijanje samo z roko pogosto ni dovolj in se matica ob vibracijah sčasoma lahko sama odvije.
-
-{{tag>wip:rabi_slike}}

@@ -1,3 +1,0 @@
-====== Glavni trak ======
-
-//Glavni trak// je osrednji element [[visokica|visokice]]. [[napetost|Napet]] je med dve [[sidrišče|sidrišči]], eno na [[napenjalna stran|napenjalni strani]] (kjer je vpet v [[banana|banano]]) in drugo na [[statična stran|statični strani]] (kjer za vpenjanje običajno izkoristimo [[šivana zanka|šivano zanko]]). Pod glavnim trakom je v zankah obešen še [[pomožni trak]], preko obeh pa sta nadeta kovinska obroča, na katera je privezan [[vis]]. Na krajših visokicah uporabljamo glavni trak iz enega kosa, pri daljših pa ga lahko [[segmentiranje|sestavimo]] iz več delov. Njegove [[trak|značilnosti]] ključno vplivajo na karakter visokice.

@@ -21,7 +21,7 @@ const Layout = ({ children }: any) => {
       <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} />
       <main className="">{children}</main>
       <footer className="bg-alien p-4 text-center mt-auto">
-        <div className="py-4">&copy; 2022 SlackAlien</div>
+        <div className="py-4">© 2022 SlackAlien</div>
       </footer>
     </div>
   )

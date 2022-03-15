@@ -1,6 +1,8 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
+import "./navbar.scss"
+
 const isActive = ({ isCurrent }: any) => {
   return isCurrent
     ? { className: "nav-link active" }
@@ -25,7 +27,12 @@ const Navbar = ({ siteTitle }: any) => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
         </button>
         <div className="collapse navbar-collapse" id="main-navbar">
           <ul className="navbar-nav me-auto mb-2 mb-md-0">

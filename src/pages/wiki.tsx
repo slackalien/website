@@ -1,12 +1,13 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import type { PageProps } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const WikiPage = () => (
+const WikiPage = ({ location }: PageProps) => (
   <Layout>
-    <Seo title="Visokica Wiki" />
+    <Seo title="Visokica Wiki" pathname={location.pathname} />
     <div className="container py-5">
       <h1>Visokica Wiki</h1>
       <p>

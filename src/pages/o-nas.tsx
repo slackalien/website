@@ -1,13 +1,14 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Masonry from "react-masonry-css"
+import type { PageProps } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const AboutPage = () => (
+const AboutPage = ({ location }: PageProps) => (
   <Layout>
-    <Seo title="O nas" />
+    <Seo title="O nas" pathname={location.pathname} />
     <div className="container py-5">
       <h1>O nas</h1>
 
@@ -81,98 +82,84 @@ const AboutPage = () => (
       >
         <StaticImage
           src="../images/o-nas/ivana.jpg"
-          layout="fullWidth"
           alt="Ivana"
           width={360}
           className="img-fluid"
         />
         <StaticImage
           src="../images/o-nas/lara-na-liniji.jpg"
-          layout="fullWidth"
           alt="Lara"
           width={360}
           className="img-fluid"
         />
         <StaticImage
           src="../images/o-nas/timi-na-liniji.jpg"
-          layout="fullWidth"
           alt="Tim"
           width={360}
           className="img-fluid"
         />
         <StaticImage
           src="../images/o-nas/nace-na-liniji.jpg"
-          layout="fullWidth"
           alt="Nace"
           width={360}
           className="img-fluid"
         />
         <StaticImage
           src="../images/o-nas/gasper-mize.jpg"
-          layout="fullWidth"
           alt="Gašper"
           width={360}
           className="img-fluid"
         />
         <StaticImage
           src="../images/o-nas/matevz-na-liniji.jpg"
-          layout="fullWidth"
           alt="Matevž"
           width={360}
           className="img-fluid"
         />
         <StaticImage
           src="../images/o-nas/jaka-na-liniji.jpg"
-          layout="fullWidth"
           alt="Jaka"
           width={360}
           className="img-fluid"
         />
         <StaticImage
           src="../images/o-nas/andrej-na-liniji.jpg"
-          layout="fullWidth"
           alt="Andrej"
           width={360}
           className="img-fluid"
         />
         <StaticImage
           src="../images/o-nas/bojc-na-glavo.jpg"
-          layout="fullWidth"
           alt="Bojč"
           width={360}
           className="img-fluid"
         />
         <StaticImage
           src="../images/o-nas/tilen-na-liniji.jpg"
-          layout="fullWidth"
           alt="Tilen"
           width={360}
           className="img-fluid"
         />
         <StaticImage
           src="../images/o-nas/maticek-na-liniji.jpg"
-          layout="fullWidth"
           alt="Matiček"
           width={360}
           className="img-fluid"
         />
         <StaticImage
           src="../images/o-nas/matic-na-liniji.jpg"
-          layout="fullWidth"
           alt="Matic"
           width={360}
           className="img-fluid"
         />
         <StaticImage
           src="../images/o-nas/anze-plank.jpg"
-          layout="fullWidth"
           alt="Anže"
           width={360}
           className="img-fluid"
         />
         <StaticImage
           src="../images/o-nas/slackalien-misice.jpg"
-          layout="fullWidth"
           alt="SlackAlien mišice"
           width={360}
           className="img-fluid"

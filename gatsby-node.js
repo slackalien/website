@@ -1,7 +1,7 @@
 /**
  * Implement Gatsby's Node APIs in this file.
  *
- * See: https://www.gatsbyjs.com/docs/node-apis/
+ * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/
  */
 
 const path = require(`path`)
@@ -24,7 +24,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
 
-  const template = path.resolve(`./src/templates/wiki.tsx`)
+  const template = path.resolve(`./src/templates/prirocnik.tsx`)
 
   const result = await graphql(`
     {

@@ -1,13 +1,14 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Masonry from "react-masonry-css"
+import type { PageProps } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const VisokicaPage = () => (
+const VisokicaPage = ({ location }: PageProps) => (
   <Layout>
-    <Seo title="Visokica" />
+    <Seo title="Visokica" pathname={location.pathname} />
     <div className="container py-5">
       <h1>Visokica</h1>
       <p>
@@ -23,61 +24,61 @@ const VisokicaPage = () => (
           src="../images/visokica/ajdna.jpg"
           alt=""
           className="img-fluid"
-          layout="fullWidth"
+          width={360}
         />
         <StaticImage
           src="../images/visokica/dovska.jpg"
           alt=""
           className="img-fluid"
-          layout="fullWidth"
+          width={360}
         />
         <StaticImage
           src="../images/visokica/krivulja.jpg"
           alt=""
           className="img-fluid"
-          layout="fullWidth"
+          width={360}
         />
         <StaticImage
           src="../images/visokica/linije2.jpg"
           alt=""
           className="img-fluid"
-          layout="fullWidth"
+          width={360}
         />
         <StaticImage
           src="../images/visokica/zeleno.jpg"
           alt=""
           className="img-fluid"
-          layout="fullWidth"
+          width={360}
         />
         <StaticImage
           src="../images/visokica/sorca.jpg"
           alt=""
           className="img-fluid"
-          layout="fullWidth"
+          width={360}
         />
         <StaticImage
           src="../images/visokica/letalo.jpg"
           alt=""
           className="img-fluid"
-          layout="fullWidth"
+          width={360}
         />
         <StaticImage
           src="../images/visokica/linije.jpg"
           alt=""
           className="img-fluid"
-          layout="fullWidth"
+          width={360}
         />
         <StaticImage
           src="../images/visokica/nocna.jpg"
           alt=""
           className="img-fluid"
-          layout="fullWidth"
+          width={360}
         />
         <StaticImage
           src="../images/visokica/zahod.jpg"
           alt=""
           className="img-fluid"
-          layout="fullWidth"
+          width={360}
         />
       </Masonry>
     </div>

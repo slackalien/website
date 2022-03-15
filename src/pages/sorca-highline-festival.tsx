@@ -1,12 +1,13 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import type { PageProps } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const SorcaHighlineFestivalPage = () => (
+const SorcaHighlineFestivalPage = ({ location }: PageProps) => (
   <Layout>
-    <Seo title="Sorca highline festival" />
+    <Seo title="Sorca highline festival" pathname={location.pathname} />
     <div className="container py-5">
       <h1>Sorca highline festival</h1>
       <p>
@@ -17,7 +18,6 @@ const SorcaHighlineFestivalPage = () => (
         src="../images/razno/sorca-highline-festival.jpg"
         layout="fullWidth"
         alt="Sorca Highline Festival"
-        width={1024}
         className="img-fluid"
       />
     </div>

@@ -1,4 +1,5 @@
 import * as React from "react"
+import type { PageProps } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -6,9 +7,9 @@ import Seo from "../components/seo"
 import FacebookIcon from "../icons/facebook"
 import InstagramIcon from "../icons/instagram"
 
-const ContactPage = () => (
+const ContactPage = ({ location }: PageProps) => (
   <Layout>
-    <Seo title="Kontakt" />
+    <Seo title="Kontakt" pathname={location.pathname} />
     <div className="container py-5">
       <h1>Kontakt</h1>
       <p>

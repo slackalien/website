@@ -40,7 +40,7 @@ www.xxxxxx.com/card-wow-20-euros
 
 This allows all four words in your URL to score the same rankpower for each keyword: card 3, wow 3, 20 3, euros 3 instead of card 3, wow 4, 20 5, euros 5.
 
-# Domene
+## Domene
 
 Slovenska stran
 
@@ -69,7 +69,7 @@ https://slackalien.si/en/contact
 https://slackalien.si/en/courses
 ```
 
-# Visokica
+## Visokica
 
 Visokica Wiki je lahko na poddomeni
 
@@ -87,7 +87,7 @@ https://slackalien.si/visokica/wiki
 https://slackalien.si/visokica-wiki
 ```
 
-# Seznam URLjev
+## Seznam URLjev
 
 Potencialni URLji
 

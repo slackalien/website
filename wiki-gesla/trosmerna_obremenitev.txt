@@ -1,5 +1,0 @@
-====== Trosmerna obremenitev ======
-
-//Trosmerna obremenitev// je stanje, ko na vezni člen delujejo sile v treh različnih smereh. Tipičen primer takšne obremenitve je sidranje slacklina na [[tovorna zanka|tovorno zanko]], ovito okoli drevesa. Vsak konec tovorne zanke vleče vezni člen v svojo smer, tretjo smer pa prispeva sila napetega traku. Nekateri vezni členi (na primer [[škopec]]) takšno obremenitev dobro prenašajo, drugi (na primer [[vponka]]) pa ne, zato je v takih okoliščinah prava izbira veznega člena zelo pomembna.
-
-{{tag>wip:rabi_slike}}

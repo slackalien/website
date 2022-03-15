@@ -1,73 +1,67 @@
 import * as React from "react"
-import { Helmet } from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
+import { GatsbySeo, AllSeoProps } from "gatsby-plugin-next-seo"
 
-type Props = {
-  title: string
-  meta?: any
-  description?: string
-  lang?: string
+const query = graphql`
+  query SeoQuery {
+    site {
+      siteMetadata {
+        title
+        siteUrl
+        description
+        author
+      }
+    }
+  }
+`
+
+type Props = AllSeoProps & {
+  pathname?: string
+  image?: {
+    src: string
+    height: number
+    width: number
+  }
 }
 
-const Seo = ({ title, description = "", lang = "en", meta = [] }: Props) => {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-            author
-          }
-        }
-      }
-    `
-  )
-
-  const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
-
+const Seo = ({
+  title,
+  description,
+  image,
+  pathname = "/",
+  ...props
+}: Props) => {
   return (
-    <Helmet
-      htmlAttributes={{
-        lang,
+    <StaticQuery
+      query={query}
+      render={({
+        site: {
+          siteMetadata: { siteUrl },
+        },
+      }) => {
+        return (
+          <GatsbySeo
+            title={title}
+            description={description}
+            metaTags={[{ name: "url", content: `${siteUrl}${pathname}` }]}
+            openGraph={{
+              title: `${title} | SlackAlien`,
+              url: `${siteUrl}${pathname}`,
+              images: image
+                ? [
+                    {
+                      url: `${siteUrl}${image.src}`,
+                      width: image.width,
+                      height: image.height,
+                      alt: title,
+                    },
+                  ]
+                : [],
+            }}
+            {...props}
+          />
+        )
       }}
-      title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : undefined}
-      meta={[
-        {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:title`,
-          content: title,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-      ].concat(meta)}
     />
   )
 }

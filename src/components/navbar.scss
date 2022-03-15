@@ -1,0 +1,65 @@
+$menu-icon-size: 30px;
+$menu-icon-unit: 5px;
+
+// theme
+.navbar-toggler {
+  border: none !important;
+  background-color: transparent !important;
+  .navbar-toggler-icon {
+    position: relative;
+    width: $menu-icon-size - 4;
+    height: $menu-icon-size;
+    background: none !important;
+    span {
+      background: #fff;
+      position: absolute;
+      width: 100%;
+      height: $menu-icon-unit - 3;
+      left: 0;
+      transform: rotate(0deg);
+      transition: 0.25s ease-in-out;
+    }
+  }
+
+  &.collapsed {
+    .navbar-toggler-icon {
+      span {
+        &:nth-child(1) {
+          top: 4px;
+        }
+        &:nth-child(2) {
+          top: $menu-icon-unit * 2 + 4;
+        }
+        &:nth-child(3) {
+          top: $menu-icon-unit * 2 + 4;
+        }
+        &:nth-child(4) {
+          top: $menu-icon-unit * 4 + 4;
+        }
+      }
+    }
+  }
+
+  &:not(.collapsed) {
+    .navbar-toggler-icon {
+      span {
+        &:nth-child(1) {
+          top: $menu-icon-unit * 2;
+          width: 0%;
+          left: 50%;
+        }
+        &:nth-child(2) {
+          transform: rotate(45deg);
+        }
+        &:nth-child(3) {
+          transform: rotate(-45deg);
+        }
+        &:nth-child(4) {
+          top: $menu-icon-unit * 2;
+          width: 0%;
+          left: 50%;
+        }
+      }
+    }
+  }
+}

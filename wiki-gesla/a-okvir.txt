@@ -1,5 +1,0 @@
-====== A-okvir ======
-
-//A-okvir// je podporna struktura, s katero odmaknemo [[skupna točka|skupno točko]] [[sidrišče|sidrišča]] od tal, da preprečimo [[abrazija|abrazijo]] ter olajšamo dostop do izhodišča [[visokica|visokice]]. Uporabimo ga, kadar so sidriščne točke bodisi precej odmaknjene od krajišča [[visokica|visokice]] bodisi se nahajajo zelo blizu tal (ali celo na tleh). A-okvir je najpogosteje izdelan iz treh lesenih tramov, zbitih v obliko črke A: pokončni stranici stojita na tleh, prečna povezava pa drži celo strukturo trdno. Skupna točka sidrišča je nameščena v prostor med njimi, podpira jo statična vrv, napeljana preko vrha ter stranic okvirja. 
-
-{{ :aokvir.jpg?400 |}}

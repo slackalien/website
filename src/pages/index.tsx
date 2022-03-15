@@ -1,28 +1,20 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import { Link, PageProps } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import DownIcon from "../icons/down-icon"
 
-/*
-<Link
-  className="btn btn-light btn-lg px-4 gap-3"
-  to="/vesoljska-mreza"
->
-  Kaj je vesoljska mreža?
-</Link>
-*/
+const scrollTo = (id: string) => {
+  const el = document.getElementById(id)
+  el && window.scrollTo(el.offsetLeft, el.offsetTop)
+}
 
-const IndexPage = () => {
-  const scrollTo = (id: string) => {
-    const el = document.getElementById(id)
-    el && window.scrollTo(el.offsetLeft, el.offsetTop)
-  }
+const IndexPage = ({ location }: PageProps) => {
   return (
     <Layout>
-      <Seo title="Domača stran" />
+      <Seo title="Domača stran" pathname={location.pathname} />
 
       <section id="domov" className="container col-xxl-10 px-4 min-vh-100">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5 min-vh-100">
@@ -69,7 +61,6 @@ const IndexPage = () => {
             <div className="col-lg-4 offset-lg-2">
               <StaticImage
                 src="../images/prva/visokovalci.svg"
-                layout="fullWidth"
                 width={400}
                 alt=""
                 className="img-fluid"
@@ -307,7 +298,10 @@ const IndexPage = () => {
                 oči?
               </p>
               <div className="d-grid gap-2 d-sm-flex">
-                <Link className="btn btn-light btn-lg px-4 gap-3" to="/wiki">
+                <Link
+                  className="btn btn-light btn-lg px-4 gap-3"
+                  to="/prirocnik"
+                >
                   Pripravljen sem!
                 </Link>
               </div>
