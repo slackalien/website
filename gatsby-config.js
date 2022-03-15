@@ -110,11 +110,11 @@ module.exports = {
             },
           ],
         },
-        //twitter: {
-        //  handle: `@handlea`,
-        //  site: `@sitea`,
-        //  cardType: `summary_large_image`,
-        //},
+        twitter: {
+          //handle: `@handlea`,
+          //site: `@sitea`,
+          cardType: `summary_large_image`,
+        },
         //facebook: {
         //  appId: `1234567890`,
         //},
