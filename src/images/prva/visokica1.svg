@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="993.02985"
+   width="1400"
    height="1008.3081"
    version="1.1"
-   viewBox="0 0 993.02987 1008.3081"
+   viewBox="0 0 1400 1008.3081"
    xml:space="preserve"
    id="svg432"
-   sodipodi:docname="visokica.svg"
+   sodipodi:docname="visokica1.svg"
    inkscape:version="1.1.2 (76b9e6a115, 2022-02-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -21,18 +21,19 @@
      inkscape:pagecheckerboard="1"
      showgrid="false"
      inkscape:zoom="0.50815032"
-     inkscape:cx="485.09268"
-     inkscape:cy="506.73982"
-     inkscape:window-width="1532"
+     inkscape:cx="536.25864"
+     inkscape:cy="613.00758"
+     inkscape:window-width="1536"
      inkscape:window-height="836"
-     inkscape:window-x="68"
-     inkscape:window-y="27"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="g430"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" /><defs
+     fit-margin-bottom="0"
+     width="1400px" /><defs
      id="defs44"><clipPath
        id="clipPath18"><path
          d="M 0,980 H 1400 V 0 H 0 Z"
@@ -82,7 +83,8 @@
        clip-path="url(#clipPath18)"
        id="g58"
        style="display:inline"
-       inkscape:label="krog"><g
+       inkscape:label="krog"
+       transform="translate(152.25381)"><g
          transform="translate(1054,498.62)"
          id="g50"><path
            d="m 0,0 c 0,-201.36 -163.24,-364.6 -364.6,-364.6 -201.36,0 -364.6,163.24 -364.6,364.6 0,201.36 163.24,364.6 364.6,364.6 C -163.23,364.6 0,201.36 0,0"
@@ -95,7 +97,7 @@
              d="m 0,0 c 0,-201.36 -163.24,-364.6 -364.6,-364.6 -201.36,0 -364.6,163.24 -364.6,364.6 0,201.36 163.24,364.6 364.6,364.6 C -163.23,364.6 0,201.36 0,0"
              fill="#61d4c9"
              id="path52" /></g></g></g><g
-       transform="translate(0,0.225)"
+       transform="translate(152.25381,0.225)"
        display="inline"
        id="g84"
        inkscape:label="sonce"><g
@@ -134,7 +136,8 @@
        clip-path="url(#clipPath194)"
        id="g124"
        style="display:inline"
-       inkscape:label="gora"><g
+       inkscape:label="gora"
+       transform="translate(152.25381)"><g
          transform="translate(294.13,351.41)"
          id="g88"><path
            d="m 0,0 60.489,54.212 h 5.706 l 17.691,-22.256 13.125,2.854 30.815,-15.409 8.559,7.704 11.984,-2.567 42.799,43.94 7.989,-3.995 5.118,5.905 4.421,-2.464 h 5.146 l 4.421,4.929 16.885,-4.422 10.727,1.594 30.656,-7.827 13.915,2.826 3.913,0.508 5.219,-1.522 18.118,5.87 3.407,5.942 15.771,12.533 4.565,5.612 12.364,7.133 14.551,11.318 h 0.952 l 25.774,-14.837 11.128,-0.286 11.223,-5.516 2.853,0.096 1.712,-0.191 8.369,-8.465 12.936,-5.231 2.947,0.191 6.183,-4.375 23.872,-13.03 11.983,0.286 3.424,-0.952 10.652,2.092 18.831,-12.744 9.702,-0.095 4.28,-1.141 8.75,3.803 12.078,2.093 14.647,9.796 1.522,-0.095 20.067,-6.753 c 0,0 3.424,0.191 3.71,0 0.285,-0.19 6.182,0.286 6.182,0.286 l 9.32,2.758 7.895,-2.568 10.747,6.658 2.187,-0.191 6.943,-3.328 15.598,-4.47 11.603,-9.512 17.69,-4.279 9.891,1.046 14.932,5.326 11.508,-3.994 5.707,1.901 3.805,-0.57 7.988,-4.09 11.128,5.992 c 0.666,0.096 4.66,-2.948 4.66,-2.948 C 753.62692,-355.039 -0.867,-345.279 0.003,0 Z"
@@ -184,7 +187,8 @@
        clip-path="url(#clipPath380)"
        id="g256"
        style="display:inline"
-       inkscape:label="stena"><g
+       inkscape:label="stena"
+       transform="translate(152.25381)"><g
          id="g1545"
          inkscape:label="stena desno"><g
            transform="translate(1093,442.66)"
@@ -381,7 +385,8 @@
              stroke-miterlimit="10"
              id="path274" /></g></g></g><g
        id="g424"
-       inkscape:label="nebo"><g
+       inkscape:label="nebo"
+       transform="translate(152.25381)"><g
          id="g1386"
          inkscape:label="ptice"><g
            transform="translate(695.37,751.58)"

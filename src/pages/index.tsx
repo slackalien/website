@@ -137,7 +137,7 @@ const IndexPage = ({ location }: PageProps) => {
           <div className="row align-items-center g-5 py-5 min-vh-100">
             <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
-                src="../images/prva/visokovalci.svg"
+                src="../images/prva/visokica1.svg"
                 width={800}
                 alt=""
                 className="img-fluid"
@@ -183,7 +183,7 @@ const IndexPage = ({ location }: PageProps) => {
           <div className="row flex-lg-row-reverse align-items-center g-5 py-5 min-vh-100">
             <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
-                src="../images/prva/visokica.svg"
+                src="../images/prva/visokica2.svg"
                 width={400}
                 alt=""
                 className="img-fluid"
@@ -230,7 +230,7 @@ const IndexPage = ({ location }: PageProps) => {
           <div className="row align-items-center g-5 py-5 min-vh-100">
             <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
-                src="../images/prva/visokovanje.svg"
+                src="../images/prva/visokica3.svg"
                 width={500}
                 alt=""
                 className="img-fluid"
