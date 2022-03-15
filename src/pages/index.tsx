@@ -55,6 +55,7 @@ const IndexPage = ({ location }: PageProps) => {
       />
       */}
 
+      {/*
       <section className="border-top border-light pt-5">
         <div className="container col-xxl-10 px-4">
           <div className="row align-items-center g-5 py-5 min-vh-100">
@@ -129,6 +130,7 @@ const IndexPage = ({ location }: PageProps) => {
           </div>
         </div>
       </section>
+      */}
 
       <section id="visokovalci" className="border-top border-light">
         <div className="container col-xxl-10 px-4">
@@ -298,10 +300,7 @@ const IndexPage = ({ location }: PageProps) => {
                 oči?
               </p>
               <div className="d-grid gap-2 d-sm-flex">
-                <Link
-                  className="btn btn-light btn-lg px-4 gap-3"
-                  to="/prirocnik"
-                >
+                <Link className="btn btn-light btn-lg px-4 gap-3" to="/start">
                   Pripravljen sem!
                 </Link>
               </div>
