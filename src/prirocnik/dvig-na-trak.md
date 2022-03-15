@@ -8,7 +8,7 @@ Izhodiščni položaj za dvig je, da se za trak držimo z obema rokama, stopalo 
 
 ## Začetniške napake
 
-Manever je, ko ga opravi izkušen človek, videti povsem preprost in tak tudi v resnici je - a mučenje z začetnimi poskusi vseeno marsikoga prepriča v nasprotno. V pomoč naj navedemo nekaj najpogostejših začetniških napak:
+Manever je, ko ga opravi izkušen človek, videti povsem preprost in tak tudi v resnici je – a mučenje z začetnimi poskusi vseeno marsikoga prepriča v nasprotno. V pomoč naj navedemo nekaj najpogostejših začetniških napak:
 
 - Daleč najpogostejša napaka je, da telesa ne dovolj približamo traku. S tem teža trupa nasprotuje teži iztegnjene noge in do obrata ne pride. Za uspešen obrat je torej _nujno_, da smo povsem "prilepljeni" na trak. Boke naj dviguje predvsem za trak zataknjena noga, zgornji del telesa pa roke. Priporočljivo je, da roki nekoliko razmaknemo po traku: ena naj bo pri vrhu prsnega koša, druga pa na njegovi sredini. V nasprotju s prepričanjem začetnikov za dvig _ni_ potrebna izjemna moč v rokah, saj moramo z njimi dvigniti le zgornjo polovico telesa, poleg tega pa je treba v dvignjenem položaju vztrajati le zelo kratek čas.
 
@@ -18,4 +18,4 @@ Manever je, ko ga opravi izkušen človek, videti povsem preprost in tak tudi v 
 
 - Marsikateremu začetniku ali začetnici se zdi bolj intuitivno, da bi se z nogo preko traku obesil tako, da trak poteka pod kolenom namesto pod peto. Četudi se je v tem položaju mogoče uspešno obrniti, ga ne priporočamo, saj močan pritisk traku na mehko kožo pod kolenom že pri enem samem poskusu navadno povzroči spektakularne podplutbe. Ahilova tetiva je na pritisk bistveno bolj odporna.
 
-- Ljudje z veliko moči v rokah - tipično tisti, ki se ukvarjajo tudi s plezanjem - po spodletelem poskusu ali dvema radi obupajo in se odločijo, da se bodo na trak raje povzpeli kar z golo silo, kot bi se dvigovali na skalno polico. To seveda deluje, a pobere ogromno energije. Predlagamo, da prednost svoje moči raje izkoristijo tako, da si dovolijo več poskusov, in uspeh zagotovo ne bo izostal.
+- Ljudje z veliko moči v rokah – tipično tisti, ki se ukvarjajo tudi s plezanjem – po spodletelem poskusu ali dvema radi obupajo in se odločijo, da se bodo na trak raje povzpeli kar z golo silo, kot bi se dvigovali na skalno polico. To seveda deluje, a pobere ogromno energije. Predlagamo, da prednost svoje moči raje izkoristijo tako, da si dovolijo več poskusov, in uspeh zagotovo ne bo izostal.

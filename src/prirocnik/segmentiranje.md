@@ -8,7 +8,7 @@ Segmentiranje ima znatne praktične prednosti pri postavljanju dolgih visokic:
 
 - Prenašanje opreme na lokacijo je lažje: posamezne kose trakov lahko razporedimo med več nosačev in trakove sestavimo šele na licu mesta.
 - Za vsako visokico prinesemo le toliko traku, kolikor ga zares potrebujemo.
-- Kombiniramo lahko obstoječe trakove različnih lastnikov - ni treba nabavljati namenskih dolgih trakov za velike projekte.
+- Kombiniramo lahko obstoječe trakove različnih lastnikov – ni treba nabavljati namenskih dolgih trakov za velike projekte.
 - Če pride do poškodbe kakega od segmentov, to ne preprečuje nadaljnje uporabe vseh ostalih.
 
 ## Varnostni vidik

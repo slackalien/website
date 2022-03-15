@@ -12,9 +12,9 @@ Trakovi se med seboj v grobem ločijo po materialu, širini in načinu pletenja.
 
 Najpogosteje se za izdelavo traku uporabljajo naslednji materiali:
 
-- poliamid (najlon) - zelo elastični in mehki trakovi;
-- poliester - trakovi z manjšo elastičnostjo, primerni za večje razdalje;
-- [UHMWPE](https://en.wikipedia.org/wiki/UHMWPE) (Dyneema) - trakovi z zelo majhno elastičnostjo, za ekstremne razdalje.
+- poliamid (najlon) – zelo elastični in mehki trakovi;
+- poliester – trakovi z manjšo elastičnostjo, primerni za večje razdalje;
+- [UHMWPE](https://en.wikipedia.org/wiki/UHMWPE) (Dyneema) – trakovi z zelo majhno elastičnostjo, za ekstremne razdalje.
 
 Sestava traku je lahko tudi kombinirana: tako imajo, na primer, nekateri trakovi za ekstremne razdalje sredico izdelano iz UHMWPE, plašč pa iz poliestra. Pri tem zunanja poliestrska plast dela trak udobnejši za hojo, hkrati pa ščiti nosilno sredico pred [abrazijo](abrazija).
 
@@ -30,7 +30,7 @@ Tudi pri vrsti pletenja lahko trakove v grobem razdelimo v nekaj kategorij:
 
 Za slackline se najpogosteje uporabljajo trakovi širine 2,5 cm. Izjema so kratki, začetniški trakovi, ki so navadno širši (3,5 cm ali 5 cm) ter trakovi za izvajanje trikov, ki so široki 5 cm. Kljub splošno razširjenemu prepričanju začetnikov, da je hoja po širšem traku enostavnejša, širina traku na težavnost ne vpliva bistveno. Mnogi slacklinerji sčasoma pridejo celo do zaključka, da je klasičen 2,5-centimetrski trak pravzaprav prijetnejši za hojo. Razlog za uporabo širših trakov v začetniških kompletih je bržkone dejstvo, da lahko proizvajalci preprosto priložijo kar standardne tovorne 5-centimetrske napenjalne mehanizme.
 
-Na [visokicah](visokica) se skoraj izključno uporabljajo trakovi širine 2,5 cm, in za to širino je izdelana tudi vsa namenska oprema (npr. [banane](banana)). V posebnih primerih - visokice, dolge kilometer ali več - se v zadnjem času uveljavlja uporaba celo ožjih trakov (med 1,7 in 2,5 cm), ker z njimi zmanjšamo obremenitve traku zaradi vetra.
+Na [visokicah](visokica) se skoraj izključno uporabljajo trakovi širine 2,5 cm, in za to širino je izdelana tudi vsa namenska oprema (npr. [banane](banana)). V posebnih primerih – visokice, dolge kilometer ali več – se v zadnjem času uveljavlja uporaba celo ožjih trakov (med 1,7 in 2,5 cm), ker z njimi zmanjšamo obremenitve traku zaradi vetra.
 
 ## Karakteristike
 

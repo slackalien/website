@@ -4,7 +4,7 @@ _Pomožni trak_ je eden od dveh [trakov](trak), ki sestavljata [visokico](visoki
 
 ## Izbira in razmislek o varnosti
 
-Zaradi njegove pomembne varnostne vloge je treba pomožni trak pazljivo izbrati in temeljito premisliti njegovo postavitev. V primeru odpovedi glavnega traku pomožni trak teže visokovalca ne prevzame takoj, zato najprej sledi vsaj nekaj metrov padca, ki ga mora pomožni trak - ko se naposled napne - primerno ublažiti. S tega vidika je za pomožni trak bolje uporabiti trak z večjim [raztezkom](raztezek), saj so v tem primeru telo visokovalca ter komponente sistema izpostavljene manjšim silam. Pri tem igra vlogo tudi dolžina pomožnega traku - večja ko je, globlji je padec in večje so sile. V primeru nižjih visokic je treba prevprašati tudi možnost, da bi na dnu takega padca visokovalec že zadel tla.
+Zaradi njegove pomembne varnostne vloge je treba pomožni trak pazljivo izbrati in temeljito premisliti njegovo postavitev. V primeru odpovedi glavnega traku pomožni trak teže visokovalca ne prevzame takoj, zato najprej sledi vsaj nekaj metrov padca, ki ga mora pomožni trak – ko se naposled napne – primerno ublažiti. S tega vidika je za pomožni trak bolje uporabiti trak z večjim [raztezkom](raztezek), saj so v tem primeru telo visokovalca ter komponente sistema izpostavljene manjšim silam. Pri tem igra vlogo tudi dolžina pomožnega traku – večja ko je, globlji je padec in večje so sile. V primeru nižjih visokic je treba prevprašati tudi možnost, da bi na dnu takega padca visokovalec že zadel tla.
 
 Kljub temu, da je krajši pomožni trak varnejši, s krajšanjem vseeno ne gre pretiravati, saj se s prekratkim pomožnim trakom odrečemo njegovi stabilizacijski vlogi. Čista skrajnost, ko je pomožni trak stisnjen ob glavnega, ni priporočljiva tudi zato, ker lahko isti neljubi dejavnik poškoduje oba hkrati.
 
@@ -12,7 +12,7 @@ Ker je vse omenjene vidike težko pretehtati "na oko", je na spletni strani Medn
 
 ## Zanke
 
-Pred [postavljanjem](postavljanje) visokice je treba pomožni trak pripeti na glavnega, da se ustvarijo zanke. To storimo s kosi lepilnega traku, ki jih prilepimo tako, da se enega od trakov oprimejo, drugi pa lahko prosto drsi skoznje. Pri tem moramo biti pozorni, da so razdalje med lepilnimi trakovi čim bolj raznolike, saj le tako primerno dušijo tresljaje glavnega traku. Če so si zanke po velikosti preveč podobne, dosežemo namreč prav nasproten učinek - na napeti visokici zanihajo vse obenem in lovljenje ravnotežja postane težje. Tipične dolžine zank se gibljejo v območju med dvema in petimi metri, porazdeliti pa jih poskusimo čim bolj naključno.
+Pred [postavljanjem](postavljanje) visokice je treba pomožni trak pripeti na glavnega, da se ustvarijo zanke. To storimo s kosi lepilnega traku, ki jih prilepimo tako, da se enega od trakov oprimejo, drugi pa lahko prosto drsi skoznje. Pri tem moramo biti pozorni, da so razdalje med lepilnimi trakovi čim bolj raznolike, saj le tako primerno dušijo tresljaje glavnega traku. Če so si zanke po velikosti preveč podobne, dosežemo namreč prav nasproten učinek – na napeti visokici zanihajo vse obenem in lovljenje ravnotežja postane težje. Tipične dolžine zank se gibljejo v območju med dvema in petimi metri, porazdeliti pa jih poskusimo čim bolj naključno.
 
 ## Nameščanje
 

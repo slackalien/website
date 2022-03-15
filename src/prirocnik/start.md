@@ -10,7 +10,7 @@ Dobrodošel, dobrodošla na slovenskem visokovalskem priročniku. Poslanstvo te 
 
 ## Kaj je visokovanje?
 
-Visokovanje ena od različic hoje po napetem traku ([slackline](slackline)), pri kateri je trak postavljen na veliki višini - od vsaj nekaj deset metrov nad tlemi, pa tudi do več sto. Takšna postavitev omogoča povsem svojevrstno izkušnjo, a obenem zahteva posebno opremo, znanje ter pristope, ki zagotavljajo, da je podvig tudi varen.
+Visokovanje ena od različic hoje po napetem traku ([slackline](slackline)), pri kateri je trak postavljen na veliki višini – od vsaj nekaj deset metrov nad tlemi, pa tudi do več sto. Takšna postavitev omogoča povsem svojevrstno izkušnjo, a obenem zahteva posebno opremo, znanje ter pristope, ki zagotavljajo, da je podvig tudi varen.
 
 ![Andrej Bvaščeva](images/andrej-bvasceva.jpg)
 
