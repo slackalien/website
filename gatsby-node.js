@@ -51,8 +51,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   if (pages.length > 0) {
     pages.forEach(post => {
+      console.log("createPage", `/prirocnik/${post.fields.slug}`)
       createPage({
-        path: post.fields.slug,
+        path: `/prirocnik/${post.fields.slug}`,
+        //path: post.fields.slug,
         component: template,
         context: {
           id: post.id,

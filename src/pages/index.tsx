@@ -21,9 +21,9 @@ const IndexPage = ({ location }: PageProps) => {
           <div className="col-lg-6 d-flex justify-content-center mt-4 mt-md-0">
             <StaticImage
               src="../images/logo/slackalien-abduction.png"
-              width={400}
-              alt="SlackAlien"
               className="img-fluid"
+              alt="SlackAlien"
+              width={400}
             />
           </div>
           <div className="col-lg-6">
@@ -49,87 +49,10 @@ const IndexPage = ({ location }: PageProps) => {
       {/*
       <StaticImage
         src="../images/prva/black.jpg"
-        width={1920}
-        alt=""
         className="img-fluid d-none"
+        alt=""
+        width={1920}
       />
-      */}
-
-      {/*
-      <section className="border-top border-light pt-5">
-        <div className="container col-xxl-10 px-4">
-          <div className="row align-items-center g-5 py-5 min-vh-100">
-            <div className="col-lg-4 offset-lg-2">
-              <StaticImage
-                src="../images/prva/visokovalci.svg"
-                width={400}
-                alt=""
-                className="img-fluid"
-              />
-            </div>
-            <div className="col-lg-4 offset-lg-1">
-              <h1 className="fw-bold lh-1 mb-3">Visokovalci</h1>
-              <p className="lead">
-                Smo fantje in dekleta vseh starosti, ki se ločimo od mlačne
-                povprečnosti v dolini predvsem po tem, da želimo svojim
-                strahovom pogledati naravnost v oči in jih pustiti nekje v
-                preteklosti.
-              </p>
-            </div>
-            <div className="col-lg-8">
-              <StaticImage
-                src="../images/prva/visokovalci-svetla.svg"
-                width={800}
-                alt=""
-                className="img-fluid"
-              />
-            </div>
-            <div className="col-lg-4">
-              <h1 className="fw-bold lh-1 mb-3">Visokovalci</h1>
-              <p className="lead">
-                Smo fantje in dekleta vseh starosti, ki se ločimo od mlačne
-                povprečnosti v dolini predvsem po tem, da želimo svojim
-                strahovom pogledati naravnost v oči in jih pustiti nekje v
-                preteklosti.
-              </p>
-            </div>
-            <div className="col-lg-8">
-              <StaticImage
-                src="../images/prva/visokovalci-temna.svg"
-                width={800}
-                alt=""
-                className="img-fluid"
-              />
-            </div>
-            <div className="col-lg-4">
-              <h1 className="fw-bold lh-1 mb-3">Visokovalci</h1>
-              <p className="lead">
-                Smo fantje in dekleta vseh starosti, ki se ločimo od mlačne
-                povprečnosti v dolini predvsem po tem, da želimo svojim
-                strahovom pogledati naravnost v oči in jih pustiti nekje v
-                preteklosti.
-              </p>
-            </div>
-            <div className="col-lg-8">
-              <StaticImage
-                src="../images/prva/visokovalci-alt.svg"
-                width={800}
-                alt=""
-                className="img-fluid"
-              />
-            </div>
-            <div className="col-lg-4">
-              <h1 className="fw-bold lh-1 mb-3">Visokovalci</h1>
-              <p className="lead">
-                Smo fantje in dekleta vseh starosti, ki se ločimo od mlačne
-                povprečnosti v dolini predvsem po tem, da želimo svojim
-                strahovom pogledati naravnost v oči in jih pustiti nekje v
-                preteklosti.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
       */}
 
       <section id="visokovalci" className="border-top border-light">
@@ -138,9 +61,9 @@ const IndexPage = ({ location }: PageProps) => {
             <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
                 src="../images/prva/visokica1.svg"
-                width={800}
-                alt=""
                 className="img-fluid"
+                alt="Visokovalci"
+                width={600}
               />
             </div>
             <div className="col-lg-6">
@@ -172,9 +95,9 @@ const IndexPage = ({ location }: PageProps) => {
       {/*
       <StaticImage
         src="../images/prva/trees.jpg"
-        width={1920}
-        alt=""
         className="img-fluid d-none"
+        alt=""
+        width={1920}
       />
       */}
 
@@ -184,9 +107,9 @@ const IndexPage = ({ location }: PageProps) => {
             <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
                 src="../images/prva/visokica2.svg"
-                width={400}
-                alt=""
                 className="img-fluid"
+                alt="Visokica"
+                width={600}
               />
             </div>
             <div className="col-lg-6">
@@ -219,9 +142,9 @@ const IndexPage = ({ location }: PageProps) => {
       {/*
       <StaticImage
         src="../images/prva/sky.jpg"
-        width={1920}
-        alt=""
         className="img-fluid d-none"
+        alt=""
+        width={1920}
       />
       */}
 
@@ -231,9 +154,9 @@ const IndexPage = ({ location }: PageProps) => {
             <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
                 src="../images/prva/visokica3.svg"
-                width={500}
-                alt=""
                 className="img-fluid"
+                alt="Visokovanje"
+                width={600}
               />
             </div>
             <div className="col-lg-6">
@@ -262,9 +185,9 @@ const IndexPage = ({ location }: PageProps) => {
       {/*
       <StaticImage
         src="../images/prva/orange.jpg"
-        width={1920}
-        alt=""
         className="img-fluid d-none"
+        alt=""
+        width={1920}
       />
       */}
 
@@ -274,9 +197,9 @@ const IndexPage = ({ location }: PageProps) => {
             <div className="col-lg-6 d-flex justify-content-center">
               <StaticImage
                 src="../images/logo/slackalien.svg"
-                width={400}
-                alt="SlackAlien"
                 className="img-fluid mb-4"
+                alt="SlackAlien"
+                width={500}
               />
             </div>
             <div className="col-lg-6">
@@ -312,9 +235,9 @@ const IndexPage = ({ location }: PageProps) => {
       {/*
       <StaticImage
         src="../images/prva/purple.jpg"
-        width={1280}
-        alt="Space Net"
         className="img-fluid w-100"
+        alt="Space Net"
+        width={1280}
       />
       */}
     </Layout>

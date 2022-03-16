@@ -12,10 +12,11 @@ Bojč
 - [x] kreiraj slackalien gatsby account
 - [x] kreiraj slackalien netlify account
 - [x] publishaj začasno stran na slackalien.netlify.app
+- [x] zamenjaj default bootstrap menu ikono
 - [x] dodaj social sharing meta tags
+- [ ] prestavi priročnik na /prirocik
 - [ ] zadnje instagram slike
 - [ ] zadnji facebook posti
-- [ ] zamenjaj default bootstrap menu ikono
 - [ ] preveri kako je najbolš tri domene in ena stran
 
 Tim
