@@ -37,13 +37,10 @@ const Navbar = ({ siteTitle }: any) => {
         <div className="collapse navbar-collapse" id="main-navbar">
           <ul className="navbar-nav me-auto mb-2 mb-md-0">
             <li className="nav-item">
-              <ExactNavLink to="/o-nas">O nas</ExactNavLink>
-            </li>
-            <li className="nav-item">
-              <ExactNavLink to="/visokica">Visokica</ExactNavLink>
-            </li>
-            <li className="nav-item">
               <ExactNavLink to="/delavnice">Delavnice</ExactNavLink>
+            </li>
+            <li className="nav-item">
+              <ExactNavLink to="/prirocnik/start">Priročnik</ExactNavLink>
             </li>
             <li className="nav-item">
               <ExactNavLink to="/vesoljska-mreza">Vesoljska mreža</ExactNavLink>
@@ -54,7 +51,7 @@ const Navbar = ({ siteTitle }: any) => {
               </ExactNavLink>
             </li>
             <li className="nav-item">
-              <ExactNavLink to="/slovar">Slovar</ExactNavLink>
+              <ExactNavLink to="/o-nas">O nas</ExactNavLink>
             </li>
             <li className="nav-item">
               <ExactNavLink to="/kontakt">Kontakt</ExactNavLink>

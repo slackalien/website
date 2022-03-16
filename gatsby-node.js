@@ -11,7 +11,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
+    const value = createFilePath({ node, getNode }).replace(/\/$/, "")
 
     createNodeField({
       name: `slug`,
@@ -51,10 +51,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   if (pages.length > 0) {
     pages.forEach(post => {
-      console.log("createPage", `/prirocnik/${post.fields.slug}`)
       createPage({
-        path: `/prirocnik/${post.fields.slug}`,
-        //path: post.fields.slug,
+        path: `/prirocnik${post.fields.slug}`,
         component: template,
         context: {
           id: post.id,
