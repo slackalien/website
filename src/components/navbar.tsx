@@ -40,7 +40,9 @@ const Navbar = ({ siteTitle }: any) => {
               <ExactNavLink to="/delavnice">Delavnice</ExactNavLink>
             </li>
             <li className="nav-item">
-              <ExactNavLink to="/prirocnik/start">Priročnik</ExactNavLink>
+              <ExactNavLink to="/prirocnik/">
+                Visokovalski priročnik
+              </ExactNavLink>
             </li>
             <li className="nav-item">
               <ExactNavLink to="/vesoljska-mreza">Vesoljska mreža</ExactNavLink>
