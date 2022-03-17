@@ -4,6 +4,8 @@ _Banana_[^1] je pripomoček, v katerega vpnemo [trak](trak), da ga lahko pritrdi
 
 [^1]: Izraz izvira iz časov zgodnjih različic tega pripomočka, ki so po obliki spominjale na banano. Sodobne izvedbe so lahko precej drugačnih oblik, zato asociacija dostikrat ni več očitna, izraz pa se je vseeno ohranil.
 
+![Različne izvedbe banan](images/banane.jpg)
+
 Trak v banano vpnemo tako, da ga najprej na želenem mestu preganemo v zanko; pramen traku, ki ga kanimo obremeniti, leži zgoraj. Zanko ovijemo za skoraj poln ovoj okoli osrednje osi banane, nato pa odstranimo prednjo os in jo namestimo nazaj tako, da poteka skozi vrh zanke. Banana trak zadrži zaradi trenja med pramenoma v zanki: zunanji pramen traku ob obremenitvi stisne notranjega ob osrednjo os ter s tem prepreči zdrs. Drsenje v drugi smeri je še vedno mogoče, kar s pridom izkoriščamo za to, da z potegom neobremenjenega pramena odstranimo odvečen trak iz sistema.
 
 Na [visokicah](visokica) banano namestimo na [napenjalni strani](napenjalna-stran), na statični pa zaradi prihranka pri masi opreme običajno raje uporabimo [šivano zanko](sivana-zanka). V kombinaciji z [mačkom](macek) in [primežem](primez) banana služi tudi kot preprost [napenjalni sistem](napenjalni-sistem), s katerim lahko z relativno malo truda dosežemo [napetosti](napetost) do približno 3 kN, kar je za večino visokic povsem dovolj. Za večje sile ali napenjanje z manj truda lahko z dodatnimi mački učinkovitost takega napenjalnega sistema še povečamo.

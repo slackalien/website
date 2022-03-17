@@ -2,9 +2,9 @@
 
 Elastičen tekstilni _trak_ je osrednji rekvizit pri vseh različicah [slacklina](slackline). Prvotno se je za slackline uporabljal plezalski najlonski trak širine 2,5 cm, a z širšim razmahom tega športa se je na tržišču pojavilo še mnogo drugačnih trakov z različnimi lastnostmi. Izbira traku tako je odvisna od predvidene dolžine relacij, želene elastičnosti traku, njegove nosilnosti, vrste uporabe (hoja, izvajanje trikov), odpornosti na okoljske vplive ter drugih dejavnikov.
 
-## Vrste
+![Najlonski trak širine 25 mm](images/trak.jpg)
 
-![Trak](images/trak.jpg)
+## Vrste
 
 Trakovi se med seboj v grobem ločijo po materialu, širini in načinu pletenja. Te značilnosti močno vplivajo na lastnosti traku in ga delajo bolj ali manj primernega za specifične podkategorije slacklina.
 
@@ -46,3 +46,5 @@ Lastnosti trakov običajno opredelimo z navedbo naslednjih karakteristik:
 - [raztezek](raztezek)
 
 Za uporabo na visokicah je standardna zahteva, da ima trak [minimalno porušno silo](minimalna-porusna-sila) nad 25 kN.
+
+![Kosi različnih vrst trakov z njihovimi karakteristikami](images/vrste-trakov.jpg)
