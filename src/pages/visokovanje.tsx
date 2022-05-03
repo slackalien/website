@@ -6,95 +6,76 @@ import type { PageProps } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const OpremaInVarnostPage = ({ location }: PageProps) => (
+const VisokovanjePage = ({ location }: PageProps) => (
   <Layout>
-    <Seo title="Oprema in varnost" pathname={location.pathname} />
+    <Seo title="Visokovanje" pathname={location.pathname} />
     <div className="container py-5">
-      <h1>Oprema in varnost</h1>
+      <h1>Visokovanje</h1>
       <p>
-        Varnost je naša prva prioriteta. Na trak vedno stopamo navezani. Oprema
-        je profesionalna in namenjena zgolj vesoljcem.
+        Visokovanje oziroma po angleško <i>highline</i>, je oblika hoje po vrvi
+        na višini.
       </p>
-
       <Masonry
         breakpointCols={3}
         className="masonry mt-5"
         columnClassName="masonry-column"
       >
         <StaticImage
-          src="../images/oprema-in-varnost/laser-walkie-talkie.jpg"
+          src="../images/visokica/ajdna.jpg"
           alt=""
           className="img-fluid"
           width={360}
         />
         <StaticImage
-          src="../images/oprema-in-varnost/oprema.jpg"
+          src="../images/visokica/dovska.jpg"
           alt=""
           className="img-fluid"
           width={360}
         />
         <StaticImage
-          src="../images/oprema-in-varnost/banananjam.jpg"
+          src="../images/visokica/krivulja.jpg"
           alt=""
           className="img-fluid"
           width={360}
         />
         <StaticImage
-          src="../images/oprema-in-varnost/hangover.jpg"
+          src="../images/visokica/linije2.jpg"
           alt=""
           className="img-fluid"
           width={360}
         />
         <StaticImage
-          src="../images/oprema-in-varnost/a-frame.jpg"
+          src="../images/visokica/zeleno.jpg"
           alt=""
           className="img-fluid"
           width={360}
         />
         <StaticImage
-          src="../images/oprema-in-varnost/izdelava-sidrisca.jpg"
+          src="../images/visokica/sorca.jpg"
           alt=""
           className="img-fluid"
           width={360}
         />
         <StaticImage
-          src="../images/oprema-in-varnost/leash-ring.jpg"
+          src="../images/visokica/letalo.jpg"
           alt=""
           className="img-fluid"
           width={360}
         />
         <StaticImage
-          src="../images/oprema-in-varnost/vrtanje.jpg"
+          src="../images/visokica/linije.jpg"
           alt=""
           className="img-fluid"
           width={360}
         />
         <StaticImage
-          src="../images/oprema-in-varnost/padec.jpg"
+          src="../images/visokica/nocna.jpg"
           alt=""
           className="img-fluid"
           width={360}
         />
         <StaticImage
-          src="../images/oprema-in-varnost/padec2.jpg"
-          alt=""
-          className="img-fluid"
-          width={360}
-        />
-        <StaticImage
-          src="../images/oprema-in-varnost/space-net.jpg"
-          alt=""
-          className="img-fluid"
-          width={360}
-        />
-        <StaticImage
-          src="../images/oprema-in-varnost/safety-first.jpg"
-          alt=""
-          className="img-fluid"
-          width={360}
-        />
-        <StaticImage
-          src="../images/oprema-in-varnost/padec3.jpg"
+          src="../images/visokica/zahod.jpg"
           alt=""
           className="img-fluid"
           width={360}
@@ -104,4 +85,4 @@ const OpremaInVarnostPage = ({ location }: PageProps) => (
   </Layout>
 )
 
-export default OpremaInVarnostPage
+export default VisokovanjePage

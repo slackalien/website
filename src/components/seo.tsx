@@ -1,19 +1,17 @@
 import * as React from "react"
-import { StaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import { GatsbySeo, AllSeoProps } from "gatsby-plugin-next-seo"
 
-const query = graphql`
-  query SeoQuery {
-    site {
-      siteMetadata {
-        title
-        siteUrl
-        description
-        author
-      }
+type Data = {
+  site: {
+    siteMetadata: {
+      title: string
+      siteUrl: string
+      description: string
+      author: string
     }
   }
-`
+}
 
 type Props = AllSeoProps & {
   pathname?: string
@@ -31,37 +29,41 @@ const Seo = ({
   pathname = "/",
   ...props
 }: Props) => {
+  const data = useStaticQuery<Data>(graphql`
+    query SeoQuery {
+      site {
+        siteMetadata {
+          title
+          siteUrl
+          description
+          author
+        }
+      }
+    }
+  `)
+
+  const siteUrl = data.site.siteMetadata.siteUrl
+
   return (
-    <StaticQuery
-      query={query}
-      render={({
-        site: {
-          siteMetadata: { siteUrl },
-        },
-      }) => {
-        return (
-          <GatsbySeo
-            title={title}
-            description={description}
-            metaTags={[{ name: "url", content: `${siteUrl}${pathname}` }]}
-            openGraph={{
-              title: `${title} | SlackAlien`,
-              url: `${siteUrl}${pathname}`,
-              images: image
-                ? [
-                    {
-                      url: `${siteUrl}${image.src}`,
-                      width: image.width,
-                      height: image.height,
-                      alt: title,
-                    },
-                  ]
-                : [],
-            }}
-            {...props}
-          />
-        )
+    <GatsbySeo
+      title={title}
+      description={description}
+      metaTags={[{ name: "url", content: `${siteUrl}${pathname}` }]}
+      openGraph={{
+        title: `${title} | SlackAlien`,
+        url: `${siteUrl}${pathname}`,
+        images: image
+          ? [
+              {
+                url: `${siteUrl}${image.src}`,
+                width: image.width,
+                height: image.height,
+                alt: title,
+              },
+            ]
+          : [],
       }}
+      {...props}
     />
   )
 }

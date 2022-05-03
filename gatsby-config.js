@@ -16,6 +16,7 @@ module.exports = {
     author: `Bojan Hribernik`,
     siteUrl: URL,
   },
+  trailingSlash: `ignore`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
