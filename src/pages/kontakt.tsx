@@ -13,7 +13,7 @@ const ContactPage = ({ location }: PageProps) => (
     <div className="container py-5">
       <h1>Kontakt</h1>
       <p>
-        SlackAlien je ekipa slackline intuziastov, ki lahko poveže poljubni dve
+        Športno Društvo SlackAlien je ekipa slackline intuziastov, ki lahko poveže poljubni dve
         točki s trakom ter razdaljo varno prehodi.
       </p>
       <p>
@@ -27,7 +27,7 @@ const ContactPage = ({ location }: PageProps) => (
       </p>
       <p>
         Varnost je naša prva prioriteta. Na trak vedno stopamo navezani. Oprema
-        je profesionalna in namenjena zgolj vesoljcem.
+        je profesionalna in skrb je odveč.
       </p>
       <p>Email</p>
       <ul className="list-unstyled">
