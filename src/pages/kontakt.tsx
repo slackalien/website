@@ -27,7 +27,7 @@ const ContactPage = ({ location }: PageProps) => (
       </p>
       <p>
         Varnost je naša prva prioriteta. Na trak vedno stopamo navezani. Oprema
-        je profesionalna in skrb je odveč.
+        je profesionalna, zato je skrb odveč.
       </p>
       <p>Email</p>
       <ul className="list-unstyled">
