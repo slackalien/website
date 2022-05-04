@@ -16,7 +16,9 @@ const DelavnicePage = ({ location }: PageProps) => (
     <div className="container py-5">
       <h1>Delavnice</h1>
       <p>
-        SlackAlien društvo izvaja različne delavnice. 
+        SlackAlien društvo izvaja različne delavnice.
+      </p>
+      <p> 
         Highline delavnice: Namenjene highline začetnikom oziroma vsakomur, ki si želi visokovati.
         Slackline treningi: Namenjeni vsem, ki si želijo izboljšati sposobnosti hoje po traku.
         Društvene delavnice za člane: Reševanje iz highlina, vrtanje sidrišč, postavljanje zahtevnejših linij.
