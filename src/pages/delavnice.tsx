@@ -16,8 +16,10 @@ const DelavnicePage = ({ location }: PageProps) => (
     <div className="container py-5">
       <h1>Delavnice</h1>
       <p>
-        SlackAlien je poleti leta 2019 izvedel prve highline delavnice v
-        Sloveniji. Tečaja se je udeležilo 9 tečajnikov.
+        SlackAlien društvo izvaja različne delavnice. 
+        Highline delavnice: Namenjene highline začetnikom oziroma vsakomur, ki si želi visokovati.
+        Slackline treningi: Namenjeni vsem, ki si želijo izboljšati sposobnosti hoje po traku.
+        Društvene delavnice za člane: Reševanje iz highlina, vrtanje sidrišč, postavljanje zahtevnejših linij.
       </p>
 
       <Masonry
