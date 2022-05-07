@@ -1,7 +1,7 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import { PageProps } from "gatsby"
 import Masonry from "react-masonry-css"
-import type { PageProps } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -27,14 +27,15 @@ const VesoljskaMrezaPage = ({ location }: PageProps) => (
     <div className="container py-5">
       <h1>Vesoljska mreža</h1>
       <p>
-        Vesoljska mreža ali po angleško "space net", je ročno pletena mreža
-        iz tankih vrvic. Namenjena je levitaciji, meditaciji in ostalim, bolj
-        ali manj norim vragolijam na nebu. V naši ekipi sami izdelujemo take 
-        mreže in jih postavljamo ob različnih priložnostih. Kdaj visoko v zraku,
+        Vesoljska mreža ali po angleško "space net", je ročno pletena mreža iz
+        tankih vrvic. Namenjena je levitaciji, meditaciji in ostalim, bolj ali
+        manj norim vragolijam na nebu. V naši ekipi sami izdelujemo take mreže
+        in jih postavljamo ob različnih priložnostih. Kdaj visoko v zraku,
         drugič nizko pri tleh, ponavadi pa kar eno nad drugo. V kolikor vas take
-        mreže zanimajo, nam pišite in lahko vam jih postavimo na vašem festivalu,
-        dogodku, ob posebni priložnosti, ali pa kar tako. Postavitev lahko dodatno 
-        osvetlimo z UV in LED osvetlitvijo, da tudi ponoči pridejo do izraza.
+        mreže zanimajo, nam pišite in lahko vam jih postavimo na vašem
+        festivalu, dogodku, ob posebni priložnosti, ali pa kar tako. Postavitev
+        lahko dodatno osvetlimo z UV in LED osvetlitvijo, da tudi ponoči pridejo
+        do izraza.
       </p>
       <Masonry
         breakpointCols={3}

@@ -1,6 +1,6 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import type { PageProps } from "gatsby"
+import { PageProps } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"

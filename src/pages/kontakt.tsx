@@ -1,5 +1,5 @@
 import * as React from "react"
-import type { PageProps } from "gatsby"
+import { PageProps } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -13,8 +13,8 @@ const ContactPage = ({ location }: PageProps) => (
     <div className="container py-5">
       <h1>Kontakt</h1>
       <p>
-        Športno Društvo SlackAlien je ekipa slackline intuziastov, ki lahko poveže poljubni dve
-        točki s trakom ter razdaljo varno prehodi.
+        Športno Društvo SlackAlien je ekipa slackline intuziastov, ki lahko
+        poveže poljubni dve točki s trakom ter razdaljo varno prehodi.
       </p>
       <p>
         Najbolj smo vajeni idiličnih kotičkov narave, lahko pa napeljemo

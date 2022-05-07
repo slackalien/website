@@ -1,7 +1,7 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import { PageProps } from "gatsby"
 import Masonry from "react-masonry-css"
-import type { PageProps } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"

@@ -1,7 +1,7 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import { PageProps } from "gatsby"
 import Masonry from "react-masonry-css"
-import type { PageProps } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -15,13 +15,12 @@ const DelavnicePage = ({ location }: PageProps) => (
     />
     <div className="container py-5">
       <h1>Delavnice</h1>
+      <p>SlackAlien društvo izvaja različne delavnice.</p>
       <p>
-        SlackAlien društvo izvaja različne delavnice.
-      </p>
-      <p> 
-        Highline delavnice: Namenjene highline začetnikom oziroma vsakomur, ki si želi visokovati.
-        Slackline treningi: Namenjeni vsem, ki si želijo izboljšati sposobnosti hoje po traku.
-        Društvene delavnice za člane: Reševanje iz highlina, vrtanje sidrišč, postavljanje zahtevnejših linij.
+        Highline delavnice: Namenjene highline začetnikom oziroma vsakomur, ki
+        si želi visokovati. Slackline treningi: Namenjeni vsem, ki si želijo
+        izboljšati sposobnosti hoje po traku. Društvene delavnice za člane:
+        Reševanje iz highlina, vrtanje sidrišč, postavljanje zahtevnejših linij.
       </p>
 
       <Masonry

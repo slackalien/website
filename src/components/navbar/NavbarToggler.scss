@@ -1,33 +1,36 @@
-$menu-icon-size: 30px;
-$menu-icon-unit: 5px;
+$navbar-toggler-size: 30px;
+$navbar-togggler-unit: 5px;
 
 .navbar-toggler {
   border: none !important;
   background-color: transparent !important;
+
   .navbar-toggler-icon {
     position: relative;
-    width: $menu-icon-size - 4;
-    height: $menu-icon-size;
+    width: $navbar-toggler-size - 4;
+    height: $navbar-toggler-size;
     background: none !important;
+
     span {
       background: #fff;
       position: absolute;
       width: 100%;
-      height: $menu-icon-unit - 3;
+      height: $navbar-togggler-unit - 3;
       left: 0;
       transform: rotate(0deg);
       transition: 0.25s ease-in-out;
+
       &:nth-child(1) {
         top: 4px;
       }
       &:nth-child(2) {
-        top: $menu-icon-unit * 2 + 4;
+        top: $navbar-togggler-unit * 2 + 4;
       }
       &:nth-child(3) {
-        top: $menu-icon-unit * 2 + 4;
+        top: $navbar-togggler-unit * 2 + 4;
       }
       &:nth-child(4) {
-        top: $menu-icon-unit * 4 + 4;
+        top: $navbar-togggler-unit * 4 + 4;
       }
     }
   }
@@ -36,7 +39,7 @@ $menu-icon-unit: 5px;
     .navbar-toggler-icon {
       span {
         &:nth-child(1) {
-          top: $menu-icon-unit * 2;
+          top: $navbar-togggler-unit * 2;
           width: 0%;
           left: 50%;
         }
@@ -47,7 +50,7 @@ $menu-icon-unit: 5px;
           transform: rotate(-45deg);
         }
         &:nth-child(4) {
-          top: $menu-icon-unit * 2;
+          top: $navbar-togggler-unit * 2;
           width: 0%;
           left: 50%;
         }

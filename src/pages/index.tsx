@@ -1,7 +1,7 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import { Link, PageProps } from "gatsby"
 import Masonry from "react-masonry-css"
-import { PageProps } from "gatsby"
 
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
@@ -9,6 +9,7 @@ import Col from "react-bootstrap/Col"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { Button } from "react-bootstrap"
 
 const HomePage = ({ location }: PageProps) => (
   <Layout>
@@ -62,6 +63,16 @@ const HomePage = ({ location }: PageProps) => (
           <p>
             Vprašanje je: si ti pripravljen/a pogledati strahu naravnost v oči?
           </p>
+          <div className="d-grid gap-2 d-sm-flex">
+            <Button
+              size="lg"
+              as={Link as any}
+              className="px-4 gap-3"
+              to="/prirocnik"
+            >
+              Pripravljen sem!
+            </Button>
+          </div>
         </Col>
       </Row>
 
