@@ -19,8 +19,12 @@ const DelavnicePage = ({ location }: PageProps) => (
         SlackAlien društvo izvaja različne delavnice.
       </p>
       <p> 
-        Highline delavnice: Namenjene highline začetnikom oziroma vsakomur, ki si želi visokovati.
-        Slackline treningi: Namenjeni vsem, ki si želijo izboljšati sposobnosti hoje po traku.
+        Highline delavnice: Namenjene highline začetnikom oziroma vsakomur, ki si želi visokovati. https://forms.gle/FVpLkgLi3bT7habk9
+      </p>
+      <p> 
+        Slackline treningi: Namenjeni vsem, ki si želijo izboljšati sposobnosti hoje po traku. https://www.facebook.com/events/1396049607533320/1396049610866653/
+      </p>
+      <p>
         Društvene delavnice za člane: Reševanje iz highlina, vrtanje sidrišč, postavljanje zahtevnejših linij.
       </p>
 
