@@ -54,7 +54,7 @@ const HomePage = ({ location }: PageProps) => (
               Pripravljeni smo razdati svoje znanje, ki smo ga nabrali širom
               vesolja.
             </li>
-            <li>Pripravljeni smo ti posoditi najboljšo opremo v vesolju.</li>
+            <li>Pripravljeni smo ti posoditi najboljšo opremo.</li>
             <li>
               Pripravljeni smo s tabo plesati in vriskati ob ognju pozno v noč.
             </li>
