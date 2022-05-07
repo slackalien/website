@@ -49,6 +49,9 @@ const HomePage = ({ location }: PageProps) => (
             Se tudi ti ne znajdeš v mlačnosti doline? Pridi z nami visokovat!
           </h2>
           <ul>
+             <li>
+              Pripravljeni smo ti predstaviti prve varne korake v svet visokovanja.
+            </li>
             <li>
               Pripravljeni smo razdati svoje znanje, ki smo ga nabrali širom
               vesolja.
