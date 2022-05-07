@@ -20,6 +20,7 @@ const HomePage = ({ location }: PageProps) => (
           <StaticImage
             src="../images/logo/slackalien-abduction.png"
             width={400}
+            alt="SlackAlien"
             className="img-fluid mb-4"
           />
         </Col>
