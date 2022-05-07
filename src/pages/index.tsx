@@ -14,7 +14,6 @@ const HomePage = ({ location }: PageProps) => (
   <Layout>
     <Seo title="Domača stran" pathname={location.pathname} />
     <Container className="py-5">
-      <h1>SlackAlien</h1>
 
       <Row className="flex-row-reverse">
         <Col md={4}>
