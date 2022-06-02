@@ -16,19 +16,29 @@ const DelavnicePage = ({ location }: PageProps) => (
     <div className="container py-5">
       <h1>Delavnice</h1>
       <p>SlackAlien društvo izvaja različne delavnice.</p>
-      <p>SlackAlien društvo izvaja različne delavnice.</p>
       <p>
-        Highline delavnice: Namenjene highline začetnikom oziroma vsakomur, ki
-        si želi visokovati. https://forms.gle/FVpLkgLi3bT7habk9
+        <a
+          href="https://forms.gle/FVpLkgLi3bT7habk9"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Highline delavnice
+        </a>
+        : Namenjene highline začetnikom oziroma vsakomur, ki si želi visokovati.
       </p>
       <p>
-        Slackline treningi: Namenjeni vsem, ki si želijo izboljšati sposobnosti
-        hoje po traku.
-        https://www.facebook.com/events/1396049607533320/1396049610866653/
+        <a
+          href="https://www.facebook.com/events/1396049607533320/1396049610866653/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Slackline treningi
+        </a>
+        : Namenjeni vsem, ki si želijo izboljšati sposobnosti hoje po traku.
       </p>
       <p>
-        Društvene delavnice za člane: Reševanje iz highlina, vrtanje sidrišč,
-        postavljanje zahtevnejših linij.
+        <u>Društvene delavnice za člane</u>: Reševanje iz highlina, vrtanje
+        sidrišč, postavljanje zahtevnejših linij.
       </p>
 
       <Masonry
