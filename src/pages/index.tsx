@@ -15,7 +15,6 @@ const HomePage = ({ location }: PageProps) => (
   <Layout>
     <Seo title="Domača stran" pathname={location.pathname} />
     <Container className="py-5">
-
       <Row className="flex-row-reverse">
         <Col md={4}>
           <StaticImage
@@ -46,12 +45,13 @@ const HomePage = ({ location }: PageProps) => (
             življenja bi nam bila težko bolj dragocena. Prav zato jih nameravamo
             živeti v polnosti.
           </p>
-          <h2>
+          <p>
             Se tudi ti ne znajdeš v mlačnosti doline? Pridi z nami visokovat!
-          </h2>
+          </p>
           <ul>
-             <li>
-              Pripravljeni smo ti predstaviti prve varne korake v svet visokovanja.
+            <li>
+              Pripravljeni smo ti predstaviti prve varne korake v svet
+              visokovanja.
             </li>
             <li>
               Pripravljeni smo razdati svoje znanje, ki smo ga nabrali širom
@@ -65,16 +65,6 @@ const HomePage = ({ location }: PageProps) => (
           <p>
             Vprašanje je: si ti pripravljen/a pogledati strahu naravnost v oči?
           </p>
-          <div className="d-grid gap-2 d-sm-flex">
-            <Button
-              size="lg"
-              as={Link as any}
-              className="px-4 gap-3"
-              to="/prirocnik"
-            >
-              Pripravljen sem!
-            </Button>
-          </div>
         </Col>
       </Row>
 

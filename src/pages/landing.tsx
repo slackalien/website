@@ -75,7 +75,7 @@ const LandingPage = ({ location }: PageProps) => {
                 preteklosti.
               </p>
               <div className="d-grid gap-2 d-sm-flex">
-                <Link to="/o-nas" className="btn btn-light btn-lg px-4 gap-3">
+                <Link to="/o-nas/" className="btn btn-light btn-lg px-4 gap-3">
                   O nas
                 </Link>
                 <button
@@ -121,7 +121,7 @@ const LandingPage = ({ location }: PageProps) => {
               <div className="d-grid gap-2 d-sm-flex">
                 <Link
                   className="btn btn-light btn-lg px-4 gap-3"
-                  to="/visokica"
+                  to="/visokica/"
                 >
                   Kaj je visokica?
                 </Link>
@@ -223,7 +223,10 @@ const LandingPage = ({ location }: PageProps) => {
                 oči?
               </p>
               <div className="d-grid gap-2 d-sm-flex">
-                <Link className="btn btn-light btn-lg px-4 gap-3" to="/start">
+                <Link
+                  className="btn btn-light btn-lg px-4 gap-3"
+                  to="/prirocnik/"
+                >
                   Pripravljen sem!
                 </Link>
               </div>

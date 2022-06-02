@@ -1,6 +1,7 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 import { PageProps } from "gatsby"
+import { Redirect } from "@reach/router"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -30,6 +31,9 @@ type DataProps = {
 
 const PrirocnikTemplate = ({ data, location }: PageProps<DataProps>) => {
   const { excerpt, frontmatter, headings, html } = data.markdownRemark
+  if (location.pathname === "/prirocnik") {
+    return <Redirect to={"/prirocnik/"} />
+  }
   return (
     <Layout>
       <Seo
