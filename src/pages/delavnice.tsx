@@ -22,9 +22,9 @@ const DelavnicePage = ({ location }: PageProps) => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          Highline delavnice
+          Highline delavnice:
         </a>
-        : Namenjene highline začetnikom oziroma vsakomur, ki si želi visokovati.
+         Namenjene highline začetnikom oziroma vsakomur, ki si želi visokovati.
       </p>
       <p>
         <a
@@ -32,9 +32,9 @@ const DelavnicePage = ({ location }: PageProps) => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          Slackline treningi
+          Slackline treningi:
         </a>
-        : Namenjeni vsem, ki si želijo izboljšati sposobnosti hoje po traku.
+         Namenjeni vsem, ki si želijo izboljšati sposobnosti hoje po traku.
       </p>
       <p>
         <u>Društvene delavnice za člane</u>: Reševanje iz highlina, vrtanje
