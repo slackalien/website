@@ -3,8 +3,12 @@ import { StaticImage } from "gatsby-plugin-image"
 import { PageProps } from "gatsby"
 import Masonry from "react-masonry-css"
 
+import Button from "react-bootstrap/Button"
+
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import ExternalLink from "../components/external-link"
+import ExternalIcon from "../icons/external-icon"
 
 const DelavnicePage = ({ location }: PageProps) => (
   <Layout>
@@ -16,30 +20,25 @@ const DelavnicePage = ({ location }: PageProps) => (
     <div className="container py-5">
       <h1>Delavnice</h1>
       <p>SlackAlien društvo izvaja različne delavnice.</p>
-      <p>
-        <a
-          href="https://forms.gle/FVpLkgLi3bT7habk9"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Highline delavnice
-        </a>
-        : Namenjene highline začetnikom oziroma vsakomur, ki si želi visokovati.
-      </p>
-      <p>
-        <a
-          href="https://www.facebook.com/events/1396049607533320/1396049610866653/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Slackline treningi
-        </a>
-        : Namenjeni vsem, ki si želijo izboljšati sposobnosti hoje po traku.
-      </p>
-      <p>
-        <u>Društvene delavnice za člane</u>: Reševanje iz highlina, vrtanje
-        sidrišč, postavljanje zahtevnejših linij.
-      </p>
+      <ul>
+        <li>
+          <ExternalLink href="https://forms.gle/FVpLkgLi3bT7habk9">
+            Highline delavnice
+          </ExternalLink>
+          : namenjene highline začetnikom oziroma vsakomur, ki si želi
+          visokovati.
+        </li>
+        <li>
+          <ExternalLink href="https://www.facebook.com/events/1396049607533320/1396049610866653/">
+            Slackline treningi
+          </ExternalLink>
+          : namenjeni vsem, ki si želijo izboljšati sposobnosti hoje po traku.
+        </li>
+        <li>
+          Društvene delavnice za člane: reševanje iz highlina, vrtanje sidrišč,
+          postavljanje zahtevnejših linij.
+        </li>
+      </ul>
 
       <Masonry
         breakpointCols={3}

@@ -3,8 +3,12 @@ import { graphql } from "gatsby"
 import { PageProps } from "gatsby"
 import { Redirect } from "@reach/router"
 
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
+
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Slovar from "../components/slovar"
 
 type DataProps = {
   markdownRemark: {
@@ -42,9 +46,14 @@ const PrirocnikTemplate = ({ data, location }: PageProps<DataProps>) => {
         image={frontmatter.image?.childImageSharp?.resize}
         pathname={location.pathname}
       />
-      <div className="container py-5">
-        <section dangerouslySetInnerHTML={{ __html: html }} />
-      </div>
+      <Row>
+        <Col md={8} className="py-5">
+          <section dangerouslySetInnerHTML={{ __html: html }} />
+        </Col>
+        <Col md={4}>
+          <Slovar />
+        </Col>
+      </Row>
     </Layout>
   )
 }

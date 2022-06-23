@@ -4,6 +4,8 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 import "./layout.scss"
 
 import Container from "react-bootstrap/Container"
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
 import NavDropdown from "react-bootstrap/NavDropdown"
@@ -28,7 +30,7 @@ const Layout = ({ children }: Props) => {
   `)
 
   return (
-    <div className="container-fluid p-0 d-flex flex-column min-vh-100">
+    <Container fluid className="p-0 d-flex flex-column min-vh-100">
       <Navbar variant="dark" bg="primary" expand="md">
         <Container fluid>
           <Navbar.Brand as={Link} to="/">
@@ -44,6 +46,7 @@ const Layout = ({ children }: Props) => {
                   Vesoljska mreža
                 </DropdownItem>
               </NavDropdown>
+              <NavLink to="/za-zacetnike/">Za začetnike</NavLink>
               <NavLink to="/varnost/">Varnost</NavLink>
               <NavLink to="/prirocnik/">Priročnik</NavLink>
               <NavLink to="/kontakt/">Kontakt</NavLink>
@@ -51,11 +54,11 @@ const Layout = ({ children }: Props) => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <main className="">{children}</main>
+      <Container as="main">{children}</Container>
       <footer className="bg-alien p-4 text-center mt-auto">
         <div className="py-4">© 2022 SlackAlien</div>
       </footer>
-    </div>
+    </Container>
   )
 }
 

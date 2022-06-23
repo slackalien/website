@@ -15,6 +15,14 @@ const VarnostPage = ({ location }: PageProps) => (
         Varnost je naša prva prioriteta. Na trak vedno stopamo navezani. Oprema
         je profesionalna in namenjena zgolj vesoljcem.
       </p>
+      <ul>
+        <li>na trak vedno stopamo navezani</li>
+        <li>dvojnost (redundanca)</li>
+        <li>varnostni faktor</li>
+        <li>usposobljenost</li>
+        <li>sledenje razvoju dobrih praks </li>
+        <li>buddy check</li>
+      </ul>
       <Masonry
         breakpointCols={3}
         className="masonry mt-5"

@@ -3,13 +3,13 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Link, PageProps } from "gatsby"
 import Masonry from "react-masonry-css"
 
+import Button from "react-bootstrap/Button"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { Button } from "react-bootstrap"
 
 const HomePage = ({ location }: PageProps) => (
   <Layout>
@@ -65,6 +65,11 @@ const HomePage = ({ location }: PageProps) => (
           <p>
             Vprašanje je: si ti pripravljen/a pogledati strahu naravnost v oči?
           </p>
+          <div>
+            <Button size="lg" as={Link as any} to="/za-zacetnike">
+              Pripravljen sem!
+            </Button>
+          </div>
         </Col>
       </Row>
 
