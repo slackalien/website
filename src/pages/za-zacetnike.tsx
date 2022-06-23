@@ -33,8 +33,8 @@ const ZaZacetnikePage = ({ location }: PageProps) => (
         </p>
         <StaticImage
           src="../images/delavnice/sidrisce1.jpg"
+          className="img-fluid mb-2"
           alt=""
-          className="img-fluid"
         />
         <hr className="my-5" />
         <h2>Potrebno predznanje</h2>
@@ -80,8 +80,8 @@ const ZaZacetnikePage = ({ location }: PageProps) => (
         </ol>
         <StaticImage
           src="../images/visokica/dovska.jpg"
+          className="img-fluid mb-2"
           alt=""
-          className="img-fluid mb-3"
         />
         <hr className="my-5" />
         <h2>Potrebna oprema</h2>
@@ -103,8 +103,8 @@ const ZaZacetnikePage = ({ location }: PageProps) => (
         </p>
         <StaticImage
           src="../images/oprema-in-varnost/oprema.jpg"
+          className="img-fluid mb-2"
           alt=""
-          className="img-fluid"
         />
       </Col>
       <Col md={4}>

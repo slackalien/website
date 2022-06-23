@@ -6,6 +6,7 @@ import Masonry from "react-masonry-css"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import ExternalLink from "../components/external-link"
+import { Col, Row } from "react-bootstrap"
 
 const DelavnicePage = ({ location }: PageProps) => (
   <Layout>
@@ -17,6 +18,55 @@ const DelavnicePage = ({ location }: PageProps) => (
     <div className="container py-5">
       <h1>Delavnice</h1>
       <p>SlackAlien društvo izvaja različne delavnice.</p>
+
+      <Row>
+        <Col md={6} lg={4}>
+          <h4>Highline delavnice</h4>
+          <StaticImage
+            src="../images/delavnice/slajdanje2.jpg"
+            className="img-fluid mb-2"
+            width={600}
+            alt=""
+          />
+          <p className="mb-3 mb-md-0">
+            <ExternalLink href="https://forms.gle/FVpLkgLi3bT7habk9">
+              Highline delavnice
+            </ExternalLink>
+            so namenjene začetnikom oziroma vsakomur, ki si želi visokovati.
+          </p>
+        </Col>
+        <Col md={6} lg={4}>
+          <h4>Slackline treningi</h4>
+          <StaticImage
+            src="../images/delavnice/tivoli-slackline-treningi.jpg"
+            className="img-fluid mb-2"
+            width={600}
+            alt=""
+          />
+          <p className="mb-3 mb-md-0">
+            <ExternalLink href="https://www.facebook.com/events/1396049607533320/1396049610866653/">
+              Slackline treningi
+            </ExternalLink>
+            so namenjeni vsem, ki si želijo izboljšati sposobnosti hoje po
+            traku.
+          </p>
+        </Col>
+        <Col md={6} lg={4}>
+          <h4>Društvene delavnice</h4>
+          <StaticImage
+            src="../images/delavnice/sidrisce1.jpg"
+            className="img-fluid mb-2"
+            width={600}
+            alt=""
+          />
+          <p className="mb-0">
+            Društvene delavnice za člane: reševanje iz highlina, vrtanje
+            sidrišč, postavljanje zahtevnejših linij.
+          </p>
+        </Col>
+      </Row>
+
+      {/*
       <ul>
         <li>
           <ExternalLink href="https://forms.gle/FVpLkgLi3bT7habk9">
@@ -36,10 +86,13 @@ const DelavnicePage = ({ location }: PageProps) => (
           postavljanje zahtevnejših linij.
         </li>
       </ul>
+      */}
+
+      <hr className="my-5" />
 
       <Masonry
         breakpointCols={3}
-        className="masonry mt-5"
+        className="masonry"
         columnClassName="masonry-column"
       >
         <StaticImage
