@@ -3,12 +3,9 @@ import { StaticImage } from "gatsby-plugin-image"
 import { PageProps } from "gatsby"
 import Masonry from "react-masonry-css"
 
-import Button from "react-bootstrap/Button"
-
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import ExternalLink from "../components/external-link"
-import ExternalIcon from "../icons/external-icon"
 
 const DelavnicePage = ({ location }: PageProps) => (
   <Layout>
