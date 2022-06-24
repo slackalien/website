@@ -12,16 +12,49 @@ const VarnostPage = ({ location }: PageProps) => (
     <div className="container py-5">
       <h1>Varnost</h1>
       <p>
-        Varnost je naša prva prioriteta. Na trak vedno stopamo navezani. Oprema
-        je profesionalna in namenjena zgolj vesoljcem.
+        Visokovanje na edinstven način združuje gibanje, prisotnost, zanos
+        in lepoto. A moramo seveda biti živi, da lahko vse to izkusimo znova
+        in znova. Varnost je zato naša prva prioriteta. Da bomo lahko še
+        dolgo visokovali, se držimo naslednjih vodil:
       </p>
       <ul>
-        <li>na trak vedno stopamo navezani</li>
-        <li>dvojnost (redundanca)</li>
-        <li>varnostni faktor</li>
-        <li>usposobljenost</li>
-        <li>sledenje razvoju dobrih praks </li>
-        <li>buddy check</li>
+        <li>
+          Na trak vedno stopamo navezani. Preden zapustimo sidišče,
+          preverimo, da imamo pas pravilno nameščen in da je vozel na visu
+          pravilno zavezan.
+        </li>
+        <li>
+          Vse komponente visokice so podvojene. V sicer malo verjetnem, a
+          vseeno mogočem primeru, da bi kaka od komponent popustila, bi
+          njeno vlogo prevzela rezervna. S tem se zavarujemo pred skritimi
+          napakami na opremi ter nepričakovanimi zunanjimi dejavniki.
+        </li>
+        <li>
+          Uporabljamo namensko in strokovno izdelano opremo z znanimi
+          specifikacijami ter poskrbimo, da se obremenitve, ki jim je
+          izpostavljena, gibljejo znotraj zanjo predpisanih meja. Naši
+          sistemi so vedno načrtovani z ustreznim varnostnim faktorjem, kar
+          pomeni, da so sposobni varno prenesti tudi nekajkrat višje sile,
+          kot so jim izpostavljeni med visokovanjem.
+        </li>
+        <li>
+          Visokice postavlja dobro izurjena in izkušena ekipa. Začetnike
+          rade volje vključimo v proces postavljanja, a vedno pod budnim
+          nadzorom izkušenega mentorja. Tako poskrbimo, da se znanje prenaša
+          na čim večji del ekipe.
+        </li>
+        <li>
+          Svoje znanje ves čas izpopolnjujemo. Sledimo razvoju smernic in
+          dobrih praks na področju visokovanja in jih upoštevamo pri svojih
+          dejavnostih.
+        </li>
+        <li>
+          Tako pri postavljanju kot pri navzovanju se držimo principa
+          dvojnega preverjanja: vse ključne komponente sistema pred uporabo
+          pregledata vsaj dve usposobljeni osebi. Preden stopimo na trak,
+          poprosimo kolega, da za nas naredi varnostni pregled in potrdi, da
+          imamo pas pravilno zapet ter da je vozel na visu pravilno zavezan.
+        </li>
       </ul>
       <Masonry
         breakpointCols={3}
