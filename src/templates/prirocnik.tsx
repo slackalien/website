@@ -33,7 +33,8 @@ type DataProps = {
   }
 }
 
-const PrirocnikTemplate = ({ data, location }: PageProps<DataProps>) => {
+const PrirocnikTemplate = (props: PageProps<DataProps>) => {
+  const { data, location } = props
   const { excerpt, frontmatter, headings, html } = data.markdownRemark
   if (location.pathname === "/prirocnik") {
     return <Redirect to={"/prirocnik/"} />
@@ -51,7 +52,7 @@ const PrirocnikTemplate = ({ data, location }: PageProps<DataProps>) => {
           <section dangerouslySetInnerHTML={{ __html: html }} />
         </Col>
         <Col md={4}>
-          <Slovar />
+          <Slovar location={location} />
         </Col>
       </Row>
     </Layout>
