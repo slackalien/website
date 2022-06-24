@@ -3,20 +3,22 @@ import { StaticImage } from "gatsby-plugin-image"
 import { PageProps } from "gatsby"
 import Masonry from "react-masonry-css"
 
+import Container from "react-bootstrap/Container"
+
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const VisokovanjePage = ({ location }: PageProps) => (
   <Layout>
     <Seo title="Visokovanje" pathname={location.pathname} />
-    <div className="container py-5">
+    <Container className="px-0 py-5">
       <h1>Visokovanje</h1>
       <p>
-        Visokovanje oziroma po angleško <i>highline</i>, je ena od oblik hoje po traku(slackline), 
-        pri kateri je trak postavljen na veliki višini - od nekaj 10 metrov pa tudi do več sto. 
-        Takšna postavitev omogoča povsem svojevrstno izkušnjo, a obenem zahteva posebno opremo, 
-        znanje ter pristope, ki zagotavljajo, da je podvig tudi varen.
-        
+        Visokovanje oziroma po angleško <i>highline</i>, je ena od oblik hoje po
+        traku(slackline), pri kateri je trak postavljen na veliki višini - od
+        nekaj 10 metrov pa tudi do več sto. Takšna postavitev omogoča povsem
+        svojevrstno izkušnjo, a obenem zahteva posebno opremo, znanje ter
+        pristope, ki zagotavljajo, da je podvig tudi varen.
       </p>
       <Masonry
         breakpointCols={3}
@@ -84,7 +86,7 @@ const VisokovanjePage = ({ location }: PageProps) => (
           width={360}
         />
       </Masonry>
-    </div>
+    </Container>
   </Layout>
 )
 

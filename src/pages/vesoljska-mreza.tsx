@@ -3,6 +3,8 @@ import { StaticImage } from "gatsby-plugin-image"
 import { PageProps } from "gatsby"
 import Masonry from "react-masonry-css"
 
+import Container from "react-bootstrap/Container"
+
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -24,7 +26,7 @@ const VesoljskaMrezaPage = ({ location }: PageProps) => (
       </div>
     </div>
     */}
-    <div className="container py-5">
+    <Container className="px-0 py-5">
       <h1>Vesoljska mreža</h1>
       <p>
         Vesoljska mreža ali po angleško "space net", je ročno pletena mreža iz
@@ -139,7 +141,7 @@ const VesoljskaMrezaPage = ({ location }: PageProps) => (
           width={360}
         />
       </Masonry>
-    </div>
+    </Container>
   </Layout>
 )
 

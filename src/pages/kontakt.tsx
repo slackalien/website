@@ -1,6 +1,8 @@
 import * as React from "react"
 import { PageProps } from "gatsby"
 
+import Container from "react-bootstrap/Container"
+
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -10,7 +12,7 @@ import InstagramIcon from "../icons/instagram"
 const ContactPage = ({ location }: PageProps) => (
   <Layout>
     <Seo title="Kontakt" pathname={location.pathname} />
-    <div className="container py-5">
+    <Container className="px-0 py-5">
       <h1>Kontakt</h1>
       <p>
         Športno Društvo SlackAlien je ekipa slackline intuziastov, ki lahko
@@ -66,7 +68,7 @@ const ContactPage = ({ location }: PageProps) => (
           </a>
         </li>
       </ul>
-    </div>
+    </Container>
   </Layout>
 )
 

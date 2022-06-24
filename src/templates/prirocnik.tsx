@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import { PageProps } from "gatsby"
 import { Redirect } from "@reach/router"
 
+import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
@@ -47,14 +48,16 @@ const PrirocnikTemplate = (props: PageProps<DataProps>) => {
         image={frontmatter.image?.childImageSharp?.resize}
         pathname={location.pathname}
       />
-      <Row>
-        <Col md={8} className="py-5">
-          <section dangerouslySetInnerHTML={{ __html: html }} />
-        </Col>
-        <Col md={4}>
-          <Slovar location={location} />
-        </Col>
-      </Row>
+      <Container className="px-0 py-5">
+        <Row>
+          <Col md={8}>
+            <section dangerouslySetInnerHTML={{ __html: html }} />
+          </Col>
+          <Col md={4}>
+            <Slovar location={location} />
+          </Col>
+        </Row>
+      </Container>
     </Layout>
   )
 }

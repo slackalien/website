@@ -3,10 +3,10 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Link, PageProps } from "gatsby"
 import Masonry from "react-masonry-css"
 
-import Button from "react-bootstrap/Button"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
+import Button from "react-bootstrap/Button"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -14,7 +14,7 @@ import Seo from "../components/seo"
 const HomePage = ({ location }: PageProps) => (
   <Layout>
     <Seo title="Domača stran" pathname={location.pathname} />
-    <Container className="py-5">
+    <Container className="px-0 py-5">
       <Row className="flex-row-reverse">
         <Col md={4}>
           <StaticImage

@@ -208,10 +208,9 @@ type Props = {
 
 const Prirocnik = (props: Props) => {
   const { location } = props
-  console.log(location)
-
   return (
     <div className="py-5 pt-0 pt-md-5">
+      <hr className="my-5 d-md-none" />
       <h2>Priročnik</h2>
       <Nav variant="pills">
         {items.map(item => (

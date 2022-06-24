@@ -3,10 +3,13 @@ import { StaticImage } from "gatsby-plugin-image"
 import { PageProps } from "gatsby"
 import Masonry from "react-masonry-css"
 
+import Container from "react-bootstrap/Container"
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
+
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import ExternalLink from "../components/external-link"
-import { Col, Row } from "react-bootstrap"
 
 const DelavnicePage = ({ location }: PageProps) => (
   <Layout>
@@ -15,7 +18,7 @@ const DelavnicePage = ({ location }: PageProps) => (
       description="Highline delavnice"
       pathname={location.pathname}
     />
-    <div className="container py-5">
+    <Container className="px-0 py-5">
       <h1>Delavnice</h1>
       <p>SlackAlien društvo izvaja različne delavnice.</p>
 
@@ -186,7 +189,7 @@ const DelavnicePage = ({ location }: PageProps) => (
           className="img-fluid"
         />
       </Masonry>
-    </div>
+    </Container>
   </Layout>
 )
 
