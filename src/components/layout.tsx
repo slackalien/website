@@ -4,8 +4,6 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 import "./layout.scss"
 
 import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
 import NavDropdown from "react-bootstrap/NavDropdown"
@@ -54,10 +52,12 @@ const Layout = ({ children }: Props) => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <Container as="main">{children}</Container>
-      <footer className="bg-alien p-4 text-center mt-auto">
+      <Container as="main" className="py-5">
+        {children}
+      </Container>
+      <Container as="footer" className="bg-alien p-4 text-center mt-auto">
         <div className="py-4">© 2022 SlackAlien</div>
-      </footer>
+      </Container>
     </Container>
   )
 }

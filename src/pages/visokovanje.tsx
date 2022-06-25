@@ -3,90 +3,86 @@ import { StaticImage } from "gatsby-plugin-image"
 import { PageProps } from "gatsby"
 import Masonry from "react-masonry-css"
 
-import Container from "react-bootstrap/Container"
-
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const VisokovanjePage = ({ location }: PageProps) => (
   <Layout>
     <Seo title="Visokovanje" pathname={location.pathname} />
-    <Container className="px-0 py-5">
-      <h1>Visokovanje</h1>
-      <p>
-        Visokovanje oziroma po angleško <i>highline</i>, je ena od oblik hoje po
-        traku(slackline), pri kateri je trak postavljen na veliki višini - od
-        nekaj 10 metrov pa tudi do več sto. Takšna postavitev omogoča povsem
-        svojevrstno izkušnjo, a obenem zahteva posebno opremo, znanje ter
-        pristope, ki zagotavljajo, da je podvig tudi varen.
-      </p>
-      <Masonry
-        breakpointCols={3}
-        className="masonry mt-5"
-        columnClassName="masonry-column"
-      >
-        <StaticImage
-          src="../images/visokica/ajdna.jpg"
-          alt=""
-          className="img-fluid"
-          width={360}
-        />
-        <StaticImage
-          src="../images/visokica/dovska.jpg"
-          alt=""
-          className="img-fluid"
-          width={360}
-        />
-        <StaticImage
-          src="../images/visokica/krivulja.jpg"
-          alt=""
-          className="img-fluid"
-          width={360}
-        />
-        <StaticImage
-          src="../images/visokica/linije2.jpg"
-          alt=""
-          className="img-fluid"
-          width={360}
-        />
-        <StaticImage
-          src="../images/visokica/zeleno.jpg"
-          alt=""
-          className="img-fluid"
-          width={360}
-        />
-        <StaticImage
-          src="../images/visokica/sorca.jpg"
-          alt=""
-          className="img-fluid"
-          width={360}
-        />
-        <StaticImage
-          src="../images/visokica/letalo.jpg"
-          alt=""
-          className="img-fluid"
-          width={360}
-        />
-        <StaticImage
-          src="../images/visokica/linije.jpg"
-          alt=""
-          className="img-fluid"
-          width={360}
-        />
-        <StaticImage
-          src="../images/visokica/nocna.jpg"
-          alt=""
-          className="img-fluid"
-          width={360}
-        />
-        <StaticImage
-          src="../images/visokica/zahod.jpg"
-          alt=""
-          className="img-fluid"
-          width={360}
-        />
-      </Masonry>
-    </Container>
+    <h1>Visokovanje</h1>
+    <p>
+      Visokovanje oziroma po angleško <i>highline</i>, je ena od oblik hoje po
+      traku(slackline), pri kateri je trak postavljen na veliki višini - od
+      nekaj 10 metrov pa tudi do več sto. Takšna postavitev omogoča povsem
+      svojevrstno izkušnjo, a obenem zahteva posebno opremo, znanje ter
+      pristope, ki zagotavljajo, da je podvig tudi varen.
+    </p>
+    <Masonry
+      breakpointCols={3}
+      className="masonry mt-5"
+      columnClassName="masonry-column"
+    >
+      <StaticImage
+        src="../images/visokica/ajdna.jpg"
+        alt=""
+        className="img-fluid"
+        width={360}
+      />
+      <StaticImage
+        src="../images/visokica/dovska.jpg"
+        alt=""
+        className="img-fluid"
+        width={360}
+      />
+      <StaticImage
+        src="../images/visokica/krivulja.jpg"
+        alt=""
+        className="img-fluid"
+        width={360}
+      />
+      <StaticImage
+        src="../images/visokica/linije2.jpg"
+        alt=""
+        className="img-fluid"
+        width={360}
+      />
+      <StaticImage
+        src="../images/visokica/zeleno.jpg"
+        alt=""
+        className="img-fluid"
+        width={360}
+      />
+      <StaticImage
+        src="../images/visokica/sorca.jpg"
+        alt=""
+        className="img-fluid"
+        width={360}
+      />
+      <StaticImage
+        src="../images/visokica/letalo.jpg"
+        alt=""
+        className="img-fluid"
+        width={360}
+      />
+      <StaticImage
+        src="../images/visokica/linije.jpg"
+        alt=""
+        className="img-fluid"
+        width={360}
+      />
+      <StaticImage
+        src="../images/visokica/nocna.jpg"
+        alt=""
+        className="img-fluid"
+        width={360}
+      />
+      <StaticImage
+        src="../images/visokica/zahod.jpg"
+        alt=""
+        className="img-fluid"
+        width={360}
+      />
+    </Masonry>
   </Layout>
 )
 

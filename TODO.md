@@ -1,5 +1,9 @@
 # SlackAlien Website TODO
 
+Dizajn ideja
+
+https://www.swiss.com/worldofswiss/en/story/one-team-one-spirit-three-points-lets-go
+
 Bojč
 
 - [x] dizajn navodila za timija
@@ -14,7 +18,7 @@ Bojč
 - [x] publishaj začasno stran na slackalien.netlify.app
 - [x] zamenjaj default bootstrap menu ikono
 - [x] dodaj social sharing meta tags
-- [ ] prestavi priročnik na /prirocik
+- [x] prestavi priročnik na /prirocik
 - [ ] zadnje instagram slike
 - [ ] zadnji facebook posti
 - [ ] preveri kako je najbolš tri domene in ena stran
@@ -23,16 +27,16 @@ Tim
 
 - [x] registriraj domene slackalien.si, slackalien.com in slackline.si
 - [x] ~~barvna shema~~
-- [ ] svg logotip
-- [ ] svg ikona
+- [x] svg logotip
+- [x] svg ikona
 - [x] ~~dizajn mobile~~
 - [x] ~~dizajn desktop~~
 
 Gašper
 
-- [ ] tekst za oprema in varnost
-- [ ] tekst za vesoljska mreža
-- [ ] tekst za delavnice
+- [x] tekst za oprema in varnost
+- [x] tekst za vesoljska mreža
+- [x] tekst za delavnice
 
 Andrej
 
@@ -40,8 +44,8 @@ Andrej
 
 Ekipa
 
-- [ ] Ivana fotke
-- [ ] Jaka fotke
-- [ ] Nace fotke
+- [x] Ivana fotke
+- [x] Jaka fotke
+- [x] Nace fotke
 - [x] Tilen fotke
 - [x] Tim fotke
