@@ -25,6 +25,10 @@ const items = [
     title: "deltasti člen",
   },
   {
+    url: "dvig-na-trak",
+    title: "dvig na trak",
+  },
+  {
     url: "frostov-vozel",
     title: "Frostov vozel",
   },
@@ -57,32 +61,32 @@ const items = [
     title: "množilnik",
   },
   {
-    url: "napetost",
-    title: "napetost",
+    url: "najlonski-vozel",
+    title: "najlonski vozel",
   },
   {
-    url: "napenjanje",
-    title: "napenjanje",
-  },
-  {
-    url: "napenjalni-sistem",
-    title: "napenjalni sistem",
+    url: "najvecja-delovna-obremenitev",
+    title: "največja delovna obremenitev",
   },
   {
     url: "napenjalna-stran",
     title: "napenjalna stran",
   },
   {
-    url: "najlonski-vozel",
-    title: "najlonski vozel",
+    url: "napenjalni-sistem",
+    title: "napenjalni sistem",
+  },
+  {
+    url: "napenjanje",
+    title: "napenjanje",
+  },
+  {
+    url: "napetost",
+    title: "napetost",
   },
   {
     url: "neskoncna-zanka",
     title: "neskončna zanka",
-  },
-  {
-    url: "najvecja-delovna-obremenitev",
-    title: "največja delovna obremenitev",
   },
   {
     url: "osmica",
@@ -130,7 +134,7 @@ const items = [
   },
   {
     url: "segmentiranje",
-    title: "segmentiran",
+    title: "segmentiranje",
   },
   {
     url: "sidrisce",
@@ -194,11 +198,11 @@ const items = [
   },
   {
     url: "vrvni-skopec",
-    title: "vrvni škopecurl",
+    title: "vrvni škopec",
   },
   {
     url: "vstajanje",
-    title: "Vstajanje",
+    title: "vstajanje",
   },
 ]
 
