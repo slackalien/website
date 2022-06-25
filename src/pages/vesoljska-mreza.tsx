@@ -26,8 +26,8 @@ const VesoljskaMrezaPage = ({ location }: PageProps) => (
     */}
     <h1>Vesoljska mreža</h1>
     <p>
-      Vesoljska mreža ali po angleško "space net", je ročno pletena mreža iz
-      tankih vrvic. Namenjena je levitaciji, meditaciji in ostalim, bolj ali
+      Vesoljska mreža, ali po angleško <i>space net</i>, je ročno pletena mreža iz
+      tankih vrvic. Namenjena je levitaciji, meditaciji in ostalim bolj ali
       manj norim vragolijam na nebu. V naši ekipi sami izdelujemo take mreže in
       jih postavljamo ob različnih priložnostih. Kdaj visoko v zraku, drugič
       nizko pri tleh, ponavadi pa kar eno nad drugo. V kolikor vas take mreže

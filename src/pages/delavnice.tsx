@@ -60,7 +60,7 @@ const DelavnicePage = ({ location }: PageProps) => (
           alt=""
         />
         <p className="mb-0">
-          Društvene delavnice za člane: reševanje iz highlina, vrtanje sidrišč,
+          Društvene delavnice za člane: reševanje z visokic, vrtanje sidrišč,
           postavljanje zahtevnejših linij.
         </p>
       </Col>

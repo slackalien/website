@@ -12,7 +12,7 @@ const ContactPage = ({ location }: PageProps) => (
     <Seo title="Kontakt" pathname={location.pathname} />
     <h1>Kontakt</h1>
     <p>
-      Športno Društvo SlackAlien je ekipa slackline intuziastov, ki lahko poveže
+      Športno Društvo SlackAlien je ekipa slackline entuziastov, ki lahko poveže
       poljubni dve točki s trakom ter razdaljo varno prehodi.
     </p>
     <p>

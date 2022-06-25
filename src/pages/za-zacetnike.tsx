@@ -27,7 +27,7 @@ const ZaZacetnikePage = ({ location }: PageProps) => (
           Predlagamo, da si najprej po dolgem in počez prebereš to stran,
           nadaljuješ s spletnimi viri, naposled pa se za svojo prvo pravo
           priložnost pozanimaš pri visokovalski skupnosti. Pri nas se lahko
-          udeležiš kakšnega našega dogodka ali pa kar prijaviš na highline{" "}
+          udeležiš kakega našega dogodka ali pa se kar prijaviš na highline{" "}
           <Link to="/delavnice">delavnice</Link>. Ponavadi pa nas v predpoletnem
           času najdeš tudi vsak torek v parku Tivoli.
         </p>

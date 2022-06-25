@@ -12,8 +12,8 @@ const VisokovanjePage = ({ location }: PageProps) => (
     <h1>Visokovanje</h1>
     <p>
       Visokovanje oziroma po angleško <i>highline</i>, je ena od oblik hoje po
-      traku(slackline), pri kateri je trak postavljen na veliki višini - od
-      nekaj 10 metrov pa tudi do več sto. Takšna postavitev omogoča povsem
+      traku (slackline), pri kateri je trak postavljen na veliki višini - od
+      nekaj deset metrov pa tudi do več sto. Takšna postavitev omogoča povsem
       svojevrstno izkušnjo, a obenem zahteva posebno opremo, znanje ter
       pristope, ki zagotavljajo, da je podvig tudi varen.
     </p>
