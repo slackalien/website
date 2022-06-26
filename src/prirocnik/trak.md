@@ -1,6 +1,6 @@
 # Trak
 
-Elastičen tekstilni _trak_ je osrednji rekvizit pri vseh različicah [slacklina](slackline). Prvotno se je za slackline uporabljal plezalski najlonski trak širine 2,5 cm, a z širšim razmahom tega športa se je na tržišču pojavilo še mnogo drugačnih trakov z različnimi lastnostmi. Izbira traku tako je odvisna od predvidene dolžine relacij, želene elastičnosti traku, njegove nosilnosti, vrste uporabe (hoja, izvajanje trikov), odpornosti na okoljske vplive ter drugih dejavnikov.
+Elastičen tekstilni _trak_ je osrednji rekvizit pri vseh različicah [slacklina](slackline). Prvotno se je za slackline uporabljal plezalski najlonski trak širine 2,5 cm, a z širšim razmahom tega športa se je na tržišču pojavilo še mnogo drugačnih trakov z različnimi lastnostmi. Izbira traku je tako odvisna od predvidene dolžine relacij, želene elastičnosti traku, njegove nosilnosti, vrste uporabe (hoja, izvajanje trikov), odpornosti na okoljske vplive ter drugih dejavnikov.
 
 ![Najlonski trak širine 25 mm](images/trak.jpg)
 
@@ -20,7 +20,7 @@ Sestava traku je lahko tudi kombinirana: tako imajo, na primer, nekateri trakovi
 
 ### Vrsta pletenja
 
-Tudi pri vrsti pletenja lahko trakove v grobem razdelimo v nekaj kategorij:
+Tudi po vrsti pletenja lahko trakove razdelimo v nekaj kategorij:
 
 - **Cevasti (tubularni) trakovi.** Ti so običajno izdelani iz poliamida. Zaradi cevastega pletenja so takšni trakovi debelejši in imajo zaobljene robove, kar jih dela prijetne za hojo.
 - **Ploski trakovi.** Tehnologija izdelava takšnih trakov je preprosta, zato so precej pogosti in imajo ugodno ceno. Njihova slaba stran je, da so robovi ostrejši, zlasti pri visokih [napetostih](napetost).
@@ -28,13 +28,13 @@ Tudi pri vrsti pletenja lahko trakove v grobem razdelimo v nekaj kategorij:
 
 ### Širina
 
-Za slackline se najpogosteje uporabljajo trakovi širine 2,5 cm. Izjema so kratki, začetniški trakovi, ki so navadno širši (3,5 cm ali 5 cm) ter trakovi za izvajanje trikov, ki so široki 5 cm. Kljub splošno razširjenemu prepričanju začetnikov, da je hoja po širšem traku enostavnejša, širina traku na težavnost ne vpliva bistveno. Mnogi slacklinerji sčasoma pridejo celo do zaključka, da je klasičen 2,5-centimetrski trak pravzaprav prijetnejši za hojo. Razlog za uporabo širših trakov v začetniških kompletih je bržkone dejstvo, da lahko proizvajalci preprosto priložijo kar standardne tovorne 5-centimetrske napenjalne mehanizme.
+Za slackline se najpogosteje uporabljajo trakovi širine 2,5 cm. Izjema so kratki, začetniški trakovi, ki so navadno širši (3,5 cm ali 5 cm) ter trakovi za _trickline_ (izvajanje dinamičnih trikov na nizkih višinah), ki so široki 5 cm. Kljub splošno razširjenemu prepričanju začetnikov, da je hoja po širšem traku enostavnejša, širina traku na težavnost hoje ne vpliva bistveno. Mnogi slacklinerji sčasoma pridejo celo do zaključka, da je klasičen 2,5-centimetrski trak pravzaprav prijetnejši. Razlog za uporabo širših trakov v začetniških kompletih je bržkone dejstvo, da lahko proizvajalci preprosto priložijo kar standardne tovorne 5-centimetrske napenjalnike (t.i. _račne_).
 
-Na [visokicah](visokica) se skoraj izključno uporabljajo trakovi širine 2,5 cm, in za to širino je izdelana tudi vsa namenska oprema (npr. [banane](banana)). V posebnih primerih – visokice, dolge kilometer ali več – se v zadnjem času uveljavlja uporaba celo ožjih trakov (med 1,7 in 2,5 cm), ker z njimi zmanjšamo obremenitve traku zaradi vetra.
+Na [visokicah](visokica) se uporabljajo izključno trakovi širine 2,5 cm, in za to širino je izdelana tudi vsa namenska oprema, na primer [banane](banana). Edina izjema so izredno dolge visokice – kilometer ali več – pri katerih so v ogib vplivu vetra trakovi pogosto še ožji (med 1,7 cm in 2,5 cm).
 
 ## Karakteristike
 
-Lastnosti trakov običajno opredelimo z navedbo naslednjih karakteristik:
+Lastnosti trakov opredelimo z navedbo naslednjih karakteristik:
 
 - material
 - vrsta pletenja

@@ -6,4 +6,4 @@ Popuščalka je sestavljena iz dveh kovinskih osi, preko katerih je ovitih več 
 
 Za osi popuščalke se navadno izkorišča kar vijaka dveh nasproti si postavljenih [škopcev](skopec). Pri tem je treba paziti na orientacijo škopcev: trak mora pri odvijanju drseti tako, da vijakov ne more odviti, temveč jih lahko le bolj privije. Za eno od osi popuščalke je mogoče uporabiti tudi os na zadnji strani [banane](banana), če je ta primerno oblikovana.
 
-Ko želimo popustiti napetost, konec traku popuščalke odvežemo, po potrebi odvijemo kak ovoj (če je trenje preveliko), nato pa z roko nadzorujemo hitrost popuščanja. Pomembno je, da pri tem ves čas držimo konec traku, da nam ta ne zbeži iz rok.
+Ko želimo popustiti napetost, konec traku popuščalke odvežemo, po potrebi odvijemo kak ovoj (če je trenje preveliko), nato pa z roko nadzorujemo hitrost popuščanja. Pomembno je, da pri tem ves čas držimo konec traku popuščalke, da nam ta ne zbeži iz rok. Pri podiranju visokic morata biti konca [glavnega](glavni-trak) in [pomožnega](pomozni-trak) traku ob pričetku popuščanja že privezana na [pilotno vrv](pilotna-vrv), s pomočjo katere ju nato nadzorovano spravimo na drugo krajišče.

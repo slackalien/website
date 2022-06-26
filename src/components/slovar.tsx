@@ -53,6 +53,10 @@ const items = [
     title: "mehanska prednost",
   },
   {
+    url: "midline",
+    title: "midline",
+  },
+  {
     url: "minimalna-porusna-sila",
     title: "minimalna porušna sila",
   },
@@ -87,6 +91,10 @@ const items = [
   {
     url: "neskoncna-zanka",
     title: "neskončna zanka",
+  },
+  {
+    url: "obroc-visa",
+    title: "obroč visa",
   },
   {
     url: "osmica",
