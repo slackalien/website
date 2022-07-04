@@ -6,7 +6,7 @@
 
 const URL =
   process.env.NODE_ENV === `production`
-    ? `https://slackalien.netlify.app`
+    ? `https://slackalien.com`
     : `http://localhost:8000`
 
 module.exports = {
@@ -18,6 +18,7 @@ module.exports = {
   },
   trailingSlash: `ignore`,
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
