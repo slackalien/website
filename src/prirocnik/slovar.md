@@ -36,6 +36,7 @@ V spodnji tabeli so zbrani prevodi angleških izrazov v slovenske. Nekatere bese
 | highliner                       | visokovalec / visokovalka                                    |
 | highlining                      | visokovanje                                                  |
 | leash                           | [vis](vis)                                                   |
+| leash ring                      | [obroč visa](obroc-visa)                                     |
 | LineGrip                        | glej _webgrip_                                               |
 | linelocker / lineslide          | [maček](macek)                                               |
 | loop                            | zanka                                                        |

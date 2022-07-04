@@ -1,12 +1,12 @@
 ---
 title: "Visokovalski priročnik"
 featured: "images/andrej-bvasceva.jpg"
-description: "Dobrodošel, dobrodošla na slovenskem visokovalskem priročniku. Poslanstvo te spletne strani je nudenje informacij, povezanih z visokicami (highline) in visokovanjem, v slovenskem jeziku in za slovenski prostor. Vsebino urejajo člani slovenske visokovalske skupnosti."
+description: "Poslanstvo visokovalskega priročnika je nudenje informacij, povezanih z visokicami (highline) in visokovanjem, v slovenskem jeziku in za slovenski prostor. Vsebino urejajo člani slovenske visokovalske skupnosti."
 ---
 
 # Visokovalski priročnik
 
-Dobrodošel, dobrodošla na slovenskem visokovalskem priročniku. Poslanstvo te spletne strani je nudenje informacij, povezanih z [visokicami](visokica) (_highline_) in visokovanjem, v slovenskem jeziku in za slovenski prostor. Vsebino urejajo člani slovenske visokovalske skupnosti.
+Poslanstvo tega priročnika je nudenje informacij, povezanih z [visokicami](visokica) (_highline_) in visokovanjem, v slovenskem jeziku in za slovenski prostor. Vsebino urejajo člani slovenske visokovalske skupnosti.
 
 ## Kaj je visokovanje?
 
@@ -20,4 +20,4 @@ Visokovanje ena od različic hoje po napetem traku ([slackline](slackline)), pri
 
 ## Izrazje
 
-V priročniku se trudimo uporabljati slovenske izraze, četudi to pomeni, da jih moramo na novo izumiti. Visokovanje je dokaj nov šport, zato mnoge zanj specifične besede še nimajo slovenskih ustreznic. Na voljo je [slovar](slovar), ki trenutno služi tudi kot najbolj priročno izhodišče za raziskovanje te spletne strani.
+V priročniku se trudimo uporabljati slovenske izraze, četudi to pomeni, da jih moramo na novo izumiti. Visokovanje je dokaj nov šport, zato mnoge zanj specifične besede še nimajo slovenskih ustreznic. Prevodi tujih izrazov v slovenski jezik so zbrani v [slovarju](slovar).

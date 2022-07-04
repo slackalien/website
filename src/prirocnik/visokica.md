@@ -12,6 +12,6 @@ Za daljše visokice (od 100 m naprej) uporabljamo namesto enega samega kosa trak
 
 ## Varnost
 
-Za zagotovitev varnosti morajo biti vsi podsistemi visokice [redundantni](redundanca). To botruje tudi značilnemu videzu visokice, saj je pod [glavnim trakom](glavni-trak) v zankah obešen še [pomožni trak](pomozni-trak). Primerno zavarovan mora biti tudi dostop do visokice: dostopna točka je namreč v večini primerov nad prepadom, zato se je treba med privezovanjem na [vis](vis) začasno vpeti na varovalno vrv, privezano na [sidrišče](sidrisce).
+Za zagotovitev varnosti morajo biti vsi podsistemi visokice [redundantni](redundanca). To botruje značilnemu videzu visokice, saj je pod [glavnim trakom](glavni-trak) v zankah obešen še [pomožni trak](pomozni-trak). Primerno zavarovan mora biti tudi dostop: mesto dostopa je namreč v večini primerov nad prepadom, zato se je treba med privezovanjem na [vis](vis) začasno vpeti na varovalno vrv, privezano na [sidrišče](sidrisce).
 
-Visokovalec ali visokovalka mora neposredno pred vsakim dostopom na visokico pozorno pregledati svoj plezalni pas ter oba vozla na [visu](vis). Pas mora biti ustrezno zategnjen, vis mora biti vdet skozi obe glavni zanki na pasu, oba vozla na visu pa pravilno zavezana. Da zmanjšamo možnost človeške napake, je priporočeno, da nato isto opremo vedno pregleda še ena neodvisna oseba.
+Visokovalec ali visokovalka mora neposredno pred vsakim dostopom na visokico pozorno pregledati svoj plezalni pas ter oba vozla na [visu](vis). Pas mora biti pravilno nameščen, vis mora biti vdet skozi obe glavni zanki na pasu, oba vozla na visu pa pravilno zavezana. Da zmanjšamo možnost človeške napake, je priporočeno, da enak varnostni pregled ponovi še ena oseba.

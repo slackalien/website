@@ -25,7 +25,7 @@ const HomePage = ({ location }: PageProps) => (
       <Col md={8}>
         <p>
           V deželi na sončni strani Alp se po gozdovih potika skupina vesoljcev.
-          Iščemo brezna, luknje, prepade in pečine, da bi hodili tam kjer ni
+          Iščemo brezna, luknje, prepade in pečine, da bi hodili tam, kjer ni
           hodil še nihče.
         </p>
         <p>

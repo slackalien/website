@@ -10,7 +10,7 @@ Je največkrat uporabljen pri napenjanju visokic. Zanj potrebujemo le malo kompo
 
 ## Primitivni sistem
 
-Je enostaven sistem, največkrat uporabljen pri napenjanju krajših trakov v parku (njegova uporaba je smiselna do dolžine približno 30 m). Zanj potrebujemo več [vponk](vponka) in linelocker. Ustvarimo ga tako, da trak za linelockerjem peljemo v več ovojih skozi vponki na linelockerju in [sidrišču](sidrisce), pri čemer vsak nov ovoj postavimo pod prejšnjega. S takšnim ovijanjem dosežemo pomnožitev sile, hkrati pa ustvarimo zadostno trenje, da trak, ko ga enkrat napnemo, ne more popustiti sam od sebe. Tudi tu je za večjo mehansko prednost moč dodati množilnike, ki jih izdelamo z dodatnimi vponkami.
+Je enostaven sistem, največkrat uporabljen pri napenjanju krajših trakov v parku (njegova uporaba je smiselna do dolžine približno 30 m). Zanj potrebujemo več [vponk](vponka) in linelocker. Primitivni napenjalni sistem ustvarimo tako, da trak za linelockerjem peljemo v več ovojih skozi vponki na linelockerju ter [sidrišču](sidrisce), pri čemer vsak nov ovoj postavimo pod prejšnjega. S takšnim ovijanjem dosežemo pomnožitev sile, hkrati pa ustvarimo zadostno trenje, da trak, ko ga enkrat napnemo, ne more popustiti sam od sebe. Tudi tu je za večjo mehansko prednost moč dodati množilnike, ki jih izdelamo z dodatnimi vponkami.
 
 ![Primitivni sistem 5:1 z množilnikom 3:1](images/primitiv.jpg)
 
