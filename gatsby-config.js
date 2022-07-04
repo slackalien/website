@@ -105,8 +105,8 @@ module.exports = {
           images: [
             {
               url: `${URL}/slackalien.png`,
-              width: 1920,
-              height: 1280,
+              width: 1600,
+              height: 900,
               alt: `SlackAlien`,
             },
           ],

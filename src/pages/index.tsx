@@ -16,7 +16,7 @@ const HomePage = ({ location }: PageProps) => (
     <Row className="flex-row-reverse">
       <Col md={4}>
         <StaticImage
-          src="../images/logo/slackalien-abduction-transparent.png"
+          src="../images/logo/slackalien-abduction.png"
           width={400}
           alt="SlackAlien"
           className="img-fluid mb-4"
