@@ -1,0 +1,17 @@
+{
+  "name": "gatsby-remark-selective-link-rewrite",
+  "description": "Rewrite Markdown links selectively, based on sourceInstanceName",
+  "version": "0.0.1",
+  "author": {
+    "name": "Andrej Lajovic",
+    "email": "andrej.lajovic@ad-vega.si"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.13.0"
+  },
+  "dependencies": {
+    "unist-util-visit": "^1.3.0"
+  }
+}

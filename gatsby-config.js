@@ -46,8 +46,9 @@ module.exports = {
             },
           },
           {
-            resolve: "gatsby-remark-link-rewrite",
+            resolve: "gatsby-remark-selective-link-rewrite",
             options: {
+              sourceInstanceName: "prirocnik",
               pattern: /^([^/]*)$/,
               replace: "/prirocnik/$1/",
             },
