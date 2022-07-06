@@ -2,6 +2,15 @@ import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { GatsbySeo, AllSeoProps } from "gatsby-plugin-next-seo"
 
+type Props = AllSeoProps & {
+  pathname?: string
+  image?: {
+    src: string
+    height: number
+    width: number
+  }
+}
+
 type Data = {
   site: {
     siteMetadata: {
@@ -10,15 +19,6 @@ type Data = {
       description: string
       author: string
     }
-  }
-}
-
-type Props = AllSeoProps & {
-  pathname?: string
-  image?: {
-    src: string
-    height: number
-    width: number
   }
 }
 

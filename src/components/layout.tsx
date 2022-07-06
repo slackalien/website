@@ -16,8 +16,16 @@ type Props = {
   children: React.ReactNode
 }
 
+type Data = {
+  site: {
+    siteMetadata: {
+      title: string
+    }
+  }
+}
+
 const Layout = ({ children }: Props) => {
-  const data = useStaticQuery(graphql`
+  const data = useStaticQuery<Data>(graphql`
     query SiteTitleQuery {
       site {
         siteMetadata {
@@ -38,16 +46,16 @@ const Layout = ({ children }: Props) => {
           <Navbar.Collapse id="main-navbar">
             <Nav as="ul" className="me-auto mb-2 mb-md-0">
               <NavDropdown title="Dejavnosti" id="nav-dejavnosti">
-                <DropdownItem to="/visokovanje/">Visokovanje</DropdownItem>
-                <DropdownItem to="/delavnice/">Delavnice</DropdownItem>
-                <DropdownItem to="/vesoljska-mreza/">
+                <DropdownItem to="/visokovanje">Visokovanje</DropdownItem>
+                <DropdownItem to="/delavnice">Delavnice</DropdownItem>
+                <DropdownItem to="/vesoljska-mreza">
                   Vesoljska mreža
                 </DropdownItem>
               </NavDropdown>
-              <NavLink to="/za-zacetnike/">Za začetnike</NavLink>
-              <NavLink to="/varnost/">Varnost</NavLink>
+              <NavLink to="/za-zacetnike">Za začetnike</NavLink>
+              <NavLink to="/varnost">Varnost</NavLink>
               <NavLink to="/prirocnik/">Priročnik</NavLink>
-              <NavLink to="/kontakt/">Kontakt</NavLink>
+              <NavLink to="/kontakt">Kontakt</NavLink>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -55,7 +63,7 @@ const Layout = ({ children }: Props) => {
       <Container as="main" className="py-5">
         {children}
       </Container>
-      <Container as="footer" className="bg-alien p-4 text-center mt-auto">
+      <Container fluid as="footer" className="bg-alien p-4 text-center mt-auto">
         <div className="py-4">© 2022 SlackAlien</div>
       </Container>
     </Container>
