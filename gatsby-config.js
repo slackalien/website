@@ -16,7 +16,7 @@ module.exports = {
     author: `Bojan Hribernik`,
     siteUrl: URL,
   },
-  trailingSlash: `ignore`,
+  trailingSlash: `always`,
   plugins: [
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
@@ -43,6 +43,13 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1200,
+            },
+          },
+          {
+            resolve: "gatsby-remark-link-rewrite",
+            options: {
+              pattern: /^([^/]*)$/,
+              replace: "/prirocnik/$1/",
             },
           },
           `gatsby-remark-responsive-iframe`,
