@@ -17,40 +17,46 @@ const VarnostPage = ({ location }: PageProps) => (
       visokovali, se držimo naslednjih vodil:
     </p>
     <ul>
-      <li>
-        Na trak vedno stopamo navezani. Preden zapustimo sidišče, preverimo, da
-        imamo pas pravilno nameščen in da je vozel na visu pravilno zavezan.
+      <li className="mb-3">
+        <b>Na trak vedno stopamo navezani.</b>
+        <br /> Preden zapustimo sidišče, preverimo, da imamo pas pravilno
+        nameščen in da je vozel na visu pravilno zavezan.
       </li>
-      <li>
-        Vse komponente visokice so podvojene. V sicer malo verjetnem, a vseeno
-        mogočem primeru, da bi kaka od komponent popustila, bi njeno vlogo
-        prevzela rezervna. S tem se zavarujemo pred skritimi napakami na opremi
-        ter nepričakovanimi zunanjimi dejavniki.
+      <li className="mb-3">
+        <b>Vse komponente visokice so podvojene.</b>
+        <br /> V sicer malo verjetnem, a vseeno mogočem primeru, da bi kaka od
+        komponent popustila, bi njeno vlogo prevzela rezervna. S tem se
+        zavarujemo pred skritimi napakami na opremi ter nepričakovanimi
+        zunanjimi dejavniki.
       </li>
-      <li>
-        Uporabljamo namensko in strokovno izdelano opremo z znanimi
-        specifikacijami ter poskrbimo, da se obremenitve, ki jim je
-        izpostavljena, gibljejo znotraj zanjo predpisanih meja. Naši sistemi so
-        vedno načrtovani z ustreznim varnostnim faktorjem, kar pomeni, da so
-        sposobni varno prenesti tudi nekajkrat višje sile, kot so jim
-        izpostavljeni med visokovanjem.
+      <li className="mb-3">
+        <b>Uporabljamo namensko in strokovno izdelano opremo</b>
+        <br /> z znanimi specifikacijami ter poskrbimo, da se obremenitve, ki
+        jim je izpostavljena, gibljejo znotraj zanjo predpisanih meja. Naši
+        sistemi so vedno načrtovani z ustreznim varnostnim faktorjem, kar
+        pomeni, da so sposobni varno prenesti tudi nekajkrat višje sile, kot so
+        jim izpostavljeni med visokovanjem.
       </li>
-      <li>
-        Visokice postavlja dobro izurjena in izkušena ekipa. Začetnike rade
-        volje vključimo v proces postavljanja, a vedno pod budnim nadzorom
-        izkušenega mentorja. Tako poskrbimo, da se znanje prenaša na čim večji
-        del ekipe.
+      <li className="mb-3">
+        <b>Visokice postavlja dobro izurjena in izkušena ekipa.</b>
+        <br /> Začetnike rade volje vključimo v proces postavljanja, a vedno pod
+        budnim nadzorom izkušenega mentorja. Tako poskrbimo, da se znanje
+        prenaša na čim večji del ekipe.
       </li>
-      <li>
-        Svoje znanje ves čas izpopolnjujemo. Sledimo razvoju smernic in dobrih
-        praks na področju visokovanja in jih upoštevamo pri svojih dejavnostih.
+      <li className="mb-3">
+        <b>Svoje znanje ves čas izpopolnjujemo.</b>
+        <br /> Sledimo razvoju smernic in dobrih praks na področju visokovanja
+        in jih upoštevamo pri svojih dejavnostih.
       </li>
-      <li>
-        Tako pri postavljanju kot pri navzovanju se držimo principa dvojnega
-        preverjanja: vse ključne komponente sistema pred uporabo pregledata vsaj
-        dve usposobljeni osebi. Preden stopimo na trak, poprosimo kolega, da za
-        nas naredi varnostni pregled in potrdi, da imamo pas pravilno zapet ter
-        da je vozel na visu pravilno zavezan.
+      <li className="mb-3">
+        <b>
+          Tako pri postavljanju kot pri navzovanju se držimo principa dvojnega
+          preverjanja
+        </b>
+        <br />: vse ključne komponente sistema pred uporabo pregledata vsaj dve
+        usposobljeni osebi. Preden stopimo na trak, poprosimo kolega, da za nas
+        naredi varnostni pregled in potrdi, da imamo pas pravilno zapet ter da
+        je vozel na visu pravilno zavezan.
       </li>
     </ul>
     <Masonry

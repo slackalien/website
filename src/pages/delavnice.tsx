@@ -66,28 +66,6 @@ const DelavnicePage = ({ location }: PageProps) => (
       </Col>
     </Row>
 
-    {/*
-      <ul>
-        <li>
-          <ExternalLink href="https://forms.gle/FVpLkgLi3bT7habk9">
-            Highline delavnice
-          </ExternalLink>
-          : namenjene highline začetnikom oziroma vsakomur, ki si želi
-          visokovati.
-        </li>
-        <li>
-          <ExternalLink href="https://www.facebook.com/events/1396049607533320/1396049610866653/">
-            Slackline treningi
-          </ExternalLink>
-          : namenjeni vsem, ki si želijo izboljšati sposobnosti hoje po traku.
-        </li>
-        <li>
-          Društvene delavnice za člane: reševanje iz highlina, vrtanje sidrišč,
-          postavljanje zahtevnejših linij.
-        </li>
-      </ul>
-      */}
-
     <hr className="my-5" />
 
     <Masonry

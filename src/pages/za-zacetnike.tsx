@@ -48,8 +48,9 @@ const ZaZacetnikePage = ({ location }: PageProps) => (
           visokovanjem.
         </p>
         <ol>
-          <li>
-            <b>Sposobnost v parku prehoditi trak dolžine okoli 30 metrov.</b>{" "}
+          <li className="mb-3">
+            <b>Sposobnost v parku prehoditi trak dolžine okoli 30 metrov.</b>
+            <br />
             Visokic, krajših od te razdalje, se praktično nikoli ne postavlja,
             saj bi bil padec nanje preveč sunkovit. Trak, na katerem vadiš, naj
             tudi ne bo preveč napet: običajno imajo visokice razmerje med
@@ -60,22 +61,24 @@ const ZaZacetnikePage = ({ location }: PageProps) => (
             hodi preblizu njih. Nočemo, da se polomiš, še preden se sploh
             srečamo!
           </li>
-          <li>
-            <b>Sposobnost dviga na trak iz visečega položaja.</b> Na visokici ni
-            tal, s katerimi bi si bilo moč pomagati pri vstajanju, in po vsakem
-            padcu se je treba znati povzpeti nazaj. Manever je dokaj preprost,
-            ko ga enkrat obvladaš, je pa zanj potrebne nekaj vaje. Vadiš lahko
-            tako, da si v parku napneš trak dovolj visoko, da ko se zanj primeš
-            z rokami ter zatakneš z nogo, obvisiš pod njim. Če vadiš na traku s
-            predlaganimi razmerji (dolžina okoli 30 m in krajišča od 2 m do 3 m
-            visoko) bo to tako ali tako najpriročnejši način za priti nanj.
+          <li className="mb-3">
+            <b>Sposobnost dviga na trak iz visečega položaja.</b>
+            <br /> Na visokici ni tal, s katerimi bi si bilo moč pomagati pri
+            vstajanju, in po vsakem padcu se je treba znati povzpeti nazaj.
+            Manever je dokaj preprost, ko ga enkrat obvladaš, je pa zanj
+            potrebne nekaj vaje. Vadiš lahko tako, da si v parku napneš trak
+            dovolj visoko, da ko se zanj primeš z rokami ter zatakneš z nogo,
+            obvisiš pod njim. Če vadiš na traku s predlaganimi razmerji (dolžina
+            okoli 30 m in krajišča od 2 m do 3 m visoko) bo to tako ali tako
+            najpriročnejši način za priti nanj.
           </li>
-          <li>
-            <b>Sposobnost vstajanja iz sedečega položaja.</b> Tudi to lahko
-            vadiš v parku. Začni na kratkih in nizkih trakovih. Če te je strah
-            padca (zlasti neprijeten in nevaren je padec na hrbet), za začetek
-            poprosi kakega prijatelja, da stoji ob tebi, pripravljen, da te
-            prestreže.
+          <li className="mb-3">
+            <b>Sposobnost vstajanja iz sedečega položaja.</b>
+            <br />
+            Tudi to lahko vadiš v parku. Začni na kratkih in nizkih trakovih. Če
+            te je strah padca (zlasti neprijeten in nevaren je padec na hrbet),
+            za začetek poprosi kakega prijatelja, da stoji ob tebi, pripravljen,
+            da te prestreže.
           </li>
         </ol>
         <StaticImage
