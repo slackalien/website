@@ -1,3 +1,9 @@
+---
+title: "Banana"
+featured: "images/banane.jpg"
+description: "Banana je pripomoček, v katerega vpnemo trak, da ga lahko pritrdimo na sidrišče."
+---
+
 # Banana
 
 _Banana_ je pripomoček, v katerega vpnemo [trak](trak), da ga lahko pritrdimo na [sidrišče](sidrisce). Sestavljena je iz kovinskega ogrodja, v katerega sta vpeti dve osi, ena na prednji strani banane in druga v sredini. Prednja os je tanjša in odstranljiva, osrednja pa debelejša in nepremična. Zadnja stran banane je oblikovana v uho ali prečko in služi za pritrditev v sidrišče.
@@ -16,9 +22,9 @@ Na [visokicah](visokica) banano namestimo na [napenjalni strani](napenjalna-stra
 
 Banane so na razpolago v mnogih različicah, ki se razlikujejo po velikosti, teži, zagotovljeni [minimalni porušni sili](minimalna-porusna-sila) ter posebnih značilnostih, ki olajšajo njihovo uporabo. Med slednjimi so, na primer:
 
-* votla osrednja os, ki jo je moč izkoristiti pri blokiranju prostega dela traku;
-* pritrdilna točka za škripčevje na prednji strani;
-* odstranljiva prečka na zadnji strani, ki lahko služi kot os [popuščalke](popuscalka).
+- votla osrednja os, ki jo je moč izkoristiti pri blokiranju prostega dela traku;
+- pritrdilna točka za škripčevje na prednji strani;
+- odstranljiva prečka na zadnji strani, ki lahko služi kot os [popuščalke](popuscalka).
 
 Z varnostnega stališča je najpomembnejša značilnost banane premer njene osrednje osi. Če je ta dovolj debela, se vpeti trak okoli nje zakrivi zelo polagoma in s tem ohrani praktično polno [minimalno porušno silo](minimalna-porusna-sila), kar je zlasti pomembno na [visokicah](visokica).
 
