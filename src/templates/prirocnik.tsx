@@ -1,7 +1,6 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 import { PageProps } from "gatsby"
-import { Redirect } from "@reach/router"
 
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
