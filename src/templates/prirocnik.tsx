@@ -36,11 +36,6 @@ type DataProps = {
 const PrirocnikTemplate = (props: PageProps<DataProps>) => {
   const { data, location } = props
   const { excerpt, frontmatter, headings, html } = data.markdownRemark
-  if (location.pathname === "/prirocnik") {
-    console.log("redirect")
-
-    //return <Redirect to={"/prirocnik/"} />
-  }
   return (
     <Layout>
       <Seo

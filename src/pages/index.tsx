@@ -62,7 +62,7 @@ const HomePage = ({ location }: PageProps) => (
           Vprašanje je: si ti pripravljen/a pogledati strahu naravnost v oči?
         </p>
         <div>
-          <Button size="lg" as={Link as any} to="/za-zacetnike">
+          <Button size="lg" as={Link as any} to="/za-zacetnike/">
             Pripravljen sem!
           </Button>
         </div>

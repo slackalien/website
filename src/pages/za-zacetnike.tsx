@@ -28,8 +28,8 @@ const ZaZacetnikePage = ({ location }: PageProps) => (
           nadaljuješ s spletnimi viri, naposled pa se za svojo prvo pravo
           priložnost pozanimaš pri visokovalski skupnosti. Pri nas se lahko
           udeležiš kakega našega dogodka ali pa se kar prijaviš na highline{" "}
-          <Link to="/delavnice">delavnice</Link>. Ponavadi pa nas v predpoletnem
-          času najdeš tudi vsak torek v parku Tivoli.
+          <Link to="/delavnice/">delavnice</Link>. Ponavadi pa nas v
+          predpoletnem času najdeš tudi vsak torek v parku Tivoli.
         </p>
         <StaticImage
           src="../images/delavnice/sidrisce1.jpg"
