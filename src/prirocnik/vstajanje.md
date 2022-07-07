@@ -1,3 +1,8 @@
+---
+title: "Vstajanje"
+description: "Vstajanje je manever, s katerim na slacklinu preidemo iz sedečega v stoječi položaj brez pomoči tal."
+---
+
 # Vstajanje
 
 _Vstajanje_ na trak iz sedečega položaja in brez pomoči tal je ena od osnovnih veščin, ki so potrebne za hojo po [visokici](visokica). Spodaj so opisani trije najpogosteje uporabljani načini. Pri vseh načinih pričnemo tako, da sedimo okobal na traku. Trak naj bo malenkost odmaknjen na eno stran, saj sicer pritisne naravnost na trtico, kar je precej boleče in neudobno. Z poskušanjem se ga hitro naučimo namestiti na mišice ob sedalni kosti, ki tak pritisk dobro prenašajo.

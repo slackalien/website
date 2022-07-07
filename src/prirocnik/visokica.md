@@ -1,3 +1,8 @@
+---
+title: "Visokica"
+description: "Visokica je slackline, napet na dovoljšnji višini, da je potrebno varovanje z visom ter uporaba posebnih tehnik pri postavljanju."
+---
+
 # Visokica
 
 _Visokica_ je [slackline](slackline), napet na dovoljšnji višini, da bi bil nezavarovan padec z njega usoden in je zato potrebno varovanje z [visom](vis) ter uporaba posebnih tehnik pri [postavljanju](postavljanje). Čeprav velika višina s seboj prinaša nekatere nevarnosti, je s primernim znanjem in tehniko mogoče tveganje zelo omejiti, in v takem primeru je visokovanje v mnogo pogledih celo varnejše od slacklina v parku, saj je povsem odstranjena sicer znatna možnost poškodb ob padcu na tla. Visokice se tipično postavlja na zračnih, razglednih mestih, zaradi česar ima visokovanje poleg športne tudi precejšnjo estetsko komponento.

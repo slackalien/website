@@ -1,3 +1,8 @@
+---
+title: "Minimalna porušna sila"
+description: "Minimalna porušna sila je podatek, ki ga navede proizvajalec opreme, in pove silo, ki je ob enkratni obremenitvi potrebna za porušenje izdelka."
+---
+
 # Minimalna porušna sila
 
 _Minimalna porušna sila_ (krajšava MBS, angl. _minimum breaking strength_) je podatek, ki ga navede proizvajalec opreme, in pove silo, ki je ob enkratni obremenitvi potrebna za porušenje izdelka (na primer pretrganje [traku](trak) ali lom [vponke](vponka)). Podatek običajno pride v spremljavi drugega podatka, [največje delovne obremenitve](najvecja-delovna-obremenitev) (WLL): slednji podaja silo, ki je med običajno uporabo ne smemo preseči, če ne želimo poslabšati zagotovljenega MBS. Oprema, ki je bila med uporabo izpostavljena obremenitvam nad WLL, se lahko poruši pri sili, manjši od MBS. Drugi dejavniki, ki lahko povzročijo odpoved pri silah, manjših od MBS, so starost izdelka, poškodbe ter nepravilna uporaba.

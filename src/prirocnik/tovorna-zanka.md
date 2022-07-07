@@ -1,3 +1,8 @@
+---
+title: "Tovorna zanka"
+description: "Tovorna zanka je vrsta neskončne zanke, ki je namenjena za tovorno uporabo."
+---
+
 # Tovorna zanka
 
 _Tovorna zanka_ je vrsta [neskončne zanke](neskoncna-zanka), ki je namenjena za tovorno uporabo. Izdelana je iz mnogo ovojev tanke vrvi, vstavljene v širok cevast trak. Tovorne zanke odlikujejo njihova zanesljivost, dobra nosilnost in velika trpežnost, zato so nepogrešljive na [sidriščih](sidrisce) [slacklinov](slackline) in [visokic](visokica).

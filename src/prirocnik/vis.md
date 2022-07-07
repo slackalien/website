@@ -1,3 +1,8 @@
+---
+title: "Vis"
+description: "Vis je varnostna vez, s katero je visokovalec povezan z visokico in ki ga zadrži v primeru padca."
+---
+
 # Vis
 
 _Vis_ je varnostna vez, s katero je visokovalec povezan z [visokico](visokica) in ki ga zadrži v primeru padca. Na enem koncu je vis privezan na kovinski [obroč](obroc-visa), ki drsi preko [glavnega](glavni-trak) in [pomožnega](pomozni-trak) traku, na drugem pa na plezalni pas visokovalca. Vis je običajno izdelan iz vrvi, vdete skozi cevasti [trak](trak). Vloga slednjega je predvsem preprečevanje [abrazije](abrazija) ter izboljšanje ergonomičnosti, ne služi pa kot varnostni element. Vis je zato, poleg plezalnega pasu, edini [neredundantni](redundanca) del visokice.

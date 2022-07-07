@@ -1,3 +1,8 @@
+---
+title: "Spletni viri"
+description: "Zbirka spletnih virov, povezanih z visokovanjem."
+---
+
 # Spletni viri
 
 [HowNOT2](https://www.youtube.com/c/HowNOT2): YouTube kanal z zakladnico videov na temo visokovanja: osnove, testi opreme, eksperimenti ...

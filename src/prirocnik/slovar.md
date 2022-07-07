@@ -1,6 +1,6 @@
 ---
 title: "Slovenski visokovalski slovar"
-description: "Slovensko visokovalsko izrazje je v aktivnem nastajanju. Ker si visokovanje nekatere koncepte ter kose opreme deli z drugimi dejavnostmi, poskušamo pri prevajanju najprej poiskati že obstoječe izraze."
+description: "Zbirka angleških visokovalskih izrazov ter njihovih slovenskih ustreznic."
 ---
 
 # Slovar

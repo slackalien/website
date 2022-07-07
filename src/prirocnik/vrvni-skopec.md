@@ -1,3 +1,8 @@
+---
+title: "Vrvni škopec"
+description: "Vrvni škopec je vezni člen, ki ima podobne lastnosti kot škopec, vendar je za razliko od slednjega izdelan iz vrvi in zato gibek."
+---
+
 # Vrvni škopec
 
 _Vrvni škopec_ je vezni člen, ki ima podobne lastnosti kot [škopec](skopec), vendar je za razliko od slednjega izdelan iz vrvi in zato gibek. Za vrvne škopce se uporablja ohlapno pletena vrv iz [UHMWPE](https://en.wikipedia.org/wiki/UHMWPE) (bolj poznana pod blagovnim imenom Dyneema). Na eni strani škopca je vrv vdeta sama skozi sebe, s čimer oblikuje kratko zanko, na drugi strani pa sta konca vrvi spletena v debel vozel. Škopec zapremo tako, da vozel vstavimo skozi zanko, ki se že ob najmanjši obremenitvi zadrgne in prepreči, da bi vozel zdrsel nazaj skoznjo.

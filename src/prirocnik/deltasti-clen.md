@@ -1,3 +1,8 @@
+---
+title: "Deltasti člen"
+description: "Deltasti člen je kovinski vezni člen trikotne oblike, ki se na eni od stranic zapira z matico."
+---
+
 # Deltasti člen
 
 _Deltasti člen_ je kovinski vezni člen trikotne oblike, ki se na eni od stranic zapira z matico. Uporabljamo ga pri izdelavi skalnih [sidrišč](sidrisce), na katerih so sidriščne točke v [skupno točko](skupna-tocka) povezane s [tovornimi zankami](tovorna-zanka). V takšnih sidriščih je v uho vsakega skalnega vijaka vstavljen po en deltasti člen, skozi tega pa je nato speljana zanka.

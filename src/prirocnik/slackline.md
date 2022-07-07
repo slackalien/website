@@ -1,3 +1,8 @@
+---
+title: "Slackline"
+description: "Slackline je krovni izraz za dejavnost gibanja na napetem traku. V splošni rabi izraz označuje krajši trak, napet na majhni višini, tipično v parku."
+---
+
 # Slackline
 
 _Slackline_ je krovni izraz za dejavnost gibanja na napetem [traku](trak). Ker je definicija tako široka, izraz pokriva več poddejavnosti, ki so opredeljene s svojimi specifikami, na primer z dolžino traku, njegovo višino in načinom gibanja na njem (hoja, izvajanje trikov). V nespecifični rabi se izraz _slackline_ običajno nanaša na krajše trakove, napete na majhni višini, tipično v parku.

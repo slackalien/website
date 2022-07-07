@@ -1,3 +1,8 @@
+---
+title: "Abrazija"
+description: "Abrazija je obraba, do katere pride zaradi drgnjenja. Povzroči lahko popolno odpoved opreme, zato jo je treba na vsak način preprečiti."
+---
+
 # Abrazija
 
 _Abrazija_ je obraba, do katere pride zaradi drgnjenja. Možnost za abrazijo obstaja povsod, kjer prihaja do trenja med dvema medsebojno gibajočima se predmetoma. Prizadene predvsem elemente, izdelane iz mehkejših materialov, na primer [trakove](trak), [zanke](neskoncna-zanka) in vrvi, niso pa pred njo povsem varni tudi kovinski elementi. Do abrazije lahko pride hipno, če sta predmeta izpostavljena veliki sili in sunkovitemu premiku, lahko pa napreduje tudi počasi, z manj intenzivnim, a ponavljajočim se drgnjenjem. Abrazija lahko povzroči popolno odpoved opreme, zato jo je treba na vsak način preprečiti, kar dosežemo s [podlaganjem](podloga) in [odmikanjem](a-okvir).

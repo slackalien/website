@@ -1,3 +1,8 @@
+---
+title: "Primež"
+description: "Primež je naprava, ki trdno zgrabi trak in se uporablja za napenjanje slacklinov."
+---
+
 # Primež
 
 _Primež_ je naprava, ki trdno zgrabi [trak](trak) in se uporablja za [napenjanje](napenjanje) [slacklinov](slackline). Najpomembnejša lastnost primeža je, da ga lahko namestimo na že napet trak in ga, ko silo nanj popustimo, s traku tudi preprosto odstranimo. Čeprav na videz opravlja podobno vlogo kot [banana](banana), ima primež precej drugačne lastnosti in namen, zato ni ustrezno nadomestilo zanjo.

@@ -1,3 +1,8 @@
+---
+title: "Sidrišče"
+description: "Sidrišče je sistem veznih elementov, ki so na eni strani pripeti na okolico, na drugi strani pa se združijo v skupni točki, v katero je vpet slackline."
+---
+
 # Sidrišče
 
 _Sidrišče_ je sistem veznih elementov, ki so na eni strani pripeti na okolico, na drugi strani pa se združijo v [skupni točki](skupna-tocka), v katero je vpet [slackline](slackline). Izdelava sidrišč je prvi korak pri [postavljanju](postavljanje). Sidrišča se v grobem ločijo na dve vrsti glede na način pritrditve: izdelamo jih lahko bodisi z ovijanjem celih objektov z [zankami](neskoncna-zanka) ali vrvmi bodisi z izkoriščanjem sidriščnih točk, ki so na objekte pritrjene. Najpogostejši primer ovijanja je sidranje na drevesa, sidranje v pritrjene točke pa se uporablja pri skalnih sidriščih. [Trak](trak) je v skupno točko sidrišča vpet z [banano](banana) ali [šivano zanko](sivana-zanka). Vezne elemente sidrišča je treba ustrezno zaščititi pred [abrazijo](abrazija), pri [visokicah](visokica) pa je treba poskrbeti tudi za [redundanco](redundanca).

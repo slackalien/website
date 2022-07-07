@@ -1,3 +1,8 @@
+---
+title: "Ovalni člen"
+description: "Ovalni člen je kovinski vezni člen, po obliki podoben členu verige, na katerem se ena od stranic zapira z matico."
+---
+
 # Ovalni člen
 
 _Ovalni člen_ je kovinski vezni člen, po obliki podoben členu verige, na katerem se ena od stranic zapira z matico. Najpogosteje ga uporabljamo pri izdelavi skalnih [sidrišč](sidrisce), kjer služi kot vezni člen med ušesom skalnega vijaka ter statično vrvjo, speljano v [skupno točko](skupna-tocka). Svoje mesto najde tudi v nekaterih različicah [segmentiranja](segmentiranje).

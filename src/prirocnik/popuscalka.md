@@ -1,3 +1,8 @@
+---
+title: "Popuščalka"
+description: "Popuščalka je pripomoček, s katerim nadzorovano popustimo napetost na slacklinu, da ga lahko podremo."
+---
+
 # Popuščalka
 
 _Popuščalka_ je pripomoček, s katerim nadzorovano popustimo [napetost](napetost) na [slacklinu](slackline), da ga lahko podremo. Uporablja se v primerih, ko [napenjalni sistem](napenjalni-sistem) ni del slacklina. To je na [visokicah](visokica) zelo pogost pristop, saj z manjšim številom komponent sistema zmanjšamo tudi stopnjo tveganja. Popuščalka je praviloma nameščena na [statični strani](staticna-stran) visokice.

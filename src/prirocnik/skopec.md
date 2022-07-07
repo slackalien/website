@@ -1,3 +1,8 @@
+---
+title: "Škopec"
+description: "Škopec je kovinski vezni člen, najpogosteje podkvaste oblike. Ko je zaprt, prenese visoke obremenitve v praktično vseh smereh."
+---
+
 # Škopec
 
 _Škopec_ je kovinski vezni člen, najpogosteje podkvaste oblike. Ustje škopca je premoščeno z odstranljivim vijakom, ki povezuje kovinski lok v sklenjeno celoto. Ko je škopec zaprt, je povsem rigiden in lahko prenese visoke obremenitve v praktično vseh smereh, vključno s [trosmernimi](trosmerna-obremenitev) ali večsmernimi obremenitvami. Ta lastnost je glavna prednost škopca pred [vponko](vponka), ki je zasnovana samo za dvosmerno obremenitev. Po škopcu posežemo v primerih, ko je treba združiti povezave (vrvi, zanke) z več smeri.

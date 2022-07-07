@@ -1,7 +1,7 @@
 ---
 title: "Visokovalski priročnik"
 featured: "images/andrej-bvasceva.jpg"
-description: "Poslanstvo visokovalskega priročnika je nudenje informacij, povezanih z visokicami (highline) in visokovanjem, v slovenskem jeziku in za slovenski prostor. Vsebino urejajo člani slovenske visokovalske skupnosti."
+description: "Visokovalski priročnik je vir informacij, povezanih z visokicami (highline) in visokovanjem, v slovenskem jeziku in za slovenski prostor."
 ---
 
 # Visokovalski priročnik

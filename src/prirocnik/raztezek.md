@@ -1,3 +1,8 @@
+---
+title: "Raztezek"
+description: "Raztezek je ena od lastnosti traku in je merilo za kvalitativno lastnost elastičnosti."
+---
+
 # Raztezek
 
 _Raztezek_ je ena od lastnosti [traku](trak) in je merilo za kvalitativno lastnost elastičnosti. Trak z večjim raztezkom se bo pri isti sili raztegnil bolj kot trak z manjšim raztezkom. Raztezek podajamo v procentih pri nazivni sili. Primer: če ima trak raztezek 8 % pri 10 kN, to pomeni, da se bo pri obremenitvi z 10 kN raztegnil za 8 % prvotne dolžine.

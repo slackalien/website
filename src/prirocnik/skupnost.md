@@ -1,3 +1,8 @@
+---
+title: "Visokovalska skupnost"
+description: "Seznam povezav na slovenske skupine, ki se ukvarjajo z visokovanjem."
+---
+
 # Visokovalska skupnost
 
 Slovenska visokovalska skupnost je v trenutku pisanja še dokaj majhna, a ne dvomimo, da se bo s časom le povečevala. Če želiš stopiti v stik s skupnostjo, je ponavadi dovolj že, da redno vadiš v parku, in prava poznanstva se bodo vzpostavila sama od sebe. Spodaj je zbranih še nekaj spletnih povezav na skupine, katerih člani se ukvarjajo z visokovanjem.
