@@ -24,7 +24,7 @@ type Data = {
 
 const Prirocnik = ({ location }: Props) => {
   const { prirocnik } = useStaticQuery<Data>(graphql`
-    query SlovarSidebarQuery {
+    query KazaloSidebarQuery {
       prirocnik: allMarkdownRemark(
         sort: { order: ASC, fields: headings___value }
       ) {

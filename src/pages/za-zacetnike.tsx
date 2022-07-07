@@ -7,7 +7,7 @@ import Col from "react-bootstrap/Col"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Slovar from "../components/slovar"
+import Kazalo from "../components/kazalo"
 
 const ZaZacetnikePage = ({ location }: PageProps) => (
   <Layout>
@@ -111,7 +111,7 @@ const ZaZacetnikePage = ({ location }: PageProps) => (
         />
       </Col>
       <Col md={4}>
-        <Slovar location={location} />
+        <Kazalo location={location} />
       </Col>
     </Row>
   </Layout>
