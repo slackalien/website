@@ -24,12 +24,16 @@ const ZaZacetnikePage = ({ location }: PageProps) => (
           poučiti o zadevah. Upamo, da ti bo ta priročnik pomagal pri tem.
         </p>
         <p>
-          Predlagamo, da si najprej po dolgem in počez prebereš to stran,
-          nadaljuješ s spletnimi viri, naposled pa se za svojo prvo pravo
-          priložnost pozanimaš pri visokovalski skupnosti. Pri nas se lahko
-          udeležiš kakega našega dogodka ali pa se kar prijaviš na highline{" "}
-          <Link to="/delavnice/">delavnice</Link>. Ponavadi pa nas v
-          predpoletnem času najdeš tudi vsak torek v parku Tivoli.
+          Predlagamo, da si najprej po dolgem in počez prebereš visokovalski{" "}
+          <Link to="/prirocnik/">priročnik</Link>, nadaljuješ s{" "}
+          <Link to="/prirocnik/spletni-viri/">spletnimi viri</Link>, naposled pa
+          se za svojo prvo pravo priložnost pozanimaš pri visokovalski{" "}
+          <Link to="/prirocnik/skupnost/">skupnosti</Link>. Pri društvu
+          SlackAlien se lahko udeležiš kakega društvenega dogodka ali pa se kar
+          prijaviš na visokovalske <Link to="/delavnice/">delavnice</Link>. Pred
+          in med tem pa seveda uriš svoje spretnosti na varen način – v parku.
+          To je tudi dobra priložnost za druženje, saj nas lahko v predpoletnem
+          času ponavadi najdeš vsak torek v parku Tivoli.
         </p>
         <StaticImage
           src="../images/delavnice/sidrisce1.jpg"
@@ -62,7 +66,11 @@ const ZaZacetnikePage = ({ location }: PageProps) => (
             srečamo!
           </li>
           <li className="mb-3">
-            <b>Sposobnost dviga na trak iz visečega položaja.</b>
+            <b>
+              Sposobnost{" "}
+              <Link to="/prirocnik/dvig-na-trak/">dviga na trak</Link> iz
+              visečega položaja.
+            </b>
             <br /> Na visokici ni tal, s katerimi bi si bilo moč pomagati pri
             vstajanju, in po vsakem padcu se je treba znati povzpeti nazaj.
             Manever je dokaj preprost, ko ga enkrat obvladaš, je pa zanj
@@ -73,7 +81,10 @@ const ZaZacetnikePage = ({ location }: PageProps) => (
             najpriročnejši način za priti nanj.
           </li>
           <li className="mb-3">
-            <b>Sposobnost vstajanja iz sedečega položaja.</b>
+            <b>
+              Sposobnost <Link to="/prirocnik/vstajanje/">vstajanja</Link> iz
+              sedečega položaja.
+            </b>
             <br />
             Tudi to lahko vadiš v parku. Začni na kratkih in nizkih trakovih. Če
             te je strah padca (zlasti neprijeten in nevaren je padec na hrbet),

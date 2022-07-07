@@ -16,7 +16,7 @@ Visokovanje ena od različic hoje po napetem traku ([slackline](slackline)), pri
 
 ## Za začetnike in začetnice
 
-**POMEMBNO:** Če te zanima visokovanje, se tega nikakor ne lotevaj sam, saj je vsaka napaka lahko usodna! Visokovanje je sicer precej varen šport, a le, kadar je oprema postavljena in preverjena s strani izkušenih visokovalcev. Predlagamo, se o visokovanju najprej poučiš s pomočjo tega priročnika in drugih [spletnih virov](spletni-viri), nato pa se pridružiš kaki izmed [visokovalskih skupin](skupnost). Za obširnejše informacije si oglej stran [za začetnike](za-zacetnike).
+**POMEMBNO:** Če te zanima visokovanje, se tega nikakor ne lotevaj sam, saj je vsaka napaka lahko usodna! Visokovanje je sicer precej varen šport, a le, kadar je oprema postavljena in preverjena s strani izkušenih visokovalcev. Predlagamo, se o visokovanju najprej poučiš s pomočjo tega priročnika in drugih [spletnih virov](spletni-viri), nato pa se pridružiš kaki izmed [visokovalskih skupin](skupnost). Za obširnejše informacije si oglej stran [za začetnike](/za-zacetnike/).
 
 ## Izrazje
 
