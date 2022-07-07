@@ -49,7 +49,7 @@ const Prirocnik = ({ location }: Props) => {
       <Nav variant="pills">
         {prirocnik.edges.map(({ node }) => {
           const title = node.headings[0].value
-          const url = `/prirocnik/${node.fields.slug.replaceAll("/", "")}`
+          const url = `/prirocnik${node.fields.slug}`
           const active = location.pathname === url
           return (
             <Nav.Link as={Link} key={url} to={url} active={active}>
