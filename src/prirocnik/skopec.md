@@ -1,5 +1,6 @@
 ---
 title: "Škopec"
+featured: "images/skopci.jpg"
 description: "Škopec je kovinski vezni člen, najpogosteje podkvaste oblike. Ko je zaprt, prenese visoke obremenitve v praktično vseh smereh."
 ---
 

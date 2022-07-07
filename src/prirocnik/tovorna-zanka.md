@@ -1,5 +1,6 @@
 ---
 title: "Tovorna zanka"
+featured: "images/sidrisce-s-tovornimi-zankami.jpg"
 description: "Tovorna zanka je vrsta neskončne zanke, ki je namenjena za tovorno uporabo."
 ---
 

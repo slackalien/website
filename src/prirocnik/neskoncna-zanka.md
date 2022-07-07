@@ -1,5 +1,6 @@
 ---
 title: "Neskončna zanka"
+featured: "images/neskoncne-zanke.jpg"
 description: "Neskončna zanka je zanka, narejena iz kosa tekstilnega traku, katerega konca sta sešita skupaj."
 ---
 

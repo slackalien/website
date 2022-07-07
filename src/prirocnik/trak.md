@@ -1,5 +1,6 @@
 ---
 title: "Trak"
+featured: "images/trak.jpg"
 description: "Elastičen tekstilni trak je osrednji rekvizit pri vseh različicah slacklina."
 ---
 

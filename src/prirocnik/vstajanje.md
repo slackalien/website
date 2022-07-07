@@ -1,5 +1,6 @@
 ---
 title: "Vstajanje"
+featured: "images/sitstart.jpg"
 description: "Vstajanje je manever, s katerim na slacklinu preidemo iz sedečega v stoječi položaj brez pomoči tal."
 ---
 

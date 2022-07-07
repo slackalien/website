@@ -1,5 +1,6 @@
 ---
 title: "Maček"
+featured: "images/hangover.jpg"
 description: "Maček je vponka, ki ima na vrhu vgrajen prosto vrteč se valj. Služi za prevažanje po traku ter kot večnamenski škripec za trak."
 ---
 

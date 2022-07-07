@@ -1,5 +1,6 @@
 ---
 title: "Vrvni škopec"
+featured: "images/softshackle.jpg"
 description: "Vrvni škopec je vezni člen, ki ima podobne lastnosti kot škopec, vendar je za razliko od slednjega izdelan iz vrvi in zato gibek."
 ---
 

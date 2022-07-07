@@ -1,5 +1,6 @@
 ---
 title: "Podloga"
+featured: "images/zascita.jpg"
 description: "Podloga so predmeti, s katerimi zaščitimo komponente sistema pred abrazijo."
 ---
 
