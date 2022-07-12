@@ -1,3 +1,8 @@
+---
+title: "Obroč visa"
+description: "Obroč visa je kovinski obroč, nameščen na stiku visa z visokico. Preprečuje neposreden stik visa ter traku, ki bi sicer povzročil abrazijo."
+---
+
 # Obroč visa
 
 _Obroč visa_ je kovinski obroč, nameščen na stiku [visa](vis) z [visokico](visokica). Nadet je preko obeh [trakov](trakov), [glavnega](glavni-trak) ter [pomožnega](pomozni-trak), in ga visokovalec oziroma visokovalka med hojo vleče za seboj. Obroč preprečuje neposreden stik visa ter traku, kar bi sicer povzročilo [abrazijo](abrazija).

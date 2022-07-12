@@ -1,3 +1,8 @@
+---
+title: "Jebeno velik vozel"
+description: "Jebeno velik vozel je način izdelave skupne točke na sidrišču, pri katerem vse pramene vrvi, speljane skozi sidriščne točke, zavežemo v ogromen vozel."
+---
+
 # Jebeno velik vozel
 
 _Jebeno velik vozel_ (kratica BFK, angl. _big fucking knot_) je način izdelave [skupne točke](skupna-tocka) na [sidrišču](sidrisce), pri katerem vse pramene vrvi, speljane skozi sidriščne točke, zavežemo v ogromen vozel. Prednost tega pristopa je, da ob morebitni odpovedi ene od sidriščnih točk ostale niso izpostavljene sunkoviti obremenitvi in s tem nevarnosti [verižne odpovedi](verizna-odpoved). Slaba stran pa je, da ne omogoča samodejnega porazdeljevanja obremenitve med sidriščne točke.

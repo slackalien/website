@@ -30,12 +30,13 @@ const VarnostPage = ({ location }: PageProps) => (
         zunanjimi dejavniki.
       </li>
       <li className="mb-3">
-        <b>Uporabljamo namensko in strokovno izdelano opremo</b>
-        <br /> z znanimi specifikacijami ter poskrbimo, da se obremenitve, ki
-        jim je izpostavljena, gibljejo znotraj zanjo predpisanih meja. Naši
-        sistemi so vedno načrtovani z ustreznim varnostnim faktorjem, kar
-        pomeni, da so sposobni varno prenesti tudi nekajkrat višje sile, kot so
-        jim izpostavljeni med visokovanjem.
+        <b>Uporabljamo namensko in strokovno izdelano opremo.</b>
+        <br /> Specifikacije opreme vedno preverimo, jih pri uporabi spoštujemo
+        ter poskrbimo, da se obremenitve, ki jim je izpostavljena, gibljejo
+        znotraj zanjo predpisanih meja. Naši sistemi so vedno načrtovani z
+        ustreznim varnostnim faktorjem, kar pomeni, da so sposobni varno
+        prenesti tudi nekajkrat višje sile, kot so jim izpostavljeni med
+        visokovanjem.
       </li>
       <li className="mb-3">
         <b>Visokice postavlja dobro izurjena in izkušena ekipa.</b>
@@ -51,9 +52,10 @@ const VarnostPage = ({ location }: PageProps) => (
       <li className="mb-3">
         <b>
           Tako pri postavljanju kot pri navzovanju se držimo principa dvojnega
-          preverjanja
+          preverjanja.
         </b>
-        <br />: vse ključne komponente sistema pred uporabo pregledata vsaj dve
+        <br />
+        Vse ključne komponente sistema pred uporabo pregledata vsaj dve
         usposobljeni osebi. Preden stopimo na trak, poprosimo kolega, da za nas
         naredi varnostni pregled in potrdi, da imamo pas pravilno zapet ter da
         je vozel na visu pravilno zavezan.

@@ -1,3 +1,8 @@
+---
+title: "Redundanca"
+description: "Redundanca je stanje, ko isto vlogo opravlja več neodvisnih podsistemov, s čimer dosežemo odpornost na odpoved enega od njih."
+---
+
 # Redundanca
 
 _Redundanca_ je stanje, ko isto vlogo opravlja več neodvisnih podsistemov, s čimer dosežemo odpornost na odpoved enega od njih. V visokovanju je najočitnejši primer redundance uporaba dveh trakov: [glavnega](glavni-trak) in [pomožnega](pomozni-trak). Če iz kakršnegakoli razloga glavni trak odpove, nosilno vlogo prevzame rezervni trak in s tem obvaruje visokovalca pred padcem v globino.

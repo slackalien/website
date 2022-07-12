@@ -1,3 +1,8 @@
+---
+title: "Pomožni trak"
+description: "Pomožni trak je eden od dveh trakov, ki sestavljata visokico. Zagotavlja varnostno redundanco ter duši tresljaje glavnega traku."
+---
+
 # Pomožni trak
 
 _Pomožni trak_ je eden od dveh [trakov](trak), ki sestavljata [visokico](visokica), in je v veliki meri zaslužen za njen značilni videz. Pomožni trak ni napet, temveč je v zankah obešen pod [glavnim trakom](glavni-trak). Njegova primarna vloga je zagotavljanje [redundance](redundanca): če bi iz kakršnegakoli vzroka glavni trak odpovedal, bi nosilno vlogo prevzel pomožni trak in s tem preprečil padec visokovalca v globino. Sekundarna vloga pomožnega traku je očem bolj skrita, a kljub temu še kako pomembna. Njegove zanke namreč dušijo tresljaje glavnega traku ter s tem močno olajšajo hojo. Takšno dušenje je še zlasti pomembno pri dolgih trakovih, ki bi jih bilo brez pomožnega traku praktično nemogoče prehoditi.

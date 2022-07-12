@@ -1,3 +1,8 @@
+---
+title: "Šivana zanka"
+description: "Šivana zanka je zaključna zanka na traku, ki omogoča vpetje traku brez uporabe banane."
+---
+
 # Šivana zanka
 
 _Šivana zanka_ je zaključna zanka na [traku](trak), ki omogoča vpetje traku brez uporabe [banane](banana). Izdelana je tako, da je konec traku zapognjen sam preko sebe, nato pa zašit s posebnim šivom v dolžini približno 10 do 15 cm. Za izboljšanje nosilnosti je včasih trak zavit v več kot dve plasti ali pa je v zapognjeni konec traku vstavljena še dodatna plast drugega traku. Šivana zanka v splošnem povzroči nekaj izgube nosilnosti, a sodobne, profesionalno izdelane šivane zanke se že močno približajo [minimalni porušni sili](minimalna-porusna-sila) samega traku (več kot 90 %). Izdelavo šivanih zank je najbolje prepustiti proizvajalcu, saj ta najbolje pozna značilnosti traku ter tehniko šivanja, ki da najboljše rezultate.

@@ -1,3 +1,8 @@
+---
+title: "Dvig na trak"
+description: "Dvig na trak je manever, s katerim se iz visečega položaja povzpnemo na slackline."
+---
+
 # Dvig na trak
 
 _Dvig na trak_ iz visečega položaja je ena od osnovnih osnovnih veščin, potrebnih za visokovanje. Manevra se velja dobro naučiti, da nam pri visokovanju pobere čim manj energije. Vaditi ga je mogoče v parku, le trak mora biti napet dovolj visoko, da se pri vadbi ne zadenemo v tla.

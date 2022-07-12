@@ -1,3 +1,8 @@
+---
+title: "Mehanska prednost"
+description: "Mehanska prednost je pomnožitev sile, ki jo dosežemo s preusmerjanjem vrvi ali traku, običajno preko škripcev."
+---
+
 # Mehanska prednost
 
 _Mehanska prednost_ je pomnožitev sile, ki jo dosežemo s preusmerjanjem vrvi ali [traku](trak), običajno preko [škripcev](skripec). Mehanska prednost nam omogoča, da na eni strani sistema dosežemo večjo silo in manjši pomik, na drugi strani sistema pa manjšo silo in večji pomik. Princip s pridom izkoriščamo v [napenjalnih sistemih](napenjalni-sistem).

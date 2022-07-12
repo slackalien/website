@@ -1,3 +1,8 @@
+---
+title: "Napenjalni sistem"
+description: "Napenjalni sistem je skupek komponent, s katerim napenjamo trak."
+---
+
 # Napenjalni sistem
 
 _Napenjalni sistem_ je skupek komponent, s katerim [napenjamo](napenjanje) [trak](trak). Vsem je skupno, da z njimi ustvarimo [mehansko prednost](mehanska-prednost). Poznamo več osnovnih sistemov:

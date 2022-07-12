@@ -1,3 +1,8 @@
+---
+title: "Frostov vozel"
+description: "Frostov vozel je način izdelave končne zanke v traku ali vrvi, s katerim ohranimo večji delež nosilnosti kot z običajno enojno zanko."
+---
+
 # Frostov vozel
 
 _Frostov vozel_ je način izdelave končne zanke v [traku](trak) ali vrvi, s katerim ohranimo večji delež nosilnosti kot z običajno enojno zanko. Frostov vozel je v svoji osnovni obliki pravzaprav le vozel _šestica_, zavezan na specifičen način; lahko pa na isti način zavežemo tudi druge različice vozlov, npr. osmico ali devetko. V visokovanju se takšen vozel včasih uporablja kot nadomestilo za [šivano zanko](sivana-zanka), a le v okoliščinah, kjer vozel ni trajno obremenjen, na primer na krajiščih [pomožnega traku](pomozni-trak).

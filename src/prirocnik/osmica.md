@@ -1,3 +1,8 @@
+---
+title: "Osmica"
+description: "Osmica je vozel s široko uporabo. V visokovanju ga uporabljamo pri izdelavi sidrišč ter za privezovanje na vis."
+---
+
 # Osmica
 
 _Osmica_ je vozel s široko uporabo. V visokovanju ga uporabljamo pri izdelavi sidrišč ter za privezovanje na [vis](vis). Prednost vozla je, da ga je razmeroma enostavno zavezati ter pregledati, ne more se prevreči in tudi ne sam od sebe razvezati.

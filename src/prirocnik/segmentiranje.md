@@ -1,3 +1,8 @@
+---
+title: "Segmentiranje"
+description: "Segmentiranje je tehnika, pri kateri visokico sestavimo iz več zaporednih kosov trakov (segmentov)."
+---
+
 # Segmentiranje
 
 _Segmentiranje_ je tehnika, pri kateri [visokico](visokica) sestavimo iz več zaporednih kosov [trakov](trak) (segmentov). Na vsakem od spojev sta trakova, tako [glavni](glavni-trak) kot [pomožni](pomozni-trak), med seboj navzkrižno povezana preko veznih členov, speljanih skozi [šivane zanke](sivana-zanka). Tehnika se uporablja za [postavljanje](postavljanje) visokic, daljših od 100 m, kjer bi bila uporaba enega samega zveznega traku nepraktična in tudi potencialno nevarna.

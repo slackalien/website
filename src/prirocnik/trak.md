@@ -1,3 +1,9 @@
+---
+title: "Trak"
+featured: "images/trak.jpg"
+description: "Elastičen tekstilni trak je osrednji rekvizit pri vseh različicah slacklina."
+---
+
 # Trak
 
 Elastičen tekstilni _trak_ je osrednji rekvizit pri vseh različicah [slacklina](slackline). Prvotno se je za slackline uporabljal plezalski najlonski trak širine 2,5 cm, a z širšim razmahom tega športa se je na tržišču pojavilo še mnogo drugačnih trakov z različnimi lastnostmi. Izbira traku je tako odvisna od predvidene dolžine relacij, želene elastičnosti traku, njegove nosilnosti, vrste uporabe (hoja, izvajanje trikov), odpornosti na okoljske vplive ter drugih dejavnikov.

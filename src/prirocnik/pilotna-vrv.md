@@ -1,3 +1,8 @@
+---
+title: "Pilotna vrv"
+description: "Pilotna vrv (skrajšano tudi samo pilotka) je vrvica, s katero pri postavljanju visokice povlečemo trakova preko vrzeli."
+---
+
 # Pilotna vrv
 
 _Pilotna vrv_ (skrajšano tudi samo _pilotka_) je vrvica, s katero pri postavljanju [visokice](visokica) povlečemo trakova preko vrzeli. Navadno za pilotno vrv uporabljamo vrv debeline 3 ali 4 mm. Štirimilimetrska vrv je še zlasti priročna zato, ker je združljiva s prižemami ter drugimi napravami z zobci (na primer škripec Petzl Micro Traxion).

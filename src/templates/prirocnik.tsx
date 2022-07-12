@@ -7,7 +7,7 @@ import Col from "react-bootstrap/Col"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Slovar from "../components/slovar"
+import Kazalo from "../components/kazalo"
 
 type DataProps = {
   markdownRemark: {
@@ -48,7 +48,7 @@ const PrirocnikTemplate = (props: PageProps<DataProps>) => {
           <section dangerouslySetInnerHTML={{ __html: html }} />
         </Col>
         <Col md={4}>
-          <Slovar location={location} />
+          <Kazalo location={location} />
         </Col>
       </Row>
     </Layout>
