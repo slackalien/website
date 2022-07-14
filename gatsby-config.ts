@@ -4,7 +4,7 @@
  * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
  */
 
-const URL =
+const SITE_URL =
   process.env.NODE_ENV === `production`
     ? `https://slackalien.com`
     : `http://localhost:8000`
@@ -14,8 +14,9 @@ module.exports = {
     title: `SlackAlien`,
     description: `Športno društvo SlackAlien`,
     author: `Bojan Hribernik`,
-    siteUrl: URL,
+    siteUrl: SITE_URL,
   },
+  graphqlTypegen: true,
   trailingSlash: `always`,
   plugins: [
     `gatsby-plugin-sitemap`,
@@ -85,7 +86,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: URL,
+        siteUrl: SITE_URL,
       },
     },
     {
@@ -107,13 +108,13 @@ module.exports = {
         openGraph: {
           type: `website`,
           locale: `sl_SI`,
-          url: URL,
+          url: SITE_URL,
           title: `SlackAlien`,
           site_name: `SlackAlien`,
           description: `Športno društvo SlackAlien`,
           images: [
             {
-              url: `${URL}/slackalien.png`,
+              url: `${SITE_URL}/slackalien.png`,
               width: 1600,
               height: 900,
               alt: `SlackAlien`,

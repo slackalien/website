@@ -4,10 +4,16 @@
  * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/
  */
 
+import type { GatsbyNode } from "gatsby"
+
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
-exports.onCreateNode = ({ node, actions, getNode }) => {
+export const onCreateNode: GatsbyNode["onCreateNode"] = ({
+  node,
+  actions,
+  getNode,
+}) => {
   const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
@@ -21,13 +27,17 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   }
 }
 
-exports.createPages = async ({ graphql, actions, reporter }) => {
+export const createPages: GatsbyNode["createPages"] = async ({
+  graphql,
+  actions,
+  reporter,
+}) => {
   const { createPage } = actions
 
   const template = path.resolve(`./src/templates/prirocnik.tsx`)
 
-  const result = await graphql(`
-    {
+  const result = await graphql<Queries.CreatePrirocnikPagesQuery>(`
+    query CreatePrirocnikPages {
       allMarkdownRemark {
         nodes {
           id
@@ -47,12 +57,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     return
   }
 
-  const pages = result.data.allMarkdownRemark.nodes
+  const pages = result.data?.allMarkdownRemark.nodes
 
-  if (pages.length > 0) {
+  if (pages && pages.length > 0) {
     pages.forEach(post => {
       createPage({
-        path: `/prirocnik${post.fields.slug}`,
+        path: `/prirocnik${post.fields?.slug}`,
         component: template,
         context: {
           id: post.id,
@@ -61,3 +71,18 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     })
   }
 }
+
+export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] =
+  ({ actions }) => {
+    actions.createTypes(`
+    type Site {
+      siteMetadata: SiteMetadata!
+    }
+    type SiteMetadata {
+      title: String!
+      description: String!
+      author: String!
+      siteUrl: String!
+    }
+  `)
+  }

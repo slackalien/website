@@ -1,7 +1,6 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import { Link, PageProps } from "gatsby"
-import Masonry from "react-masonry-css"
+import { graphql, Link, PageProps } from "gatsby"
 
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
@@ -9,8 +8,9 @@ import Button from "react-bootstrap/Button"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Gallery from "../components/gallery"
 
-const HomePage = ({ location }: PageProps) => (
+const HomePage = ({ data, location }: PageProps<Queries.HomePageQuery>) => (
   <Layout>
     <Seo title="Domača stran" pathname={location.pathname} />
     <Row className="flex-row-reverse">
@@ -68,98 +68,26 @@ const HomePage = ({ location }: PageProps) => (
         </div>
       </Col>
     </Row>
-
-    <Masonry
-      breakpointCols={3}
-      className="masonry mt-5"
-      columnClassName="masonry-column"
-    >
-      <StaticImage
-        src="../images/o-nas/ivana.jpg"
-        alt="Ivana"
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/o-nas/lara-na-liniji.jpg"
-        alt="Lara"
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/o-nas/timi-na-liniji.jpg"
-        alt="Tim"
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/o-nas/nace-na-liniji.jpg"
-        alt="Nace"
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/o-nas/gasper-mize.jpg"
-        alt="Gašper"
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/o-nas/matevz-na-liniji.jpg"
-        alt="Matevž"
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/o-nas/jaka-na-liniji.jpg"
-        alt="Jaka"
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/o-nas/andrej-na-liniji.jpg"
-        alt="Andrej"
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/o-nas/bojc-na-glavo.jpg"
-        alt="Bojč"
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/o-nas/tilen-na-liniji.jpg"
-        alt="Tilen"
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/o-nas/maticek-na-liniji.jpg"
-        alt="Matiček"
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/o-nas/matic-na-liniji.jpg"
-        alt="Matic"
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/o-nas/anze-plank.jpg"
-        alt="Anže"
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/o-nas/slackalien-misice.jpg"
-        alt="SlackAlien mišice"
-        width={360}
-        className="img-fluid"
-      />
-    </Masonry>
+    <hr className="my-5" />
+    <Gallery files={data.allFile.nodes} />
   </Layout>
 )
 
 export default HomePage
+
+export const pageQuery = graphql`
+  query HomePage {
+    allFile(filter: { relativeDirectory: { eq: "o-nas" } }) {
+      nodes {
+        id
+        childImageSharp {
+          gatsbyImageData(
+            width: 400
+            placeholder: BLURRED
+            formats: [AUTO, WEBP, AVIF]
+          )
+        }
+      }
+    }
+  }
+`

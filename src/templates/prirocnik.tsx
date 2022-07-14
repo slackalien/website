@@ -9,43 +9,22 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Kazalo from "../components/kazalo"
 
-type DataProps = {
-  markdownRemark: {
-    id: string
-    excerpt: string
-    html: string
-    headings: { value: string }[]
-    fields: { slug: string }
-    frontmatter: {
-      title: string
-      description: string
-      image?: {
-        childImageSharp?: {
-          resize?: {
-            src: string
-            height: number
-            width: number
-          }
-        }
-      }
-    }
-  }
-}
-
-const PrirocnikTemplate = (props: PageProps<DataProps>) => {
-  const { data, location } = props
-  const { excerpt, frontmatter, headings, html } = data.markdownRemark
+const PrirocnikTemplate = ({
+  data,
+  location,
+}: PageProps<Queries.PrirocnikBySlugQuery>) => {
+  const { excerpt, frontmatter, headings, html } = data.markdownRemark || {}
   return (
     <Layout>
       <Seo
-        title={frontmatter.title || headings[0].value}
-        description={frontmatter.description || excerpt}
-        image={frontmatter.image?.childImageSharp?.resize}
+        title={frontmatter?.title || headings?.[0]?.value || ""}
+        description={frontmatter?.description || excerpt || ""}
+        image={frontmatter?.image?.childImageSharp?.resize || undefined}
         pathname={location.pathname}
       />
       <Row>
         <Col md={8}>
-          <section dangerouslySetInnerHTML={{ __html: html }} />
+          <section dangerouslySetInnerHTML={{ __html: html || "" }} />
         </Col>
         <Col md={4}>
           <Kazalo location={location} />

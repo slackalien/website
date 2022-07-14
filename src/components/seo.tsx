@@ -11,17 +11,6 @@ type Props = AllSeoProps & {
   }
 }
 
-type Data = {
-  site: {
-    siteMetadata: {
-      title: string
-      siteUrl: string
-      description: string
-      author: string
-    }
-  }
-}
-
 const Seo = ({
   title,
   description,
@@ -29,8 +18,8 @@ const Seo = ({
   pathname = "/",
   ...props
 }: Props) => {
-  const data = useStaticQuery<Data>(graphql`
-    query SeoQuery {
+  const data = useStaticQuery<Queries.SeoQuery>(graphql`
+    query Seo {
       site {
         siteMetadata {
           title
@@ -42,7 +31,7 @@ const Seo = ({
     }
   `)
 
-  const siteUrl = data.site.siteMetadata.siteUrl
+  const siteUrl = data.site?.siteMetadata?.siteUrl
 
   return (
     <GatsbySeo

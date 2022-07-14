@@ -116,7 +116,7 @@ const ZaZacetnikePage = ({ location }: PageProps) => (
           imeli v svoji družbi.
         </p>
         <StaticImage
-          src="../images/oprema-in-varnost/oprema.jpg"
+          src="../images/varnost/oprema.jpg"
           className="img-fluid mb-2"
           alt=""
         />

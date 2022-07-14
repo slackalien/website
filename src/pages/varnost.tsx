@@ -1,12 +1,11 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
-import { PageProps } from "gatsby"
-import Masonry from "react-masonry-css"
+import { graphql, PageProps } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Gallery from "../components/gallery"
 
-const VarnostPage = ({ location }: PageProps) => (
+const VarnostPage = ({ data, location }: PageProps<Queries.VarnostQuery>) => (
   <Layout>
     <Seo title="Varnost" pathname={location.pathname} />
     <h1>Varnost</h1>
@@ -61,91 +60,26 @@ const VarnostPage = ({ location }: PageProps) => (
         je vozel na visu pravilno zavezan.
       </li>
     </ul>
-    <Masonry
-      breakpointCols={3}
-      className="masonry mt-5"
-      columnClassName="masonry-column"
-    >
-      <StaticImage
-        src="../images/oprema-in-varnost/laser-walkie-talkie.jpg"
-        alt=""
-        className="img-fluid"
-        width={360}
-      />
-      <StaticImage
-        src="../images/oprema-in-varnost/oprema.jpg"
-        alt=""
-        className="img-fluid"
-        width={360}
-      />
-      <StaticImage
-        src="../images/oprema-in-varnost/banananjam.jpg"
-        alt=""
-        className="img-fluid"
-        width={360}
-      />
-      <StaticImage
-        src="../images/oprema-in-varnost/hangover.jpg"
-        alt=""
-        className="img-fluid"
-        width={360}
-      />
-      <StaticImage
-        src="../images/oprema-in-varnost/a-frame.jpg"
-        alt=""
-        className="img-fluid"
-        width={360}
-      />
-      <StaticImage
-        src="../images/oprema-in-varnost/izdelava-sidrisca.jpg"
-        alt=""
-        className="img-fluid"
-        width={360}
-      />
-      <StaticImage
-        src="../images/oprema-in-varnost/leash-ring.jpg"
-        alt=""
-        className="img-fluid"
-        width={360}
-      />
-      <StaticImage
-        src="../images/oprema-in-varnost/vrtanje.jpg"
-        alt=""
-        className="img-fluid"
-        width={360}
-      />
-      <StaticImage
-        src="../images/oprema-in-varnost/padec.jpg"
-        alt=""
-        className="img-fluid"
-        width={360}
-      />
-      <StaticImage
-        src="../images/oprema-in-varnost/padec2.jpg"
-        alt=""
-        className="img-fluid"
-        width={360}
-      />
-      <StaticImage
-        src="../images/oprema-in-varnost/space-net.jpg"
-        alt=""
-        className="img-fluid"
-        width={360}
-      />
-      <StaticImage
-        src="../images/oprema-in-varnost/safety-first.jpg"
-        alt=""
-        className="img-fluid"
-        width={360}
-      />
-      <StaticImage
-        src="../images/oprema-in-varnost/padec3.jpg"
-        alt=""
-        className="img-fluid"
-        width={360}
-      />
-    </Masonry>
+    <hr className="my-5" />
+    <Gallery files={data.allFile.nodes} />
   </Layout>
 )
 
 export default VarnostPage
+
+export const pageQuery = graphql`
+  query Varnost {
+    allFile(filter: { relativeDirectory: { eq: "varnost" } }) {
+      nodes {
+        id
+        childImageSharp {
+          gatsbyImageData(
+            width: 400
+            placeholder: BLURRED
+            formats: [AUTO, WEBP, AVIF]
+          )
+        }
+      }
+    }
+  }
+`

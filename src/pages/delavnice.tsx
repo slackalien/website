@@ -1,16 +1,19 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import { PageProps } from "gatsby"
-import Masonry from "react-masonry-css"
+import { graphql, PageProps } from "gatsby"
 
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Gallery from "../components/gallery"
 import ExternalLink from "../components/external-link"
 
-const DelavnicePage = ({ location }: PageProps) => (
+const DelavnicePage = ({
+  data,
+  location,
+}: PageProps<Queries.DelavniceQuery>) => (
   <Layout>
     <Seo
       title="Delavnice"
@@ -19,7 +22,6 @@ const DelavnicePage = ({ location }: PageProps) => (
     />
     <h1>Delavnice</h1>
     <p>SlackAlien društvo izvaja različne delavnice.</p>
-
     <Row>
       <Col md={6} lg={4}>
         <h4>Highline delavnice</h4>
@@ -65,106 +67,26 @@ const DelavnicePage = ({ location }: PageProps) => (
         </p>
       </Col>
     </Row>
-
     <hr className="my-5" />
-
-    <Masonry
-      breakpointCols={3}
-      className="masonry"
-      columnClassName="masonry-column"
-    >
-      <StaticImage
-        src="../images/delavnice/plakat2.jpg"
-        alt=""
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/delavnice/plakat1.jpg"
-        alt=""
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/delavnice/uvod.jpg"
-        alt=""
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/delavnice/ogrevanje.jpg"
-        alt=""
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/delavnice/vstajanje.jpg"
-        alt=""
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/delavnice/vzpenjanje.jpg"
-        alt=""
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/delavnice/nalaganje.jpg"
-        alt=""
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/delavnice/slajdanje1.jpg"
-        alt=""
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/delavnice/slajdanje2.jpg"
-        alt=""
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/delavnice/oprema2.jpg"
-        alt=""
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/delavnice/oprema1.jpg"
-        alt=""
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/delavnice/sidrisce1.jpg"
-        alt=""
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/delavnice/sidrisce2.jpg"
-        alt=""
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/delavnice/sidrisce3.jpg"
-        alt=""
-        width={360}
-        className="img-fluid"
-      />
-      <StaticImage
-        src="../images/delavnice/sidrisce4.jpg"
-        alt=""
-        width={360}
-        className="img-fluid"
-      />
-    </Masonry>
+    <Gallery files={data.allFile.nodes} />
   </Layout>
 )
 
 export default DelavnicePage
+
+export const pageQuery = graphql`
+  query Delavnice {
+    allFile(filter: { relativeDirectory: { eq: "delavnice" } }) {
+      nodes {
+        id
+        childImageSharp {
+          gatsbyImageData(
+            width: 400
+            placeholder: BLURRED
+            formats: [AUTO, WEBP, AVIF]
+          )
+        }
+      }
+    }
+  }
+`

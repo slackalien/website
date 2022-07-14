@@ -1,12 +1,14 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
-import { PageProps } from "gatsby"
-import Masonry from "react-masonry-css"
+import { graphql, PageProps } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Gallery from "../components/gallery"
 
-const VisokovanjePage = ({ location }: PageProps) => (
+const VisokovanjePage = ({
+  data,
+  location,
+}: PageProps<Queries.VisokovanjeQuery>) => (
   <Layout>
     <Seo title="Visokovanje" pathname={location.pathname} />
     <h1>Visokovanje</h1>
@@ -17,73 +19,26 @@ const VisokovanjePage = ({ location }: PageProps) => (
       svojevrstno izkušnjo, a obenem zahteva posebno opremo, znanje ter
       pristope, ki zagotavljajo, da je podvig tudi varen.
     </p>
-    <Masonry
-      breakpointCols={3}
-      className="masonry mt-5"
-      columnClassName="masonry-column"
-    >
-      <StaticImage
-        src="../images/visokica/ajdna.jpg"
-        alt=""
-        className="img-fluid"
-        width={360}
-      />
-      <StaticImage
-        src="../images/visokica/dovska.jpg"
-        alt=""
-        className="img-fluid"
-        width={360}
-      />
-      <StaticImage
-        src="../images/visokica/krivulja.jpg"
-        alt=""
-        className="img-fluid"
-        width={360}
-      />
-      <StaticImage
-        src="../images/visokica/linije2.jpg"
-        alt=""
-        className="img-fluid"
-        width={360}
-      />
-      <StaticImage
-        src="../images/visokica/zeleno.jpg"
-        alt=""
-        className="img-fluid"
-        width={360}
-      />
-      <StaticImage
-        src="../images/visokica/sorca.jpg"
-        alt=""
-        className="img-fluid"
-        width={360}
-      />
-      <StaticImage
-        src="../images/visokica/letalo.jpg"
-        alt=""
-        className="img-fluid"
-        width={360}
-      />
-      <StaticImage
-        src="../images/visokica/linije.jpg"
-        alt=""
-        className="img-fluid"
-        width={360}
-      />
-      <StaticImage
-        src="../images/visokica/nocna.jpg"
-        alt=""
-        className="img-fluid"
-        width={360}
-      />
-      <StaticImage
-        src="../images/visokica/zahod.jpg"
-        alt=""
-        className="img-fluid"
-        width={360}
-      />
-    </Masonry>
+    <hr className="my-5" />
+    <Gallery files={data.allFile.nodes} />
   </Layout>
 )
 
 export default VisokovanjePage
+
+export const pageQuery = graphql`
+  query Visokovanje {
+    allFile(filter: { relativeDirectory: { eq: "visokovanje" } }) {
+      nodes {
+        id
+        childImageSharp {
+          gatsbyImageData(
+            width: 400
+            placeholder: BLURRED
+            formats: [AUTO, WEBP, AVIF]
+          )
+        }
+      }
+    }
+  }
+`

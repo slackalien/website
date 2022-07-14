@@ -15,18 +15,9 @@ import NavLink from "./navbar/NavLink"
 type Props = {
   children: React.ReactNode
 }
-
-type Data = {
-  site: {
-    siteMetadata: {
-      title: string
-    }
-  }
-}
-
 const Layout = ({ children }: Props) => {
-  const data = useStaticQuery<Data>(graphql`
-    query SiteTitleQuery {
+  const data = useStaticQuery<Queries.LayoutQuery>(graphql`
+    query Layout {
       site {
         siteMetadata {
           title
@@ -40,7 +31,7 @@ const Layout = ({ children }: Props) => {
       <Navbar variant="dark" bg="primary" expand="md">
         <Container fluid>
           <Navbar.Brand as={Link} to="/">
-            {data.site.siteMetadata?.title || `Title`}
+            {data.site?.siteMetadata?.title || `Title`}
           </Navbar.Brand>
           <NavbarToggler />
           <Navbar.Collapse id="main-navbar">
