@@ -2,8 +2,6 @@ import * as React from "react"
 import { GatsbyImage, IGatsbyImageData } from "gatsby-plugin-image"
 import Masonry from "react-masonry-css"
 
-import "./gallery.scss"
-
 type Props = {
   files: ReadonlyArray<{
     readonly id: string
