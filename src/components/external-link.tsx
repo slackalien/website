@@ -5,7 +5,7 @@ type Props = {
   children: React.ReactNode
   href: string
   icon?: boolean
-}
+} & React.AnchorHTMLAttributes<HTMLAnchorElement>
 
 const ExternalLink = ({ children, icon = true, ...props }: Props) => {
   return (

@@ -6,6 +6,7 @@ import Seo from "../components/seo"
 
 import FacebookIcon from "../icons/facebook"
 import InstagramIcon from "../icons/instagram"
+import ExternalLink from "../components/external-link"
 
 const ContactPage = ({ location }: PageProps) => (
   <Layout>
@@ -47,21 +48,17 @@ const ContactPage = ({ location }: PageProps) => (
     <p>Socialna omrežja</p>
     <ul className="list-unstyled">
       <li>
-        <a
-          target="_blank"
-          rel="noreferrer"
+        <ExternalLink
+          className=""
           href="https://www.instagram.com/slackalien/"
+          icon={false}
         >
           <InstagramIcon />
-        </a>{" "}
-        &nbsp;
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.facebook.com/SlackAlien"
-        >
+        </ExternalLink>
+        &nbsp;&nbsp;&nbsp;
+        <ExternalLink href="https://www.facebook.com/SlackAlien" icon={false}>
           <FacebookIcon />
-        </a>
+        </ExternalLink>
       </li>
     </ul>
   </Layout>

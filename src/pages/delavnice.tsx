@@ -23,7 +23,7 @@ const DelavnicePage = ({
     <h1>Delavnice</h1>
     <p>SlackAlien društvo izvaja različne delavnice.</p>
     <Row>
-      <Col md={6} lg={4}>
+      <Col md={4}>
         <h4>Highline delavnice</h4>
         <StaticImage
           src="../images/delavnice/slajdanje2.jpg"
@@ -38,7 +38,7 @@ const DelavnicePage = ({
           so namenjene začetnikom oziroma vsakomur, ki si želi visokovati.
         </p>
       </Col>
-      <Col md={6} lg={4}>
+      <Col md={4}>
         <h4>Slackline treningi</h4>
         <StaticImage
           src="../images/delavnice/tivoli-slackline-treningi.jpg"
@@ -53,7 +53,7 @@ const DelavnicePage = ({
           so namenjeni vsem, ki si želijo izboljšati sposobnosti hoje po traku.
         </p>
       </Col>
-      <Col md={6} lg={4}>
+      <Col md={4}>
         <h4>Društvene delavnice</h4>
         <StaticImage
           src="../images/delavnice/sidrisce1.jpg"

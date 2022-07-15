@@ -2,6 +2,8 @@ import * as React from "react"
 import { GatsbyImage, IGatsbyImageData } from "gatsby-plugin-image"
 import Masonry from "react-masonry-css"
 
+import "./gallery.scss"
+
 type Props = {
   files: ReadonlyArray<{
     readonly id: string
@@ -9,11 +11,12 @@ type Props = {
       readonly gatsbyImageData: IGatsbyImageData
     } | null
   }>
+  breakpointCols?: number
 }
 
-const Gallery = ({ files }: Props) => (
+const Gallery = ({ files, breakpointCols = 4 }: Props) => (
   <Masonry
-    breakpointCols={4}
+    breakpointCols={breakpointCols}
     className="masonry mt-5"
     columnClassName="masonry-column"
   >

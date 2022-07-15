@@ -1,0 +1,30 @@
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+.masonry {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  margin-left: -0.75rem;
+}
+.masonry-column {
+  padding-left: 0.75rem;
+  background-clip: padding-box;
+
+  > div {
+    margin-bottom: 0.75rem;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .masonry-column {
+    width: 50% !important;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .masonry-column {
+    width: 100% !important;
+  }
+}
