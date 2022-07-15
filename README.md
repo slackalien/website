@@ -1,5 +1,7 @@
 # SlackAlien website
 
+Trigger deploy
+
 ## Install
 
 ```sh
