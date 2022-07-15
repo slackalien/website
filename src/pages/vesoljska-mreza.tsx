@@ -22,7 +22,6 @@ const VesoljskaMrezaPage = ({
       dogodku, ob posebni priložnosti, ali pa kar tako. Postavitev lahko dodatno
       osvetlimo z UV in LED osvetlitvijo, da tudi ponoči pridejo do izraza.
     </p>
-    <hr className="my-5" />
     <Gallery files={data.allFile.nodes} />
   </Layout>
 )

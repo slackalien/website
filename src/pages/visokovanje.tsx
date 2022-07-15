@@ -19,7 +19,6 @@ const VisokovanjePage = ({
       svojevrstno izkušnjo, a obenem zahteva posebno opremo, znanje ter
       pristope, ki zagotavljajo, da je podvig tudi varen.
     </p>
-    <hr className="my-5" />
     <Gallery files={data.allFile.nodes} />
   </Layout>
 )

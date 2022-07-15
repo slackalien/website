@@ -67,7 +67,6 @@ const DelavnicePage = ({
         </p>
       </Col>
     </Row>
-    <hr className="my-5" />
     <Gallery files={data.allFile.nodes} />
   </Layout>
 )

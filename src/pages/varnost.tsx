@@ -60,7 +60,6 @@ const VarnostPage = ({ data, location }: PageProps<Queries.VarnostQuery>) => (
         je vozel na visu pravilno zavezan.
       </li>
     </ul>
-    <hr className="my-5" />
     <Gallery files={data.allFile.nodes} />
   </Layout>
 )
