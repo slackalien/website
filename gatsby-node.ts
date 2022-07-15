@@ -84,5 +84,44 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
       author: String!
       siteUrl: String!
     }
+    type ImageSharpOriginal {
+      height: Float!
+      src: String!
+      width: Float!
+    }
+    type ImageSharpResize {
+      aspectRatio: Float!
+      height: Int!
+      originalName: String!
+      src: String!
+      tracedSVG: String!
+      width: Int!
+    }
+    type ImageSharpFixed {
+      aspectRatio: Float!
+      base64: String!
+      height: Float!
+      originalName: String!
+      src: String!
+      srcSet: String!
+      srcSetWebp: String!
+      srcWebp: String!
+      tracedSVG: String!
+      width: Float!
+    }
+    type ImageSharpFluid {
+      aspectRatio: Float!
+      base64: String!
+      originalImg: String!
+      originalName: String!
+      presentationHeight: Int!
+      presentationWidth: Int!
+      sizes: String!
+      src: String!
+      srcSet: String!
+      srcSetWebp: String!
+      srcWebp: String!
+      tracedSVG: String!
+    }
   `)
   }

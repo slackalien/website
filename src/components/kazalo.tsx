@@ -28,9 +28,8 @@ const Prirocnik = ({ location }: Props) => {
   `)
 
   return (
-    <div className="py-5 pt-0 pt-md-5">
-      <hr className="my-5 d-md-none" />
-      <h2>Priročnik</h2>
+    <div className="py-5 pt-md-0">
+      <h1>Priročnik</h1>
       <Nav variant="pills">
         {prirocnik.edges.map(({ node }: any) => {
           const title = node?.frontmatter?.title

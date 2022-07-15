@@ -9,11 +9,12 @@ type Props = {
       readonly gatsbyImageData: IGatsbyImageData
     } | null
   }>
+  breakpointCols?: number
 }
 
-const Gallery = ({ files }: Props) => (
+const Gallery = ({ files, breakpointCols = 4 }: Props) => (
   <Masonry
-    breakpointCols={4}
+    breakpointCols={breakpointCols}
     className="masonry mt-5"
     columnClassName="masonry-column"
   >

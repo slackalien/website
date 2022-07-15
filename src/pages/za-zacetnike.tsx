@@ -37,10 +37,9 @@ const ZaZacetnikePage = ({ location }: PageProps) => (
         </p>
         <StaticImage
           src="../images/delavnice/sidrisce1.jpg"
-          className="img-fluid mb-2"
+          className="img-fluid mb-5"
           alt=""
         />
-        <hr className="my-5" />
         <h2>Potrebno predznanje</h2>
         <p>
           Visokovanje je fizično, predvsem pa psihično naporno, zato je treba
@@ -94,10 +93,9 @@ const ZaZacetnikePage = ({ location }: PageProps) => (
         </ol>
         <StaticImage
           src="../images/visokica/dovska.jpg"
-          className="img-fluid mb-2"
+          className="img-fluid mb-5"
           alt=""
         />
-        <hr className="my-5" />
         <h2>Potrebna oprema</h2>
         <p>
           Če meniš, da imaš potrebne sposobnosti, je čas za naslednji korak. Kaj

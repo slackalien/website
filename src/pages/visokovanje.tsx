@@ -33,7 +33,7 @@ export default VisokovanjePage
 /*
 export const pageQuery = graphql`
   query Visokovanje {
-    allFile(filter: { relativeDirectory: { eq: "visokovanje" } }) {
+    allFile(filter: { relativeDirectory: { eq: "visokica" } }) {
       nodes {
         id
         childImageSharp {
