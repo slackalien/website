@@ -16,7 +16,7 @@ type Props = {
   children: React.ReactNode
 }
 const Layout = ({ children }: Props) => {
-  const data = useStaticQuery<Queries.LayoutQuery>(graphql`
+  const data = useStaticQuery(/*<Queries.LayoutQuery>*/ graphql`
     query Layout {
       site {
         siteMetadata {

@@ -18,7 +18,7 @@ const Seo = ({
   pathname = "/",
   ...props
 }: Props) => {
-  const data = useStaticQuery<Queries.SeoQuery>(graphql`
+  const data = useStaticQuery(/*<Queries.SeoQuery>*/ graphql`
     query Seo {
       site {
         siteMetadata {

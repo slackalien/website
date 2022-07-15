@@ -8,7 +8,7 @@ type Props = {
 }
 
 const Prirocnik = ({ location }: Props) => {
-  const { prirocnik } = useStaticQuery<Queries.KazaloSidebarQuery>(graphql`
+  const { prirocnik } = useStaticQuery(/*<Queries.KazaloSidebarQuery>*/ graphql`
     query KazaloSidebar {
       prirocnik: allMarkdownRemark(
         sort: { order: ASC, fields: frontmatter___title }
@@ -32,7 +32,7 @@ const Prirocnik = ({ location }: Props) => {
       <hr className="my-5 d-md-none" />
       <h2>Priročnik</h2>
       <Nav variant="pills">
-        {prirocnik.edges.map(({ node }) => {
+        {prirocnik.edges.map(({ node }: any) => {
           const title = node?.frontmatter?.title
           const url = `/prirocnik${node.fields?.slug}`
           const active = location.pathname === url

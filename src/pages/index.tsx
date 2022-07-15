@@ -8,9 +8,11 @@ import Button from "react-bootstrap/Button"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Gallery from "../components/gallery"
+//import Gallery from "../components/gallery"
 
-const HomePage = ({ data, location }: PageProps<Queries.HomePageQuery>) => (
+const HomePage = (
+  { /*data,*/ location }: PageProps /*<Queries.HomePageQuery>*/
+) => (
   <Layout>
     <Seo title="Domača stran" pathname={location.pathname} />
     <Row className="flex-row-reverse">
@@ -69,12 +71,15 @@ const HomePage = ({ data, location }: PageProps<Queries.HomePageQuery>) => (
       </Col>
     </Row>
     <hr className="my-5" />
+    {/*
     <Gallery files={data.allFile.nodes} />
+    */}
   </Layout>
 )
 
 export default HomePage
 
+/*
 export const pageQuery = graphql`
   query HomePage {
     allFile(filter: { relativeDirectory: { eq: "o-nas" } }) {
@@ -91,3 +96,4 @@ export const pageQuery = graphql`
     }
   }
 `
+*/

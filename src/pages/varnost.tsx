@@ -3,9 +3,11 @@ import { graphql, PageProps } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Gallery from "../components/gallery"
+//import Gallery from "../components/gallery"
 
-const VarnostPage = ({ data, location }: PageProps<Queries.VarnostQuery>) => (
+const VarnostPage = (
+  { /*data,*/ location }: PageProps /*<Queries.VarnostQuery>*/
+) => (
   <Layout>
     <Seo title="Varnost" pathname={location.pathname} />
     <h1>Varnost</h1>
@@ -61,12 +63,15 @@ const VarnostPage = ({ data, location }: PageProps<Queries.VarnostQuery>) => (
       </li>
     </ul>
     <hr className="my-5" />
+    {/*
     <Gallery files={data.allFile.nodes} />
+    */}
   </Layout>
 )
 
 export default VarnostPage
 
+/*
 export const pageQuery = graphql`
   query Varnost {
     allFile(filter: { relativeDirectory: { eq: "varnost" } }) {
@@ -83,3 +88,4 @@ export const pageQuery = graphql`
     }
   }
 `
+*/

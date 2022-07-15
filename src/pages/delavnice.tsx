@@ -10,10 +10,12 @@ import Seo from "../components/seo"
 import Gallery from "../components/gallery"
 import ExternalLink from "../components/external-link"
 
-const DelavnicePage = ({
-  data,
-  location,
-}: PageProps<Queries.DelavniceQuery>) => (
+const DelavnicePage = (
+  {
+    //data,
+    location,
+  }: PageProps /*<Queries.DelavniceQuery>*/
+) => (
   <Layout>
     <Seo
       title="Delavnice"
@@ -68,12 +70,15 @@ const DelavnicePage = ({
       </Col>
     </Row>
     <hr className="my-5" />
+    {/*
     <Gallery files={data.allFile.nodes} />
+    */}
   </Layout>
 )
 
 export default DelavnicePage
 
+/*
 export const pageQuery = graphql`
   query Delavnice {
     allFile(filter: { relativeDirectory: { eq: "delavnice" } }) {
@@ -90,3 +95,4 @@ export const pageQuery = graphql`
     }
   }
 `
+*/

@@ -3,12 +3,14 @@ import { graphql, PageProps } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Gallery from "../components/gallery"
+//import Gallery from "../components/gallery"
 
-const VesoljskaMrezaPage = ({
-  data,
-  location,
-}: PageProps<Queries.VesoljskaMrezaQuery>) => (
+const VesoljskaMrezaPage = (
+  {
+    //data,
+    location,
+  }: PageProps /*<Queries.VesoljskaMrezaQuery>*/
+) => (
   <Layout>
     <Seo title="Vesoljska mreža" pathname={location.pathname} />
     <h1>Vesoljska mreža</h1>
@@ -23,12 +25,15 @@ const VesoljskaMrezaPage = ({
       osvetlimo z UV in LED osvetlitvijo, da tudi ponoči pridejo do izraza.
     </p>
     <hr className="my-5" />
+    {/*
     <Gallery files={data.allFile.nodes} />
+    */}
   </Layout>
 )
 
 export default VesoljskaMrezaPage
 
+/*
 export const pageQuery = graphql`
   query VesoljskaMreza {
     allFile(filter: { relativeDirectory: { eq: "spacenet" } }) {
@@ -45,3 +50,4 @@ export const pageQuery = graphql`
     }
   }
 `
+*/

@@ -1,6 +1,5 @@
 import * as React from "react"
-import { graphql } from "gatsby"
-import { PageProps } from "gatsby"
+import { graphql, PageProps } from "gatsby"
 
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
@@ -9,10 +8,9 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Kazalo from "../components/kazalo"
 
-const PrirocnikTemplate = ({
-  data,
-  location,
-}: PageProps<Queries.PrirocnikBySlugQuery>) => {
+const PrirocnikTemplate = (
+  { data, location }: PageProps<any> /*<Queries.PrirocnikBySlugQuery>*/
+) => {
   const { excerpt, frontmatter, headings, html } = data.markdownRemark || {}
   return (
     <Layout>

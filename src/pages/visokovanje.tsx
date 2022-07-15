@@ -3,12 +3,14 @@ import { graphql, PageProps } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Gallery from "../components/gallery"
+//import Gallery from "../components/gallery"
 
-const VisokovanjePage = ({
-  data,
-  location,
-}: PageProps<Queries.VisokovanjeQuery>) => (
+const VisokovanjePage = (
+  {
+    //data,
+    location,
+  }: PageProps /*<Queries.VisokovanjeQuery>*/
+) => (
   <Layout>
     <Seo title="Visokovanje" pathname={location.pathname} />
     <h1>Visokovanje</h1>
@@ -20,12 +22,15 @@ const VisokovanjePage = ({
       pristope, ki zagotavljajo, da je podvig tudi varen.
     </p>
     <hr className="my-5" />
+    {/*
     <Gallery files={data.allFile.nodes} />
+    */}
   </Layout>
 )
 
 export default VisokovanjePage
 
+/*
 export const pageQuery = graphql`
   query Visokovanje {
     allFile(filter: { relativeDirectory: { eq: "visokovanje" } }) {
@@ -42,3 +47,4 @@ export const pageQuery = graphql`
     }
   }
 `
+*/
