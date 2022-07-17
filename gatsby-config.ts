@@ -19,10 +19,8 @@ module.exports = {
   graphqlTypegen: true,
   trailingSlash: `always`,
   plugins: [
-    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
-    `gatsby-plugin-preload-fonts`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -63,7 +61,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-catch-links`,
-    `gatsby-plugin-gatsby-cloud`,
     {
       resolve: `gatsby-plugin-sass`,
       options: {
@@ -132,5 +129,8 @@ module.exports = {
         //},
       },
     },
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-preload-fonts`,
+    `gatsby-plugin-gatsby-cloud`,
   ],
 }
