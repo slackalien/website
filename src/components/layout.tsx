@@ -55,7 +55,7 @@ const Layout = ({ children }: Props) => {
         {children}
       </Container>
       <Container fluid as="footer" className="bg-alien p-4 text-center mt-auto">
-        <div className="py-4">© 2022 SlackAlien</div>
+        <div className="py-4">© 2022 SlackAlien Staging</div>
       </Container>
     </Container>
   )
