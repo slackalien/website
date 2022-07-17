@@ -132,5 +132,6 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-preload-fonts`,
     `gatsby-plugin-gatsby-cloud`,
+    `gatsby-plugin-netlify`,
   ],
 }
