@@ -7,8 +7,8 @@ description: "Seznam povezav na slovenske skupine, ki se ukvarjajo z visokovanje
 
 Slovenska visokovalska skupnost je v trenutku pisanja še dokaj majhna, a ne dvomimo, da se bo s časom le povečevala. Če želiš stopiti v stik s skupnostjo, je ponavadi dovolj že, da redno vadiš v parku, in prava poznanstva se bodo vzpostavila sama od sebe. Spodaj je zbranih še nekaj spletnih povezav na skupine, katerih člani se ukvarjajo z visokovanjem.
 
-- [SlackAlien](https://slackalien.com/)
-- [Highline Slovenia](https://www.facebook.com/groups/425847847594412/) (skupina na Facebooku)
-- [Slackline Slovenj Gradec](https://www.facebook.com/slacklineSG/) (skupina na Facebooku)
+- [Društvo SlackAlien](https://slackalien.com/)
 - [Društvo Balansa](https://balansa.si/)
-- [Tivoli Slackline Sessions](https://www.facebook.com/groups/1401204650097960/)
+- [Slackline Slovenj Gradec](https://www.facebook.com/slacklineSG/)
+- [Highline Slovenia](https://www.facebook.com/groups/425847847594412/) (skupina na Facebooku)
+- [Tivoli Slackline Sessions](https://www.facebook.com/groups/1401204650097960/) (skupina na Facebooku)
