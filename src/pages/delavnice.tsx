@@ -47,7 +47,7 @@ const DelavnicePage = ({
           alt=""
         />
         <p className="mb-3 mb-md-0">
-          <ExternalLink href="https://www.facebook.com/events/1396049607533320/1396049610866653/">
+          <ExternalLink href="https://fb.me/e/1DWW7yH0u">
             Slackline treningi
           </ExternalLink>
           so namenjeni vsem, ki si želijo izboljšati sposobnosti hoje po traku.
