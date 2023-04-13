@@ -21,7 +21,7 @@ V spodnji tabeli so zbrani prevodi angleških izrazov v slovenske. Nekatere bese
 | big fucking knot (BFK)          | [jebeno velik vozel](jebeno-velik-vozel)                     |
 | bowline                         | [najlonski vozel](najlonski-vozel)                           |
 | carabiner                       | [vponka](vponka)                                             |
-| carabiner pulley                | glej _lineslide_                                             |
+| carabiner pulley                | [maček](macek)                                               |
 | cascade failure                 | [verižna odpoved](verizna-odpoved)                           |
 | clove hitch                     | [bičev vozel](bicev-vozel)                                   |
 | Chongo mount                    | [vstajanje](vstajanje) na Chongo                             |
@@ -38,7 +38,7 @@ V spodnji tabeli so zbrani prevodi angleških izrazov v slovenske. Nekatere bese
 | leash                           | [vis](vis)                                                   |
 | leash ring                      | [obroč visa](obroc-visa)                                     |
 | LineGrip                        | glej _webgrip_                                               |
-| linelocker / lineslide          | [maček](macek)                                               |
+| lineslide                       | glej _carabiner pulley_                                      |
 | loop                            | zanka                                                        |
 | connection                      | konekcija                                                    |
 | master point                    | [skupna točka](skupna-tocka)                                 |
