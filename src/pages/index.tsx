@@ -139,7 +139,7 @@ const HomePage = ({ data, location }: PageProps<Queries.HomePageQuery>) => (
         </li>
       </ul>
       <hr />
-      <h2 id="slackline-program">Slackline program</h2>
+      <h2 id="slackline-program">Program</h2>
       <h3 id="petek-in-sobota-visokica-nad-slapom-iglica">
         Petek in sobota - Visokica nad slapom Iglica
       </h3>
