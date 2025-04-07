@@ -92,7 +92,7 @@ const HomePage = ({ data, location }: PageProps<Queries.HomePageQuery>) => (
       </h3>
       <ul>
         <li>
-          <p>Spanje v skednju (na vzmetnici ali v lastni viseči mreži)</p>
+          <p>Spanje na skednju (na vzmetnici ali v lastni viseči mreži)</p>
         </li>
         <li>
           <p>Na voljo so vzglavniki, odeje in rjuhe (po potrebi)</p>
@@ -139,13 +139,13 @@ const HomePage = ({ data, location }: PageProps<Queries.HomePageQuery>) => (
         </li>
       </ul>
       <hr />
-      <h2 id="slackline-program">Program</h2>
+      <h2 id="slackline-program">Visokice</h2>
       <h3 id="petek-in-sobota-visokica-nad-slapom-iglica">
         Petek in sobota - Visokica nad slapom Iglica
       </h3>
       <p>
-        Trening na dveh visokolinijah (27 m in 60 m), ki bosta že pripravljeni
-        in na voljo ves čas.\ Višina linij: približno 40 metrov.
+        Trening na dveh linijah (27 m in 60 m), ki bosta že pripravljeni
+        in na voljo ves čas. Višina linij: približno 40 metrov.
       </p>
       <StaticImage
         src="../images/dobrine/highline-delavnice-iglica.jpg"
@@ -194,7 +194,7 @@ const HomePage = ({ data, location }: PageProps<Queries.HomePageQuery>) => (
         <li>
           <p>
             <strong>Gašper Stojc</strong> - Predstavnik društva SlackAlien.
-            Učitelj slacklinea na domačem vrtu. V eni uri in pol nauči hoditi
+            Učitelj slacklina na domačem vrtu. V eni uri in pol nauči hoditi
             tudi popolnega začetnika. <br />
             <strong>Močna točka:</strong> motivacija
           </p>
@@ -202,15 +202,13 @@ const HomePage = ({ data, location }: PageProps<Queries.HomePageQuery>) => (
         <li>
           <p>
             <strong>Miha Odar</strong> - Najuspešnejši slovenski slackline
-            freestyler in mentor vseh, ki se v društvu podajajo v freestyle
-            vode. <br />
+            freestyler in mentor vseh, ki se v društvu spogledujejo s to disciplino.  <br />
             <strong>Močna točka:</strong> potrpežljivost
           </p>
         </li>
         <li>
           <p>
-            <strong>Anže Spreizer</strong> - Gibalni učitelj, ki navdušuje s
-            svojo celostno telesno filozofijo. <br />
+            <strong>Anže Spreizer</strong> - Gibalni guru, ki se preživlja z učenjem flowa in telesno revolucijo povprečnega zemljana.  <br />
             <strong>Močna točka:</strong>
             širok pogled
           </p>
