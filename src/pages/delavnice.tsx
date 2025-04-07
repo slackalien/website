@@ -32,10 +32,8 @@ const DelavnicePage = ({
           alt=""
         />
         <p className="mb-3 mb-md-0">
-          <ExternalLink href="https://forms.gle/FVpLkgLi3bT7habk9">
-            Highline delavnice
-          </ExternalLink>
-          so namenjene začetnikom oziroma vsakomur, ki si želi visokovati.
+          Highline delavnice so namenjene začetnikom oziroma vsakomur, ki si
+          želi visokovati.
         </p>
       </Col>
       <Col md={4}>
