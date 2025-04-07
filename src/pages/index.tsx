@@ -1,19 +1,230 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import { graphql, Link, PageProps } from "gatsby"
+import { graphql, PageProps } from "gatsby"
 
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
-import Button from "react-bootstrap/Button"
+// import Row from "react-bootstrap/Row"
+// import Col from "react-bootstrap/Col"
+// import Button from "react-bootstrap/Button"
+// import Gallery from "../components/gallery"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Gallery from "../components/gallery"
 
 const HomePage = ({ data, location }: PageProps<Queries.HomePageQuery>) => (
   <Layout>
     <Seo title="Domača stran" pathname={location.pathname} />
-    <Row className="flex-row-reverse">
+    <div className="prose">
+      <h1 id="slackalien-x-dobrine-goods-highline-delavnice">
+        SlackAlien x dobrine.goods - Highline Delavnice
+      </h1>
+      <ul>
+        <li>
+          <strong>Lokacija:</strong> Bohinjska Bela, Slovenija
+        </li>
+        <li>
+          <strong>Datum:</strong> Petek, 6. junij - Nedelja, 8. junij 2025
+        </li>
+        <li>
+          <strong>Začetek:</strong> Petek ob 9:00
+        </li>
+        <li>
+          <strong>Zaključek:</strong> Nedelja ob 19:00
+        </li>
+        <li>
+          <strong>Prispevek za udeležbo:</strong> 240 €
+        </li>
+      </ul>
+      <StaticImage
+        src="../images/dobrine/2025-highline-delavnice-plakat.png"
+        width={600}
+        alt="SlackAlien"
+        className="img-fluid mb-4"
+      />
+      <p>
+        Poglej strahu v oči in se dvigni na višjo raven! Pridruži se
+        visokovalskim delavnicam najmočnejše visokovalske skupnosti jugovzhodne
+        Evrope ki sliši na ime SlackAlien.
+      </p>
+      <p>Obetaš si lahko kratke in dostopne visokice z izkušenimi mentorji.</p>
+      <ul>
+        <li>osebno poglobljeno mentorstvo 1 na 1</li>
+        <li>tehnike vstajanja in osnove hoje na tleh</li>
+        <li>tehnika padanja in plezanja po visu na visokici</li>
+        <li>začetniški sedeči triki in nihanje</li>
+        <li>prilagojene vaje za telesno pripravo na visokovanje</li>
+        <li>
+          celotna izkušnja visokovanja (odprava, postavljanje, hoja po traku,
+          pospravljanje)
+        </li>
+        <li>visokica vse dni delavnic</li>
+        <li>visenje v viseči mreži na visokici</li>
+        <li>
+          nastanitev ter lokalna in uravnotežena prehrana kmetije dobrine.goods
+        </li>
+      </ul>
+      <p>
+        Visokovanja se ne moreš naučiti sam, saj so začetniške napake že pri
+        postavljanju lahko usodne. Raje se uči od prekaljenih mačkov, ki
+        razpolagajo z dolgoletnimi izkušnjami in najmodernejšo opremo na trgu.
+        Varnost je vsekakor naša najvišja vrednota.
+      </p>
+      <p>
+        Delavnice so primerne za začetnike, ki se z visokovanjem še niso
+        srečali, kot tudi za izkušene zanesenjake, ki so svoje prve padce že
+        opravili a jim dejavnost zaradi svoje izjemno čustveno preplavljajoče
+        narave še ne predstavlja igre in užitka.
+      </p>
+      <p>
+        Čas je, da si podjarmiš svoje strahove. Čas je za polna pljuča svobode.
+      </p>
+      <p>
+        <a
+          className="btn btn-primary btn-lg"
+          href="https://forms.gle/dnZxU8sAbHKKJ7pF7"
+        >
+          Ne odlašaj! Pohiti s prijavo!
+        </a>
+      </p>
+      <hr />
+      <h2 id="kaj-je-vklju-eno-v-ceno-">Kaj je vključeno v ceno?</h2>
+      <h3 id="nastanitev-in-prostori-2-no-itvi-petek-nedelja-">
+        Nastanitev in prostori (2 nočitvi, petek-nedelja)
+      </h3>
+      <ul>
+        <li>
+          <p>Spanje v skednju (na vzmetnici ali v lastni viseči mreži)</p>
+        </li>
+        <li>
+          <p>Na voljo so vzglavniki, odeje in rjuhe (po potrebi)</p>
+        </li>
+        <li>
+          <p>
+            Uporaba skupne kopalnice, dnevnega prostora, vrta in prostora z
+            živalmi
+          </p>
+        </li>
+        <li>
+          <p>Prijetno in sproščeno okolje za počitek med dejavnostmi</p>
+        </li>
+      </ul>
+      <h3 id="hrana-in-skupna-kuhinja">Hrana in skupna kuhinja</h3>
+      <ul>
+        <li>
+          <p>
+            Dva skupna kosila (v petek in soboto), pripravljena s strani
+            <strong>dobrine.goods</strong>
+          </p>
+        </li>
+        <li>
+          <p>
+            Skupna kuhinja za samostojno pripravo zajtrkov, večerij in nedeljske
+            malice (sestavine so vključene v ceno)
+          </p>
+        </li>
+        <li>
+          <p>Osnovna živila in sveža sezonska zelenjava s kmetije:</p>
+          <ul>
+            <li>
+              <p>Kruh, ovseni kosmiči, riž, testenine</p>
+            </li>
+            <li>
+              <p>Sezonska zelenjava</p>
+            </li>
+            <li>
+              <p>
+                Osnovni kuhinjski pripomočki (olje, sol, začimbe, čaj, kava)
+              </p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <hr />
+      <h2 id="slackline-program">Slackline program</h2>
+      <h3 id="petek-in-sobota-visokica-nad-slapom-iglica">
+        Petek in sobota - Visokica nad slapom Iglica
+      </h3>
+      <p>
+        Trening na dveh visokolinijah (27 m in 60 m), ki bosta že pripravljeni
+        in na voljo ves čas.\ Višina linij: približno 40 metrov.
+      </p>
+      <StaticImage
+        src="../images/dobrine/highline-delavnice-iglica.jpg"
+        width={1400}
+        alt="Highline Delavnice - Iglica"
+        className="img-fluid mb-4"
+      />
+      <h3 id="nedelja-panoramska-linija-pod-babjim-zobom">
+        Nedelja - Panoramska linija pod Babjim zobom
+      </h3>
+      <p>
+        Skupinski izlet do razgledne točke z izjemnim pogledom na Blejsko
+        jezero.
+      </p>
+      <p>
+        Skupaj bomo postavili 22 metrov dolgo, izpostavljeno panoramsko linijo.
+        Ni pretirano visoka, a občutek bo vseeno navdušujoč.
+      </p>
+      <StaticImage
+        src="../images/dobrine/highline-delavnice-kremsnodl.jpg"
+        width={1400}
+        alt="Highline Delavnice - Kremšnodl"
+        className="img-fluid mb-4"
+      />
+      <hr />
+      <h2 id="gostitelji">Gostitelji</h2>
+      <p>Več o naših srčnih gostiteljih si lahko preberete v članku:</p>
+      <ul>
+        <li>
+          <a href="https://www.24ur.com/novice/slovenija/kmetovanje-bova-prepustila-prostovoljcem-in-odsla-s-kombijem-v-svet.html">
+            24ur - Dobrine.Goods
+          </a>
+        </li>
+      </ul>
+      <p>Spremljaj ju tudi na družabnih omrežjih:</p>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/dobrine.goods/">
+            Instagram\ Facebook
+          </a>
+        </li>
+      </ul>
+      <hr />
+      <h2 id="in-truktorji">Inštruktorji</h2>
+      <ul>
+        <li>
+          <p>
+            <strong>Gašper Stojc</strong> - Predstavnik društva SlackAlien.
+            Učitelj slacklinea na domačem vrtu. V eni uri in pol nauči hoditi
+            tudi popolnega začetnika. <br />
+            <strong>Močna točka:</strong> motivacija
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Miha Odar</strong> - Najuspešnejši slovenski slackline
+            freestyler in mentor vseh, ki se v društvu podajajo v freestyle
+            vode. <br />
+            <strong>Močna točka:</strong> potrpežljivost
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Anže Spreizer</strong> - Gibalni učitelj, ki navdušuje s
+            svojo celostno telesno filozofijo. <br />
+            <strong>Močna točka:</strong>
+            širok pogled
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Neža Faganelj</strong> - Profesorica športne vzgoje in
+            učiteljica joge. <br />
+            <strong>Močna točka:</strong> strokovnost
+          </p>
+        </li>
+      </ul>
+    </div>
+    {/* <Row className="flex-row-reverse" style={{ margin: "4rem 0 4rem 0" }}>
       <Col md={4}>
         <StaticImage
           src="../images/logo/slackalien-abduction.png"
@@ -69,6 +280,7 @@ const HomePage = ({ data, location }: PageProps<Queries.HomePageQuery>) => (
       </Col>
     </Row>
     <Gallery files={data.allFile.nodes} />
+    */}
   </Layout>
 )
 
