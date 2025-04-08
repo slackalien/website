@@ -72,7 +72,7 @@ const HomePage = ({ data, location }: PageProps<Queries.HomePageQuery>) => (
         Delavnice so primerne za začetnike, ki se z visokovanjem še niso
         srečali, kot tudi za izkušene zanesenjake, ki so svoje prve padce že
         opravili a jim dejavnost zaradi svoje izjemno čustveno preplavljajoče
-        narave še ne predstavlja igre in užitka.
+        narave še ne predstavlja igre in užitka. Zaželeno je predznanje hoje po traku daljšem od 20m in fizična sposobnost dviga na trak ter vstajanja iz sede.
       </p>
       <p>
         Čas je, da si podjarmiš svoje strahove. Čas je za polna pljuča svobode.
@@ -190,7 +190,7 @@ Na dveh napetih linijah, dolgih 27 m in 65 m, bomo skupaj naredili prve korake n
       <ul>
         <li>
           <p>
-            <strong>Gašper Stojc</strong> - Predstavnik društva SlackAlien.
+            <strong>Gašper Stojc</strong> - Zastopnik društva SlackAlien.
             Učitelj slacklina na domačem vrtu. V eni uri in pol nauči hoditi
             tudi popolnega začetnika. <br />
             <strong>Močna točka:</strong> motivacija
@@ -198,7 +198,7 @@ Na dveh napetih linijah, dolgih 27 m in 65 m, bomo skupaj naredili prve korake n
         </li>
         <li>
           <p>
-            <strong>Miha Odar</strong> - Najuspešnejši slovenski slackline
+            <strong>Miha Odar</strong> - Najuspešnejši slovenski highline
             freestyler in mentor vseh, ki se v društvu spogledujejo s to disciplino.  <br />
             <strong>Močna točka:</strong> potrpežljivost
           </p>
