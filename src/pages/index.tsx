@@ -111,7 +111,7 @@ const HomePage = ({ data, location }: PageProps<Queries.HomePageQuery>) => (
       <ul>
         <li>
           <p>
-            Dva skupna kosila (v petek in soboto), pripravljena s strani
+            Dva skupna kosila (v petek in soboto), pripravljena s strani 
             <strong>dobrine.goods</strong>
           </p>
         </li>
@@ -141,11 +141,11 @@ const HomePage = ({ data, location }: PageProps<Queries.HomePageQuery>) => (
       <hr />
       <h2 id="slackline-program">Visokice</h2>
       <h3 id="petek-in-sobota-visokica-nad-slapom-iglica">
-        Petek in sobota - Visokica nad slapom Iglica
+        Petek in sobota - Visokice nad slapom Iglica
       </h3>
       <p>
-        Trening na dveh linijah (27 m in 60 m), ki bosta že pripravljeni
-        in na voljo ves čas. Višina linij: približno 40 metrov.
+        Prvo srečanje z visokico – izjemno 40 metrov visoko highline lokacijo nad plezališčem Iglica.
+Na dveh napetih linijah, dolgih 27 m in 65 m, bomo skupaj naredili prve korake na višini, vadili manevre in se poigrali s prvimi triki.
       </p>
       <StaticImage
         src="../images/dobrine/highline-delavnice-iglica.jpg"
@@ -158,10 +158,7 @@ const HomePage = ({ data, location }: PageProps<Queries.HomePageQuery>) => (
       </h3>
       <p>
         Skupinski izlet do razgledne točke z izjemnim pogledom na Blejsko
-        jezero.
-      </p>
-      <p>
-        Skupaj bomo postavili 22 metrov dolgo, izpostavljeno panoramsko linijo.
+        jezero – Skupaj bomo postavili 22 metrov dolgo, izpostavljeno panoramsko linijo.
         Ni pretirano visoka, a občutek bo vseeno navdušujoč.
       </p>
       <StaticImage
@@ -176,7 +173,7 @@ const HomePage = ({ data, location }: PageProps<Queries.HomePageQuery>) => (
       <ul>
         <li>
           <a href="https://www.24ur.com/novice/slovenija/kmetovanje-bova-prepustila-prostovoljcem-in-odsla-s-kombijem-v-svet.html">
-            24ur - Dobrine.Goods
+            24ur - dobrine.goods
           </a>
         </li>
       </ul>
@@ -184,7 +181,7 @@ const HomePage = ({ data, location }: PageProps<Queries.HomePageQuery>) => (
       <ul>
         <li>
           <a href="https://www.instagram.com/dobrine.goods/">
-            Instagram\ Facebook
+            Instagram - @dobrine.goods
           </a>
         </li>
       </ul>
@@ -209,8 +206,7 @@ const HomePage = ({ data, location }: PageProps<Queries.HomePageQuery>) => (
         <li>
           <p>
             <strong>Anže Spreizer</strong> - Gibalni guru, ki se preživlja z učenjem flowa in telesno revolucijo povprečnega zemljana.  <br />
-            <strong>Močna točka:</strong>
-            širok pogled
+            <strong>Močna točka:</strong> širok pogled
           </p>
         </li>
         <li>
