@@ -43,7 +43,7 @@ const HomePage = ({ data, location }: PageProps<Queries.HomePageQuery>) => (
       <p>
         Poglej strahu v oči in se dvigni na višjo raven! Pridruži se
         visokovalskim delavnicam najmočnejše visokovalske skupnosti jugovzhodne
-        Evrope ki sliši na ime SlackAlien.
+        Evrope ki sliši na ime  <strong>SlackAlien</strong>.
       </p>
       <p>Obetaš si lahko kratke in dostopne visokice z izkušenimi mentorji.</p>
       <ul>
