@@ -156,7 +156,7 @@ Na dveh napetih linijah, dolgih 27 m in 65 m, bomo skupaj naredili prve korake n
       </h3>
       <p>
         Skupinski izlet do razgledne točke z izjemnim pogledom na Blejsko
-        jezero – Skupaj bomo postavili 22 metrov dolgo, izpostavljeno panoramsko linijo.
+        jezero – Skupaj bomo postavili 21 metrov dolgo, izpostavljeno panoramsko linijo.
         Ni pretirano visoka, a občutek bo vseeno navdušujoč.
       </p>
       <StaticImage
