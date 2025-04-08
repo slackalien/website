@@ -86,7 +86,7 @@ const HomePage = ({ data, location }: PageProps<Queries.HomePageQuery>) => (
         </a>
       </p>
       <hr />
-      <h2 id="kaj-je-vklju-eno-v-ceno-">Kaj je vključeno v ceno?</h2>
+      <h2 id="kaj-je-vklju-eno-v-ceno-">Kaj je še vključeno v ceno?</h2>
       <h3 id="nastanitev-in-prostori-2-no-itvi-petek-nedelja-">
         Nastanitev in prostori (2 nočitvi, petek-nedelja)
       </h3>
@@ -111,8 +111,7 @@ const HomePage = ({ data, location }: PageProps<Queries.HomePageQuery>) => (
       <ul>
         <li>
           <p>
-            Dva skupna kosila (v petek in soboto), pripravljena s strani 
-            <strong>dobrine.goods</strong>
+            Dva skupna kosila (v petek in soboto), pripravljena s strani <strong>dobrine.goods</strong>
           </p>
         </li>
         <li>
