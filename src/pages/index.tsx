@@ -124,12 +124,13 @@ const HomePage = ({ data, location }: PageProps<Queries.HomePageQuery>) => (
           <p>Osnovna živila in sveža sezonska zelenjava s kmetije:</p>
           <ul>
             <li>
-              <p>Kruh, ovseni kosmiči, riž, testenine
+              <p>Kruh, ovseni kosmiči, riž, testenine</p>
             </li>
             <li>
               Sezonska zelenjava
             </li>
             <li>
+              <p>
                 Osnovni kuhinjski pripomočki (olje, sol, začimbe, čaj, kava)
               </p>
             </li>
