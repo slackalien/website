@@ -1,6 +1,6 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import { graphql, PageProps } from "gatsby"
+import { graphql, Link, PageProps } from "gatsby"
 
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
@@ -65,6 +65,16 @@ const DelavnicePage = ({
         </p>
       </Col>
     </Row>
+    <div className="mt-5 mb-4">
+      <h2>Vtisi s preteklih delavnic</h2>
+      <ul>
+        <li>
+          <Link to="/delavnice/2025-vtisi/">
+            Visokovalske delavnice 2025
+          </Link>
+        </li>
+      </ul>
+    </div>
     <Gallery files={data.allFile.nodes} />
   </Layout>
 )
