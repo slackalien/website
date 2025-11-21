@@ -154,11 +154,15 @@ $border-radius-lg: 0 !default;
 
 .prose blockquote {
   font-style: italic;
-  border-left: 4px solid #d1d5db;
+  border-left: 4px solid #888;
   padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
-  color: #6b7280;
+  background-color: #454545;
+  color: #e5e7eb;
 }
 
 .prose img {
@@ -186,4 +190,32 @@ $border-radius-lg: 0 !default;
   font-size: 0.875rem;
   margin-top: 1.25em;
   margin-bottom: 1.25em;
+}
+
+.prose table {
+  width: auto;
+  max-width: 100%;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  border-collapse: collapse;
+}
+
+.prose th {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #f9fafb;
+  border-bottom: 2px solid #888;
+  background-color: transparent;
+}
+
+.prose td {
+  padding: 0.75rem 1rem;
+  color: #e5e7eb;
+  border-bottom: 1px solid #454545;
+  background-color: transparent;
+}
+
+.prose tbody tr:last-child td {
+  border-bottom: none;
 }
