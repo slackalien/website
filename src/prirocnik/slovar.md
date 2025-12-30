@@ -38,6 +38,7 @@ V spodnji tabeli so zbrani prevodi angleških izrazov v slovenske. Nekatere bese
 | leash                           | [vis](vis)                                                   |
 | leash ring                      | [obroč visa](obroc-visa)                                     |
 | LineGrip                        | glej _webgrip_                                               |
+| line locker                     | [figa](figa)                                                 |
 | lineslide                       | glej _carabiner pulley_                                      |
 | loop                            | zanka                                                        |
 | connection                      | konekcija                                                    |

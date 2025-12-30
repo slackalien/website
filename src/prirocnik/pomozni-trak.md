@@ -21,7 +21,7 @@ Pred [postavljanjem](postavljanje) visokice je treba pomožni trak pripeti na gl
 
 ## Nameščanje
 
-Na [napenjalni strani](napenjalna-stran) pomožni trak vpnemo v banano, če le imamo na razpolago dovolj opreme za to. Alternativna, a manj priporočljiva možnost je, da trak zavežemo v [Frostov vozel](frostov-vozel) in vpnemo v [škopec](skopec). Na statični strani za vpenjanje izkoristimo [šivano zanko](sivana-zanka), če je ta na voljo. Dolžino pomožnega traku odmerimo tako, da ta ob padcu na [vis](vis) ravno še ne prevzame nobene sile. Če med visokovanjem ugotovimo, da je pomožni trak predolg ali prekratek, njegovo dolžino prilagodimo, a seveda _ne_ medtem, ko je na traku človek.
+Na [napenjalni strani](napenjalna-stran) pomožni trak vpnemo v [banano](banana) ali pa napravimo [figo](figa). Alternativna, a manj priporočljiva možnost je, da trak zavežemo v [Frostov vozel](frostov-vozel) in vpnemo v [škopec](skopec). Na statični strani za vpenjanje izkoristimo [šivano zanko](sivana-zanka), če je ta na voljo. Dolžino pomožnega traku odmerimo tako, da ta ob padcu na [vis](vis) ravno še ne prevzame nobene sile. Če med visokovanjem ugotovimo, da je pomožni trak predolg ali prekratek, njegovo dolžino prilagodimo, a seveda _ne_ medtem, ko je na traku človek.
 
 ## Rokovanje
 
