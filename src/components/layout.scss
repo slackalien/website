@@ -168,9 +168,14 @@ $border-radius-lg: 0 !default;
 .prose img {
   max-width: 100%;
   height: auto;
-  border-radius: 0.5rem;
   margin-top: 1.25em;
   margin-bottom: 1.25em;
+}
+
+.prose .img-plain img {
+  border-radius: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .prose code {
