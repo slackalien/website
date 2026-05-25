@@ -1,18 +1,25 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
-import { graphql, Link, PageProps } from "gatsby"
+// import { StaticImage } from "gatsby-plugin-image"
+import { graphql, /* Link, */ PageProps } from "gatsby"
 
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
-import Button from "react-bootstrap/Button"
+// import Row from "react-bootstrap/Row"
+// import Col from "react-bootstrap/Col"
+// import Button from "react-bootstrap/Button"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Gallery from "../components/gallery"
+// import Gallery from "../components/gallery"
+import Delavnica2026 from "../components/delavnica-2026"
 
 const HomePage = ({ data, location }: PageProps<Queries.HomePageQuery>) => (
   <Layout>
-    <Seo title="Domača stran" pathname={location.pathname} />
+    <Seo
+      title="Highline Delavnice 2026"
+      description="SlackAlien x dobrine.goods - Highline Delavnice 2026, Bohinjska Bela, 26.-28. junij 2026"
+      pathname={location.pathname}
+    />
+    <Delavnica2026 />
+    {/* Original homepage content:
     <Row className="flex-row-reverse">
       <Col md={4}>
         <StaticImage
@@ -69,6 +76,7 @@ const HomePage = ({ data, location }: PageProps<Queries.HomePageQuery>) => (
       </Col>
     </Row>
     <Gallery files={data.allFile.nodes} />
+    */}
   </Layout>
 )
 
