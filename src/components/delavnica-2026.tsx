@@ -135,7 +135,7 @@ const Delavnica2026 = () => (
     <p>
       <a
         className="btn btn-primary btn-lg"
-        href="https://docs.google.com/forms/d/1ZHwYLVIhlfl1qitgsFcv2livUYn-MapxThjmt3S20gc"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSez5-Ugk9dzggo2fmKqJ1ehOkDlSJYfUk6MSIunkUn2cYgyVw/viewform"
       >
         Ne odlašaj, prijave so odprte!
       </a>
@@ -350,7 +350,7 @@ const Delavnica2026 = () => (
     <p className="mt-5">
       <a
         className="btn btn-primary btn-lg"
-        href="https://docs.google.com/forms/d/1ZHwYLVIhlfl1qitgsFcv2livUYn-MapxThjmt3S20gc"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSez5-Ugk9dzggo2fmKqJ1ehOkDlSJYfUk6MSIunkUn2cYgyVw/viewform"
       >
         Ne odlašaj, prijave so odprte!
       </a>
